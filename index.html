@@ -431,7 +431,10 @@ html,body{height:100%;overflow:hidden;font-family:var(--font);background:#f0f2f5
     <div class="i-card">
       <div class="i-row"><span class="i-lbl">도로명주소</span><span class="i-val" id="dAddr">-</span></div>
       <div class="i-row"><span class="i-lbl">지역</span><span class="i-val" id="dRegion">-</span></div>
-      <div class="i-row"><span class="i-lbl">시설관리번호</span><span class="i-val" id="dFacId" style="font-size:12px;word-break:break-all;">-</span></div>
+      <div class="i-row"><span class="i-lbl">시설물관리번호</span><span class="i-val" id="dFacId" style="font-size:12px;word-break:break-all;">-</span></div>
+      <div class="i-row"><span class="i-lbl">점검상태</span><span class="i-val" id="dChkStatus">-</span></div>
+      <div class="i-row"><span class="i-lbl">현장판정</span><span class="i-val" id="dFieldJudge">-</span></div>
+      <div class="i-row"><span class="i-lbl">점검메모</span><span class="i-val" id="dChkMemo">-</span></div>
     </div>
 
     <!-- 측량정보 -->
@@ -1064,6 +1067,9 @@ const FM = {
     g('dAddr').textContent=fac.addr||'-';
     g('dRegion').textContent=fac.region||'-';
     g('dFacId').textContent=fac.id||'-';
+    g('dChkStatus').textContent=fac.chkStatus||'-';
+    g('dFieldJudge').textContent=fac.fieldJudge||'-';
+    g('dChkMemo').textContent=fac.chkMemo||'-';
     g('dLastSurvey').textContent=insp.surveyDate?`${insp.surveyDate} · ${insp.surveyor||''}`:'이력 없음';
     const cfg=Cfg.get();
     g('fSurveyor').value=insp.surveyor||cfg.inspector||'';
