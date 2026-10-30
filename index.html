@@ -569,7 +569,7 @@ html,body{height:100%;overflow:hidden;font-family:var(--font);background:#f0f2f5
    ============================================================ */
 const Cfg = {
   K: 'dggis_cfg',
-  def: { kakaoKey:'3c55a8281f53c899abbbbe6960e519bf', token:'', owner:'smbahk', repo:'dggis-ntp', branch:'main', inspector:'' },
+  def: { kakaoKey:'3c55a8281f53c899abbbbe6960e519bf', token:'', owner:'smbahk', repo:'dggis.addr.chk', branch:'main', inspector:'' },
   get() { try { return {...this.def,...JSON.parse(localStorage.getItem(this.K)||'{}')}; } catch { return {...this.def}; } },
   validToken(token) {
     return /^ghp_[A-Za-z0-9]{36}$/.test(token) ||
@@ -586,7 +586,7 @@ const Cfg = {
     };
     if (!c.token) { UI.toast('⚠️ Token을 입력해 주세요.'); return; }
     if (!this.validToken(c.token)) { UI.toast('⚠️ Token 형식이 올바르지 않습니다. 다시 확인해 주세요.'); return; }
-    if (!c.inspector) { UI.toast('⚠️ 측량자 이름을 입력해 주세요.'); return; }
+if (!c.inspector) { UI.toast('⚠️ 측량자 이름을 입력해 주세요.'); return; }
     localStorage.setItem(this.K, JSON.stringify(c));
     UI.closeMod('modCfg');
     UI.toast('설정이 저장되었습니다.');
@@ -598,8 +598,8 @@ const Cfg = {
   fill() {
     const c = this.get();
     g('cKakao').value=c.kakaoKey; g('cToken').value=c.token;
-    g('cOwner').value=c.owner;   g('cRepo').value=c.repo;
-    g('cBranch').value=c.branch; g('cInsp').value=c.inspector;
+    g('cOwner').value=c.owner;    g('cRepo').value=c.repo;
+    g('cBranch').value=c.branch;  g('cInsp').value=c.inspector;
     const el=g('cfgVersion'); if(el) el.textContent=APP_VERSION;
   }
 };
