@@ -683,8 +683,8 @@ const GH = {
     const c=Cfg.get();
     if (!c.token||!c.owner||!c.repo) return null;
     const type2 = typeLabel==='원거리'?'far':'close';
-    // 파일명: {시도} {시군구} {도로명} {번호}_far/close_{YYYYMMDD}.jpg
-    const fname = `${fac.sido} ${fac.sigungu} ${fac.road} ${fac.num}_${type2}_${dateStr}.jpg`;
+    // 파일명: {시도} {시군구} {도로명} {번호}_{시설물관리번호}_far/close_{YYYYMMDD}.jpg
+    const fname = `${fac.sido} ${fac.sigungu} ${fac.road} ${fac.num}_${fac.id}_${type2}_${dateStr}.jpg`;
     const path = `photos/${fname}`;
     const ex = await this.getFile(path);
     const res = await this.putBin(path, b64, ex?.sha, `사진: ${fac.addr}(${typeLabel})`);
@@ -1102,7 +1102,7 @@ const FM = {
 
       const pendingPhotos=[];
       // 파일명: {시도} {시군구} {도로명} {번호}_far/close_{YYYYMMDD}.jpg
-      const makePhName=(type2)=>`${fac.sido} ${fac.sigungu} ${fac.road} ${fac.num}_${type2}_${dateStr}.jpg`;
+      const makePhName=(type2)=>`${fac.sido} ${fac.sigungu} ${fac.road} ${fac.num}_${fac.id}_${type2}_${dateStr}.jpg`;
       if (App.photos.f) {
         const fname=makePhName('far');
         const r=await IDB.save(fname, App.photos.f);
@@ -1246,7 +1246,7 @@ const Ex = {
   },
   csv() {
     if (!this._checkAuth()) return;
-    const fname=url=>url?url.split('/').pop().replace(/%20/g,' '):'';
+    const fname=url=>{ try { return url?decodeURIComponent(url.split('/').pop()):''; } catch { return url?url.split('/').pop():''; } };
     const hdr=['시설관리번호','도로명주소','지역','측량일자','측량자','측량상태','특이사항','원거리사진','근거리사진','GPS위도','GPS경도','GPS정확도(m)','기준점거리(m)','GPS취득시각(UTC)'];
     const rows=[hdr,...Object.values(App.insp).map(i=>{
       const f=App.facs.find(x=>x.id===i.id)||{};
