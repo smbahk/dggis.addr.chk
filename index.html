@@ -593,7 +593,7 @@ if (!c.inspector) { UI.toast('⚠️ 측량자 이름을 입력해 주세요.');
     const btnSv=g('btnSv'), warn=g('tokenWarn');
     if (btnSv) { btnSv.disabled=false; }
     if (warn)  { warn.style.display='none'; }
-    if (c.token && c.owner && c.repo) GH.loadInsp();
+    if (c.token && c.owner && c.repo) MC.loadAll();
   },
   fill() {
     const c = this.get();
