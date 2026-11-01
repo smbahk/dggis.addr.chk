@@ -1,0 +1,20 @@
+{
+  "FRF00004729000020232": {
+    "id": "FRF00004729000020232",
+    "addr": "경상북도 경산시 압독5로 3",
+    "surveyDate": "20261102",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.8429472,
+    "gpsLng": 128.7650894,
+    "gpsAccuracy": 13,
+    "distFromPoint": 80,
+    "gpsAt": "2026-11-01T23:36:47.963Z",
+    "updatedAt": "2026-11-01T23:36:47.963Z",
+    "farPhotoLocal": "경상북도 경산시 압독5로 3_FRF00004729000020232_far_20261102.jpg",
+    "closePhotoLocal": "경상북도 경산시 압독5로 3_FRF00004729000020232_close_20261102.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%95%95%EB%8F%855%EB%A1%9C%203_FRF00004729000020232_far_20261102.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%95%95%EB%8F%855%EB%A1%9C%203_FRF00004729000020232_close_20261102.jpg"
+  }
+}
