@@ -4004,5 +4004,23 @@
     "closePhotoLocal": "경상북도 영덕군 오서로 598_FRF00004777000001453_close_20261103.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%EC%98%A4%EC%84%9C%EB%A1%9C%20598_FRF00004777000001453_far_20261103.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%EC%98%A4%EC%84%9C%EB%A1%9C%20598_FRF00004777000001453_close_20261103.jpg"
+  },
+  "FRF00005221000007734": {
+    "id": "FRF00005221000007734",
+    "addr": "전북특별자치도 김제시 금백로 486",
+    "surveyDate": "20261103",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.8165844,
+    "gpsLng": 126.9977468,
+    "gpsAccuracy": 4,
+    "distFromPoint": 43,
+    "gpsAt": "2026-11-02T23:43:55.253Z",
+    "updatedAt": "2026-11-02T23:43:55.253Z",
+    "farPhotoLocal": "전북특별자치도 김제시 금백로 486_FRF00005221000007734_far_20261103.jpg",
+    "closePhotoLocal": "전북특별자치도 김제시 금백로 486_FRF00005221000007734_close_20261103.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EA%B8%88%EB%B0%B1%EB%A1%9C%20486_FRF00005221000007734_far_20261103.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EA%B8%88%EB%B0%B1%EB%A1%9C%20486_FRF00005221000007734_close_20261103.jpg"
   }
 }
