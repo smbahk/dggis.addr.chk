@@ -3986,5 +3986,23 @@
     "closePhotoLocal": "경상북도 예천군 경서로 3311_FRF00004790000002186_close_20261103.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%88%EC%B2%9C%EA%B5%B0%20%EA%B2%BD%EC%84%9C%EB%A1%9C%203311_FRF00004790000002186_far_20261103.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%88%EC%B2%9C%EA%B5%B0%20%EA%B2%BD%EC%84%9C%EB%A1%9C%203311_FRF00004790000002186_close_20261103.jpg"
+  },
+  "FRF00004777000001453": {
+    "id": "FRF00004777000001453",
+    "addr": "경상북도 영덕군 오서로 598",
+    "surveyDate": "20261103",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 36.5945681,
+    "gpsLng": 129.3353285,
+    "gpsAccuracy": 7,
+    "distFromPoint": 57,
+    "gpsAt": "2026-11-02T23:37:44.918Z",
+    "updatedAt": "2026-11-02T23:37:44.918Z",
+    "farPhotoLocal": "경상북도 영덕군 오서로 598_FRF00004777000001453_far_20261103.jpg",
+    "closePhotoLocal": "경상북도 영덕군 오서로 598_FRF00004777000001453_close_20261103.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%EC%98%A4%EC%84%9C%EB%A1%9C%20598_FRF00004777000001453_far_20261103.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%EC%98%A4%EC%84%9C%EB%A1%9C%20598_FRF00004777000001453_close_20261103.jpg"
   }
 }
