@@ -914,5 +914,23 @@
     "closePhotoLocal": "경상북도 청송군 마평로 35_FRF00004775000014168_close_20261102.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%86%A1%EA%B5%B0%20%EB%A7%88%ED%8F%89%EB%A1%9C%2035_FRF00004775000014168_far_20261102.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%86%A1%EA%B5%B0%20%EB%A7%88%ED%8F%89%EB%A1%9C%2035_FRF00004775000014168_close_20261102.jpg"
+  },
+  "FRF00004775000002299": {
+    "id": "FRF00004775000002299",
+    "addr": "경상북도 청송군 마평로 39",
+    "surveyDate": "20261102",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 36.3691131,
+    "gpsLng": 129.0813923,
+    "gpsAccuracy": 7,
+    "distFromPoint": 27,
+    "gpsAt": "2026-11-02T04:07:18.756Z",
+    "updatedAt": "2026-11-02T04:07:18.756Z",
+    "farPhotoLocal": "경상북도 청송군 마평로 39_FRF00004775000002299_far_20261102.jpg",
+    "closePhotoLocal": "경상북도 청송군 마평로 39_FRF00004775000002299_close_20261102.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%86%A1%EA%B5%B0%20%EB%A7%88%ED%8F%89%EB%A1%9C%2039_FRF00004775000002299_far_20261102.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%86%A1%EA%B5%B0%20%EB%A7%88%ED%8F%89%EB%A1%9C%2039_FRF00004775000002299_close_20261102.jpg"
   }
 }
