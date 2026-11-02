@@ -816,12 +816,45 @@ const QSheet = {
     await Queue.process();
   },
   async clearAll() {
-    if (!confirm('대기 중인 업로드 항목을 모두 삭제할까요?\n(이미 GitHub에 올라간 데이터는 유지됩니다)')) return;
-    const items = await IDB.queueList();
-    for (const item of items) await IDB.queueRemove(item.qid);
-    await Queue.updateBadge();
-    this.close();
-    UI.toast('업로드 대기 항목 초기화 완료');
+    if (!confirm('대기 중인 항목을 초기화합니다.\nGitHub에 올라간 사진 URL을 점검데이터에 복구한 뒤 삭제합니다.\n계속할까요?')) return;
+    Ld.show('URL 복구 중...');
+    try {
+      const items = await IDB.queueList();
+      const c = Cfg.get();
+      let recovered = false;
+      // 큐의 photo 항목으로 GitHub URL 복구
+      for (const item of items) {
+        if (item.kind !== 'photo') continue;
+        const fac = App.facs.find(f=>f.id===item.facId);
+        if (!fac || !item.dateStr) continue;
+        const type2 = item.typeLabel==='원거리'?'far':'close';
+        const fname = `${fac.sido} ${fac.sigungu} ${fac.road} ${fac.num}_${fac.id}_${type2}_${item.dateStr}.jpg`;
+        const path = `photos/${fname}`;
+        // GitHub에 파일 존재 확인
+        const ex = await GH.getFile(path);
+        if (ex) {
+          const url = `https://raw.githubusercontent.com/${c.owner}/${c.repo}/${c.branch}/${GH._encPath(path)}`;
+          if (!App.insp[fac.id]) App.insp[fac.id] = {id:fac.id, addr:fac.addr};
+          if (item.typeLabel==='원거리') App.insp[fac.id].farPhotoUrl = url;
+          if (item.typeLabel==='근거리') App.insp[fac.id].closePhotoUrl = url;
+          recovered = true;
+        }
+      }
+      // 복구된 데이터 저장
+      if (recovered) {
+        localStorage.setItem('dggis_i', JSON.stringify(App.insp));
+        await GH.saveInsp(Object.values(App.insp).find(i=>i)||{});
+      }
+      // 큐 전체 삭제
+      for (const item of items) await IDB.queueRemove(item.qid);
+      await Queue.updateBadge();
+      MC.redraw();
+      this.close();
+      UI.toast(recovered ? '✅ 사진 URL 복구 및 초기화 완료!' : '업로드 대기 항목 초기화 완료');
+    } catch(e) {
+      console.error(e);
+      UI.toast('오류 발생 — 다시 시도해 주세요');
+    } finally { Ld.hide(); }
   }
 };
 
