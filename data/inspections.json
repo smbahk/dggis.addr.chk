@@ -1022,5 +1022,23 @@
     "closePhotoLocal": "경상북도 구미시 선상서로 30_FRF00004719000034729_close_20261102.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B5%AC%EB%AF%B8%EC%8B%9C%20%EC%84%A0%EC%83%81%EC%84%9C%EB%A1%9C%2030_FRF00004719000034729_far_20261102.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B5%AC%EB%AF%B8%EC%8B%9C%20%EC%84%A0%EC%83%81%EC%84%9C%EB%A1%9C%2030_FRF00004719000034729_close_20261102.jpg"
+  },
+  "FRF00004719000034733": {
+    "id": "FRF00004719000034733",
+    "addr": "경상북도 구미시 선상서로 50",
+    "surveyDate": "20261102",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 36.2378551,
+    "gpsLng": 128.296902,
+    "gpsAccuracy": 4,
+    "distFromPoint": 2,
+    "gpsAt": "2026-11-02T04:19:24.174Z",
+    "updatedAt": "2026-11-02T04:19:24.174Z",
+    "farPhotoLocal": "경상북도 구미시 선상서로 50_FRF00004719000034733_far_20261102.jpg",
+    "closePhotoLocal": "경상북도 구미시 선상서로 50_FRF00004719000034733_close_20261102.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B5%AC%EB%AF%B8%EC%8B%9C%20%EC%84%A0%EC%83%81%EC%84%9C%EB%A1%9C%2050_FRF00004719000034733_far_20261102.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B5%AC%EB%AF%B8%EC%8B%9C%20%EC%84%A0%EC%83%81%EC%84%9C%EB%A1%9C%2050_FRF00004719000034733_close_20261102.jpg"
   }
 }
