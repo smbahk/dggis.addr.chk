@@ -3807,5 +3807,23 @@
     "closePhotoLocal": "전북특별자치도 김제시 풍요로 1043_FRF00005221000021543_close_20261103.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%ED%92%8D%EC%9A%94%EB%A1%9C%201043_FRF00005221000021543_far_20261103.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%ED%92%8D%EC%9A%94%EB%A1%9C%201043_FRF00005221000021543_close_20261103.jpg"
+  },
+  "FRF00005221000021534": {
+    "id": "FRF00005221000021534",
+    "addr": "전북특별자치도 김제시 풍요로 1035",
+    "surveyDate": "20261103",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.7785194,
+    "gpsLng": 127.0092125,
+    "gpsAccuracy": 4,
+    "distFromPoint": 1,
+    "gpsAt": "2026-11-02T22:58:02.125Z",
+    "updatedAt": "2026-11-02T22:58:02.125Z",
+    "farPhotoLocal": "전북특별자치도 김제시 풍요로 1035_FRF00005221000021534_far_20261103.jpg",
+    "closePhotoLocal": "전북특별자치도 김제시 풍요로 1035_FRF00005221000021534_close_20261103.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%ED%92%8D%EC%9A%94%EB%A1%9C%201035_FRF00005221000021534_far_20261103.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%ED%92%8D%EC%9A%94%EB%A1%9C%201035_FRF00005221000021534_close_20261103.jpg"
   }
 }
