@@ -3753,5 +3753,23 @@
     "closePhotoLocal": "전북특별자치도 김제시 봉두4길 10_FRF00005221000020430_close_20261103.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EB%B4%89%EB%91%904%EA%B8%B8%2010_FRF00005221000020430_far_20261103.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EB%B4%89%EB%91%904%EA%B8%B8%2010_FRF00005221000020430_close_20261103.jpg"
+  },
+  "FRF00004777000001472": {
+    "id": "FRF00004777000001472",
+    "addr": "경상북도 영덕군 대동로 613",
+    "surveyDate": "20261103",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 36.5206354,
+    "gpsLng": 129.3351446,
+    "gpsAccuracy": 66,
+    "distFromPoint": 7,
+    "gpsAt": "2026-11-02T22:52:03.455Z",
+    "updatedAt": "2026-11-02T22:52:03.455Z",
+    "farPhotoLocal": "경상북도 영덕군 대동로 613_FRF00004777000001472_far_20261103.jpg",
+    "closePhotoLocal": "경상북도 영덕군 대동로 613_FRF00004777000001472_close_20261103.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%EB%8C%80%EB%8F%99%EB%A1%9C%20613_FRF00004777000001472_far_20261103.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%EB%8C%80%EB%8F%99%EB%A1%9C%20613_FRF00004777000001472_close_20261103.jpg"
   }
 }
