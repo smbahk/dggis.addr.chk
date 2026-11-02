@@ -34,5 +34,23 @@
     "closePhotoLocal": "경상북도 경산시 압독5로 5_FRF00004729000020212_close_20261102.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%95%95%EB%8F%855%EB%A1%9C%205_FRF00004729000020212_far_20261102.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%95%95%EB%8F%855%EB%A1%9C%205_FRF00004729000020212_close_20261102.jpg"
+  },
+  "FRF00004729000020214": {
+    "id": "FRF00004729000020214",
+    "addr": "경상북도 경산시 압독5로 7",
+    "surveyDate": "20261102",
+    "surveyor": "이은영",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.8438953,
+    "gpsLng": 128.7659644,
+    "gpsAccuracy": 26,
+    "distFromPoint": 24,
+    "gpsAt": "2026-11-02T00:42:46.657Z",
+    "updatedAt": "2026-11-02T00:42:46.657Z",
+    "farPhotoLocal": "경상북도 경산시 압독5로 7_FRF00004729000020214_far_20261102.jpg",
+    "closePhotoLocal": "경상북도 경산시 압독5로 7_FRF00004729000020214_close_20261102.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%95%95%EB%8F%855%EB%A1%9C%207_FRF00004729000020214_far_20261102.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%95%95%EB%8F%855%EB%A1%9C%207_FRF00004729000020214_close_20261102.jpg"
   }
 }
