@@ -3897,5 +3897,23 @@
     "closePhotoLocal": "경상북도 영덕군 대동로 1366_FRF00004777000007709_close_20261103.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%EB%8C%80%EB%8F%99%EB%A1%9C%201366_FRF00004777000007709_far_20261103.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%EB%8C%80%EB%8F%99%EB%A1%9C%201366_FRF00004777000007709_close_20261103.jpg"
+  },
+  "FRF00005221000020456": {
+    "id": "FRF00005221000020456",
+    "addr": "전북특별자치도 김제시 양시로 217",
+    "surveyDate": "20261103",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.7726624,
+    "gpsLng": 127.0127804,
+    "gpsAccuracy": 6,
+    "distFromPoint": 14,
+    "gpsAt": "2026-11-02T23:06:09.142Z",
+    "updatedAt": "2026-11-02T23:06:09.142Z",
+    "farPhotoLocal": "전북특별자치도 김제시 양시로 217_FRF00005221000020456_far_20261103.jpg",
+    "closePhotoLocal": "전북특별자치도 김제시 양시로 217_FRF00005221000020456_close_20261103.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EC%96%91%EC%8B%9C%EB%A1%9C%20217_FRF00005221000020456_far_20261103.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EC%96%91%EC%8B%9C%EB%A1%9C%20217_FRF00005221000020456_close_20261103.jpg"
   }
 }
