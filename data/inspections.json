@@ -3627,5 +3627,23 @@
     "closePhotoLocal": "경상북도 영덕군 영덕로 1486_FRF00004777000001836_close_20261102.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%EC%98%81%EB%8D%95%EB%A1%9C%201486_FRF00004777000001836_far_20261102.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%EC%98%81%EB%8D%95%EB%A1%9C%201486_FRF00004777000001836_close_20261102.jpg"
+  },
+  "FRF00005221000020426": {
+    "id": "FRF00005221000020426",
+    "addr": "전북특별자치도 김제시 봉두4길 38",
+    "surveyDate": "20261103",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.7757349,
+    "gpsLng": 127.008181,
+    "gpsAccuracy": 6,
+    "distFromPoint": 3,
+    "gpsAt": "2026-11-02T22:42:28.143Z",
+    "updatedAt": "2026-11-02T22:42:28.143Z",
+    "farPhotoLocal": "전북특별자치도 김제시 봉두4길 38_FRF00005221000020426_far_20261103.jpg",
+    "closePhotoLocal": "전북특별자치도 김제시 봉두4길 38_FRF00005221000020426_close_20261103.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EB%B4%89%EB%91%904%EA%B8%B8%2038_FRF00005221000020426_far_20261103.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EB%B4%89%EB%91%904%EA%B8%B8%2038_FRF00005221000020426_close_20261103.jpg"
   }
 }
