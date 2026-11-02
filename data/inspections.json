@@ -2963,5 +2963,23 @@
     "closePhotoLocal": "경상북도 영덕군 영덕로 770_FRF00004777000001810_close_20261102.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%EC%98%81%EB%8D%95%EB%A1%9C%20770_FRF00004777000001810_far_20261102.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%EC%98%81%EB%8D%95%EB%A1%9C%20770_FRF00004777000001810_close_20261102.jpg"
+  },
+  "FRF00004777000001811": {
+    "id": "FRF00004777000001811",
+    "addr": "경상북도 영덕군 영덕로 783",
+    "surveyDate": "20261102",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 36.4556089,
+    "gpsLng": 129.4015984,
+    "gpsAccuracy": 7,
+    "distFromPoint": 55,
+    "gpsAt": "2026-11-02T08:12:30.304Z",
+    "updatedAt": "2026-11-02T08:12:30.304Z",
+    "farPhotoLocal": "경상북도 영덕군 영덕로 783_FRF00004777000001811_far_20261102.jpg",
+    "closePhotoLocal": "경상북도 영덕군 영덕로 783_FRF00004777000001811_close_20261102.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%EC%98%81%EB%8D%95%EB%A1%9C%20783_FRF00004777000001811_far_20261102.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%EC%98%81%EB%8D%95%EB%A1%9C%20783_FRF00004777000001811_close_20261102.jpg"
   }
 }
