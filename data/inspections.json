@@ -302,5 +302,23 @@
     "closePhotoLocal": "경상북도 구미시 강동로 658_FRF00004719000004750_close_20261102.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B5%AC%EB%AF%B8%EC%8B%9C%20%EA%B0%95%EB%8F%99%EB%A1%9C%20658_FRF00004719000004750_far_20261102.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B5%AC%EB%AF%B8%EC%8B%9C%20%EA%B0%95%EB%8F%99%EB%A1%9C%20658_FRF00004719000004750_close_20261102.jpg"
+  },
+  "FRF00004719000004754": {
+    "id": "FRF00004719000004754",
+    "addr": "경상북도 구미시 강동로 878",
+    "surveyDate": "20261102",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 36.1655274,
+    "gpsLng": 128.4500606,
+    "gpsAccuracy": 4,
+    "distFromPoint": 74,
+    "gpsAt": "2026-11-02T02:02:48.958Z",
+    "updatedAt": "2026-11-02T02:02:48.958Z",
+    "farPhotoLocal": "경상북도 구미시 강동로 878_FRF00004719000004754_far_20261102.jpg",
+    "closePhotoLocal": "경상북도 구미시 강동로 878_FRF00004719000004754_close_20261102.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B5%AC%EB%AF%B8%EC%8B%9C%20%EA%B0%95%EB%8F%99%EB%A1%9C%20878_FRF00004719000004754_far_20261102.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B5%AC%EB%AF%B8%EC%8B%9C%20%EA%B0%95%EB%8F%99%EB%A1%9C%20878_FRF00004719000004754_close_20261102.jpg"
   }
 }
