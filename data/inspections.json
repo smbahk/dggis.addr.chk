@@ -3950,5 +3950,23 @@
     "closePhotoLocal": "전북특별자치도 김제시 선비로 1360_FRF00005221000005888_close_20261103.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EC%84%A0%EB%B9%84%EB%A1%9C%201360_FRF00005221000005888_far_20261103.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EC%84%A0%EB%B9%84%EB%A1%9C%201360_FRF00005221000005888_close_20261103.jpg"
+  },
+  "FRF00004777000002901": {
+    "id": "FRF00004777000002901",
+    "addr": "경상북도 영덕군 창수영해로 97",
+    "surveyDate": "20261103",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 36.5419299,
+    "gpsLng": 129.3545345,
+    "gpsAccuracy": 9,
+    "distFromPoint": 48,
+    "gpsAt": "2026-11-02T23:27:24.851Z",
+    "updatedAt": "2026-11-02T23:27:24.851Z",
+    "farPhotoLocal": "경상북도 영덕군 창수영해로 97_FRF00004777000002901_far_20261103.jpg",
+    "closePhotoLocal": "경상북도 영덕군 창수영해로 97_FRF00004777000002901_close_20261103.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%EC%B0%BD%EC%88%98%EC%98%81%ED%95%B4%EB%A1%9C%2097_FRF00004777000002901_far_20261103.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%EC%B0%BD%EC%88%98%EC%98%81%ED%95%B4%EB%A1%9C%2097_FRF00004777000002901_close_20261103.jpg"
   }
 }
