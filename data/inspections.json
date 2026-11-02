@@ -3915,5 +3915,22 @@
     "closePhotoLocal": "전북특별자치도 김제시 양시로 217_FRF00005221000020456_close_20261103.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EC%96%91%EC%8B%9C%EB%A1%9C%20217_FRF00005221000020456_far_20261103.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EC%96%91%EC%8B%9C%EB%A1%9C%20217_FRF00005221000020456_close_20261103.jpg"
+  },
+  "FRF00005221000038435": {
+    "id": "FRF00005221000038435",
+    "addr": "전북특별자치도 김제시 월전로 129",
+    "surveyDate": "20261103",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.7783192,
+    "gpsLng": 127.0327382,
+    "gpsAccuracy": 12,
+    "distFromPoint": 8,
+    "gpsAt": "2026-11-02T23:14:42.671Z",
+    "updatedAt": "2026-11-02T23:14:42.671Z",
+    "farPhotoLocal": "전북특별자치도 김제시 월전로 129_FRF00005221000038435_far_20261103.jpg",
+    "closePhotoLocal": "전북특별자치도 김제시 월전로 129_FRF00005221000038435_close_20261103.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EC%9B%94%EC%A0%84%EB%A1%9C%20129_FRF00005221000038435_close_20261103.jpg"
   }
 }
