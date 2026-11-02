@@ -2639,5 +2639,23 @@
     "farPhotoLocal": "전북특별자치도 김제시 수류로 558_FRF00005221000020499_far_20261102.jpg",
     "closePhotoLocal": "전북특별자치도 김제시 수류로 558_FRF00005221000020499_close_20261102.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EC%88%98%EB%A5%98%EB%A1%9C%20558_FRF00005221000020499_close_20261102.jpg"
+  },
+  "FRF00005221000020510": {
+    "id": "FRF00005221000020510",
+    "addr": "전북특별자치도 김제시 수류로 562-2",
+    "surveyDate": "20261102",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.6879277,
+    "gpsLng": 127.0399929,
+    "gpsAccuracy": 8,
+    "distFromPoint": 7,
+    "gpsAt": "2026-11-02T07:25:52.199Z",
+    "updatedAt": "2026-11-02T07:25:52.199Z",
+    "farPhotoLocal": "전북특별자치도 김제시 수류로 562-2_FRF00005221000020510_far_20261102.jpg",
+    "closePhotoLocal": "전북특별자치도 김제시 수류로 562-2_FRF00005221000020510_close_20261102.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EC%88%98%EB%A5%98%EB%A1%9C%20562-2_FRF00005221000020510_far_20261102.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EC%88%98%EB%A5%98%EB%A1%9C%20562-2_FRF00005221000020510_close_20261102.jpg"
   }
 }
