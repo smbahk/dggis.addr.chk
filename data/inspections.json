@@ -2496,5 +2496,23 @@
     "closePhotoLocal": "전북특별자치도 김제시 금산사로 559_FRF00005221000032742_close_20261102.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EA%B8%88%EC%82%B0%EC%82%AC%EB%A1%9C%20559_FRF00005221000032742_far_20261102.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EA%B8%88%EC%82%B0%EC%82%AC%EB%A1%9C%20559_FRF00005221000032742_close_20261102.jpg"
+  },
+  "FRF00005221000032571": {
+    "id": "FRF00005221000032571",
+    "addr": "전북특별자치도 김제시 금산사로 418",
+    "surveyDate": "20261102",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.7133376,
+    "gpsLng": 127.0246082,
+    "gpsAccuracy": 32,
+    "distFromPoint": 17,
+    "gpsAt": "2026-11-02T06:56:56.187Z",
+    "updatedAt": "2026-11-02T06:56:56.187Z",
+    "farPhotoLocal": "전북특별자치도 김제시 금산사로 418_FRF00005221000032571_far_20261102.jpg",
+    "closePhotoLocal": "전북특별자치도 김제시 금산사로 418_FRF00005221000032571_close_20261102.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EA%B8%88%EC%82%B0%EC%82%AC%EB%A1%9C%20418_FRF00005221000032571_far_20261102.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EA%B8%88%EC%82%B0%EC%82%AC%EB%A1%9C%20418_FRF00005221000032571_close_20261102.jpg"
   }
 }
