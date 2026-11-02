@@ -3573,5 +3573,23 @@
     "closePhotoLocal": "경상북도 영덕군 칠보산길 247_FRF00004777000001870_close_20261102.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%EC%B9%A0%EB%B3%B4%EC%82%B0%EA%B8%B8%20247_FRF00004777000001870_far_20261102.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%EC%B9%A0%EB%B3%B4%EC%82%B0%EA%B8%B8%20247_FRF00004777000001870_close_20261102.jpg"
+  },
+  "FRF00004777000001864": {
+    "id": "FRF00004777000001864",
+    "addr": "경상북도 영덕군 칠보산길 153",
+    "surveyDate": "20261102",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 36.6092684,
+    "gpsLng": 129.3970796,
+    "gpsAccuracy": 15,
+    "distFromPoint": 15,
+    "gpsAt": "2026-11-02T09:26:00.615Z",
+    "updatedAt": "2026-11-02T09:26:00.615Z",
+    "farPhotoLocal": "경상북도 영덕군 칠보산길 153_FRF00004777000001864_far_20261102.jpg",
+    "closePhotoLocal": "경상북도 영덕군 칠보산길 153_FRF00004777000001864_close_20261102.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%EC%B9%A0%EB%B3%B4%EC%82%B0%EA%B8%B8%20153_FRF00004777000001864_far_20261102.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%EC%B9%A0%EB%B3%B4%EC%82%B0%EA%B8%B8%20153_FRF00004777000001864_close_20261102.jpg"
   }
 }
