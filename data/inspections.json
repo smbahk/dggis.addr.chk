@@ -3968,5 +3968,23 @@
     "closePhotoLocal": "경상북도 영덕군 창수영해로 97_FRF00004777000002901_close_20261103.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%EC%B0%BD%EC%88%98%EC%98%81%ED%95%B4%EB%A1%9C%2097_FRF00004777000002901_far_20261103.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%EC%B0%BD%EC%88%98%EC%98%81%ED%95%B4%EB%A1%9C%2097_FRF00004777000002901_close_20261103.jpg"
+  },
+  "FRF00004790000002186": {
+    "id": "FRF00004790000002186",
+    "addr": "경상북도 예천군 경서로 3311",
+    "surveyDate": "20261103",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 36.6160925,
+    "gpsLng": 128.5017943,
+    "gpsAccuracy": 4,
+    "distFromPoint": 17,
+    "gpsAt": "2026-11-02T23:30:38.644Z",
+    "updatedAt": "2026-11-02T23:30:38.644Z",
+    "farPhotoLocal": "경상북도 예천군 경서로 3311_FRF00004790000002186_far_20261103.jpg",
+    "closePhotoLocal": "경상북도 예천군 경서로 3311_FRF00004790000002186_close_20261103.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%88%EC%B2%9C%EA%B5%B0%20%EA%B2%BD%EC%84%9C%EB%A1%9C%203311_FRF00004790000002186_far_20261103.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%88%EC%B2%9C%EA%B5%B0%20%EA%B2%BD%EC%84%9C%EB%A1%9C%203311_FRF00004790000002186_close_20261103.jpg"
   }
 }
