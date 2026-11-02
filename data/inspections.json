@@ -4022,5 +4022,39 @@
     "closePhotoLocal": "전북특별자치도 김제시 금백로 486_FRF00005221000007734_close_20261103.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EA%B8%88%EB%B0%B1%EB%A1%9C%20486_FRF00005221000007734_far_20261103.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EA%B8%88%EB%B0%B1%EB%A1%9C%20486_FRF00005221000007734_close_20261103.jpg"
+  },
+  "FRF00004790000002187": {
+    "id": "FRF00004790000002187",
+    "addr": "경상북도 예천군 경서로 3239",
+    "surveyDate": "20261103",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 36.6186265,
+    "gpsLng": 128.4943379,
+    "gpsAccuracy": 6,
+    "distFromPoint": 8,
+    "gpsAt": "2026-11-02T23:33:06.138Z",
+    "updatedAt": "2026-11-02T23:33:06.138Z",
+    "farPhotoLocal": "경상북도 예천군 경서로 3239_FRF00004790000002187_far_20261103.jpg",
+    "closePhotoLocal": "경상북도 예천군 경서로 3239_FRF00004790000002187_close_20261103.jpg"
+  },
+  "FRF00004790000011782": {
+    "id": "FRF00004790000011782",
+    "addr": "경상북도 예천군 수락대로 431",
+    "surveyDate": "20261103",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 36.6969786,
+    "gpsLng": 128.5145663,
+    "gpsAccuracy": 4,
+    "distFromPoint": 50,
+    "gpsAt": "2026-11-02T23:46:34.386Z",
+    "updatedAt": "2026-11-02T23:46:34.386Z",
+    "farPhotoLocal": "경상북도 예천군 수락대로 431_FRF00004790000011782_far_20261103.jpg",
+    "closePhotoLocal": "경상북도 예천군 수락대로 431_FRF00004790000011782_close_20261103.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%88%EC%B2%9C%EA%B5%B0%20%EC%88%98%EB%9D%BD%EB%8C%80%EB%A1%9C%20431_FRF00004790000011782_far_20261103.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%88%EC%B2%9C%EA%B5%B0%20%EC%88%98%EB%9D%BD%EB%8C%80%EB%A1%9C%20431_FRF00004790000011782_close_20261103.jpg"
   }
 }
