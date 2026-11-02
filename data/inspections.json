@@ -3160,5 +3160,23 @@
     "closePhotoLocal": "경상북도 예천군 약포로 40_FRF00004790000011436_close_20261102.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%88%EC%B2%9C%EA%B5%B0%20%EC%95%BD%ED%8F%AC%EB%A1%9C%2040_FRF00004790000011436_far_20261102.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%88%EC%B2%9C%EA%B5%B0%20%EC%95%BD%ED%8F%AC%EB%A1%9C%2040_FRF00004790000011436_close_20261102.jpg"
+  },
+  "FRF00004790000011437": {
+    "id": "FRF00004790000011437",
+    "addr": "경상북도 예천군 약포로 60",
+    "surveyDate": "20261102",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 36.5863955,
+    "gpsLng": 128.4735081,
+    "gpsAccuracy": 4,
+    "distFromPoint": 12,
+    "gpsAt": "2026-11-02T08:34:17.082Z",
+    "updatedAt": "2026-11-02T08:34:17.082Z",
+    "farPhotoLocal": "경상북도 예천군 약포로 60_FRF00004790000011437_far_20261102.jpg",
+    "closePhotoLocal": "경상북도 예천군 약포로 60_FRF00004790000011437_close_20261102.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%88%EC%B2%9C%EA%B5%B0%20%EC%95%BD%ED%8F%AC%EB%A1%9C%2060_FRF00004790000011437_far_20261102.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%88%EC%B2%9C%EA%B5%B0%20%EC%95%BD%ED%8F%AC%EB%A1%9C%2060_FRF00004790000011437_close_20261102.jpg"
   }
 }
