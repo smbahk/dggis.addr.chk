@@ -770,5 +770,23 @@
     "closePhotoLocal": "경상북도 청송군 청송로 3440_FRF00004775000014963_close_20261102.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%86%A1%EA%B5%B0%20%EC%B2%AD%EC%86%A1%EB%A1%9C%203440_FRF00004775000014963_far_20261102.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%86%A1%EA%B5%B0%20%EC%B2%AD%EC%86%A1%EB%A1%9C%203440_FRF00004775000014963_close_20261102.jpg"
+  },
+  "FRF00004775000002201": {
+    "id": "FRF00004775000002201",
+    "addr": "경상북도 청송군 청송로 3423",
+    "surveyDate": "20261102",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 36.318527,
+    "gpsLng": 129.0502278,
+    "gpsAccuracy": 13,
+    "distFromPoint": 69,
+    "gpsAt": "2026-11-02T03:24:20.230Z",
+    "updatedAt": "2026-11-02T03:24:20.230Z",
+    "farPhotoLocal": "경상북도 청송군 청송로 3423_FRF00004775000002201_far_20261102.jpg",
+    "closePhotoLocal": "경상북도 청송군 청송로 3423_FRF00004775000002201_close_20261102.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%86%A1%EA%B5%B0%20%EC%B2%AD%EC%86%A1%EB%A1%9C%203423_FRF00004775000002201_far_20261102.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%86%A1%EA%B5%B0%20%EC%B2%AD%EC%86%A1%EB%A1%9C%203423_FRF00004775000002201_close_20261102.jpg"
   }
 }
