@@ -2423,5 +2423,23 @@
     "closePhotoLocal": "경상북도 영덕군 하저길 60_FRF00004777000001763_close_20261102.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%ED%95%98%EC%A0%80%EA%B8%B8%2060_FRF00004777000001763_far_20261102.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%ED%95%98%EC%A0%80%EA%B8%B8%2060_FRF00004777000001763_close_20261102.jpg"
+  },
+  "FRF00004777000001762": {
+    "id": "FRF00004777000001762",
+    "addr": "경상북도 영덕군 하저길 49",
+    "surveyDate": "20261102",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 36.4142215,
+    "gpsLng": 129.3847166,
+    "gpsAccuracy": 9,
+    "distFromPoint": 53,
+    "gpsAt": "2026-11-02T06:44:09.422Z",
+    "updatedAt": "2026-11-02T06:44:09.422Z",
+    "farPhotoLocal": "경상북도 영덕군 하저길 49_FRF00004777000001762_far_20261102.jpg",
+    "closePhotoLocal": "경상북도 영덕군 하저길 49_FRF00004777000001762_close_20261102.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%ED%95%98%EC%A0%80%EA%B8%B8%2049_FRF00004777000001762_far_20261102.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%ED%95%98%EC%A0%80%EA%B8%B8%2049_FRF00004777000001762_close_20261102.jpg"
   }
 }
