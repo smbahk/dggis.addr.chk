@@ -3,15 +3,15 @@
     "id": "FRF00004729000020232",
     "addr": "경상북도 경산시 압독5로 3",
     "surveyDate": "20261102",
-    "surveyor": "이은영",
+    "surveyor": "우병기",
     "surveyStatus": "촬영완료",
     "memo": "",
-    "gpsLat": 35.843506,
-    "gpsLng": 128.7656075,
-    "gpsAccuracy": 11,
-    "distFromPoint": 6,
-    "gpsAt": "2026-11-02T01:12:37.999Z",
-    "updatedAt": "2026-11-02T01:12:37.999Z",
+    "gpsLat": 35.8429472,
+    "gpsLng": 128.7650894,
+    "gpsAccuracy": 13,
+    "distFromPoint": 80,
+    "gpsAt": "2026-11-01T23:36:47.963Z",
+    "updatedAt": "2026-11-01T23:36:47.963Z",
     "farPhotoLocal": "경상북도 경산시 압독5로 3_FRF00004729000020232_far_20261102.jpg",
     "closePhotoLocal": "경상북도 경산시 압독5로 3_FRF00004729000020232_close_20261102.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%95%95%EB%8F%855%EB%A1%9C%203_FRF00004729000020232_far_20261102.jpg",
@@ -2100,8 +2100,7 @@
     "updatedAt": "2026-11-02T06:14:25.753Z",
     "farPhotoLocal": "경상북도 경산시 대학로 555_FRF00004729000002510_far_20261102.jpg",
     "closePhotoLocal": "경상북도 경산시 대학로 555_FRF00004729000002510_close_20261102.jpg",
-    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EB%8C%80%ED%95%99%EB%A1%9C%20555_FRF00004729000002510_far_20261102.jpg",
-    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EB%8C%80%ED%95%99%EB%A1%9C%20555_FRF00004729000002510_close_20261102.jpg"
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EB%8C%80%ED%95%99%EB%A1%9C%20555_FRF00004729000002510_far_20261102.jpg"
   },
   "FRF00004729000019666": {
     "id": "FRF00004729000019666",
@@ -2298,8 +2297,7 @@
     "updatedAt": "2026-11-02T06:33:24.619Z",
     "farPhotoLocal": "경상북도 영덕군 하저길 172_FRF00004777000001770_far_20261102.jpg",
     "closePhotoLocal": "경상북도 영덕군 하저길 172_FRF00004777000001770_close_20261102.jpg",
-    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%ED%95%98%EC%A0%80%EA%B8%B8%20172_FRF00004777000001770_close_20261102.jpg",
-    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%ED%95%98%EC%A0%80%EA%B8%B8%20172_FRF00004777000001770_far_20261102.jpg"
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%ED%95%98%EC%A0%80%EA%B8%B8%20172_FRF00004777000001770_close_20261102.jpg"
   },
   "FRF00004777000001769": {
     "id": "FRF00004777000001769",
@@ -2588,5 +2586,23 @@
     "closePhotoLocal": "전북특별자치도 김제시 금산사로 357_FRF00005221000032540_close_20261102.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EA%B8%88%EC%82%B0%EC%82%AC%EB%A1%9C%20357_FRF00005221000032540_far_20261102.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EA%B8%88%EC%82%B0%EC%82%AC%EB%A1%9C%20357_FRF00005221000032540_close_20261102.jpg"
+  },
+  "FRF00004790000002206": {
+    "id": "FRF00004790000002206",
+    "addr": "경상북도 예천군 경서로 805",
+    "surveyDate": "20261102",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 36.6105435,
+    "gpsLng": 128.2630509,
+    "gpsAccuracy": 4,
+    "distFromPoint": 5,
+    "gpsAt": "2026-11-02T07:01:17.287Z",
+    "updatedAt": "2026-11-02T07:01:17.287Z",
+    "farPhotoLocal": "경상북도 예천군 경서로 805_FRF00004790000002206_far_20261102.jpg",
+    "closePhotoLocal": "경상북도 예천군 경서로 805_FRF00004790000002206_close_20261102.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%88%EC%B2%9C%EA%B5%B0%20%EA%B2%BD%EC%84%9C%EB%A1%9C%20805_FRF00004790000002206_far_20261102.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%88%EC%B2%9C%EA%B5%B0%20%EA%B2%BD%EC%84%9C%EB%A1%9C%20805_FRF00004790000002206_close_20261102.jpg"
   }
 }
