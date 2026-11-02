@@ -248,5 +248,23 @@
     "closePhotoLocal": "경상북도 청송군 금성현서로 2481_FRF00004775000013015_close_20261102.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%86%A1%EA%B5%B0%20%EA%B8%88%EC%84%B1%ED%98%84%EC%84%9C%EB%A1%9C%202481_FRF00004775000013015_far_20261102.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%86%A1%EA%B5%B0%20%EA%B8%88%EC%84%B1%ED%98%84%EC%84%9C%EB%A1%9C%202481_FRF00004775000013015_close_20261102.jpg"
+  },
+  "FRF00004719000003278": {
+    "id": "FRF00004719000003278",
+    "addr": "경상북도 구미시 신비로 83",
+    "surveyDate": "20261102",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 36.1205629,
+    "gpsLng": 128.3703889,
+    "gpsAccuracy": 4,
+    "distFromPoint": 75,
+    "gpsAt": "2026-11-02T01:32:49.335Z",
+    "updatedAt": "2026-11-02T01:32:49.335Z",
+    "farPhotoLocal": "경상북도 구미시 신비로 83_FRF00004719000003278_far_20261102.jpg",
+    "closePhotoLocal": "경상북도 구미시 신비로 83_FRF00004719000003278_close_20261102.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B5%AC%EB%AF%B8%EC%8B%9C%20%EC%8B%A0%EB%B9%84%EB%A1%9C%2083_FRF00004719000003278_far_20261102.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B5%AC%EB%AF%B8%EC%8B%9C%20%EC%8B%A0%EB%B9%84%EB%A1%9C%2083_FRF00004719000003278_close_20261102.jpg"
   }
 }
