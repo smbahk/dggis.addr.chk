@@ -824,5 +824,23 @@
     "closePhotoLocal": "경상북도 청송군 얼음골로 136_FRF00004775000008199_close_20261102.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%86%A1%EA%B5%B0%20%EC%96%BC%EC%9D%8C%EA%B3%A8%EB%A1%9C%20136_FRF00004775000008199_far_20261102.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%86%A1%EA%B5%B0%20%EC%96%BC%EC%9D%8C%EA%B3%A8%EB%A1%9C%20136_FRF00004775000008199_close_20261102.jpg"
+  },
+  "FRF00004775000008200": {
+    "id": "FRF00004775000008200",
+    "addr": "경상북도 청송군 얼음골로 152",
+    "surveyDate": "20261102",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 36.3143064,
+    "gpsLng": 129.1139438,
+    "gpsAccuracy": 7,
+    "distFromPoint": 46,
+    "gpsAt": "2026-11-02T03:41:33.903Z",
+    "updatedAt": "2026-11-02T03:41:33.903Z",
+    "farPhotoLocal": "경상북도 청송군 얼음골로 152_FRF00004775000008200_far_20261102.jpg",
+    "closePhotoLocal": "경상북도 청송군 얼음골로 152_FRF00004775000008200_close_20261102.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%86%A1%EA%B5%B0%20%EC%96%BC%EC%9D%8C%EA%B3%A8%EB%A1%9C%20152_FRF00004775000008200_far_20261102.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%86%A1%EA%B5%B0%20%EC%96%BC%EC%9D%8C%EA%B3%A8%EB%A1%9C%20152_FRF00004775000008200_close_20261102.jpg"
   }
 }
