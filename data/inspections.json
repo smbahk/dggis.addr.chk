@@ -3645,5 +3645,23 @@
     "closePhotoLocal": "전북특별자치도 김제시 봉두4길 38_FRF00005221000020426_close_20261103.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EB%B4%89%EB%91%904%EA%B8%B8%2038_FRF00005221000020426_far_20261103.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EB%B4%89%EB%91%904%EA%B8%B8%2038_FRF00005221000020426_close_20261103.jpg"
+  },
+  "FRF00005221000020427": {
+    "id": "FRF00005221000020427",
+    "addr": "전북특별자치도 김제시 봉두4길 30",
+    "surveyDate": "20261103",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.7756782,
+    "gpsLng": 127.0085973,
+    "gpsAccuracy": 6,
+    "distFromPoint": 1,
+    "gpsAt": "2026-11-02T22:45:25.800Z",
+    "updatedAt": "2026-11-02T22:45:25.800Z",
+    "farPhotoLocal": "전북특별자치도 김제시 봉두4길 30_FRF00005221000020427_far_20261103.jpg",
+    "closePhotoLocal": "전북특별자치도 김제시 봉두4길 30_FRF00005221000020427_close_20261103.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EB%B4%89%EB%91%904%EA%B8%B8%2030_FRF00005221000020427_far_20261103.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EB%B4%89%EB%91%904%EA%B8%B8%2030_FRF00005221000020427_close_20261103.jpg"
   }
 }
