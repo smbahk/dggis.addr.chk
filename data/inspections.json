@@ -4056,5 +4056,23 @@
     "closePhotoLocal": "경상북도 예천군 수락대로 431_FRF00004790000011782_close_20261103.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%88%EC%B2%9C%EA%B5%B0%20%EC%88%98%EB%9D%BD%EB%8C%80%EB%A1%9C%20431_FRF00004790000011782_far_20261103.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%88%EC%B2%9C%EA%B5%B0%20%EC%88%98%EB%9D%BD%EB%8C%80%EB%A1%9C%20431_FRF00004790000011782_close_20261103.jpg"
+  },
+  "FRF00004777000002006": {
+    "id": "FRF00004777000002006",
+    "addr": "경상북도 영덕군 온정로 130",
+    "surveyDate": "20261103",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 36.6371234,
+    "gpsLng": 129.3222741,
+    "gpsAccuracy": 8,
+    "distFromPoint": 5,
+    "gpsAt": "2026-11-02T23:49:16.490Z",
+    "updatedAt": "2026-11-02T23:49:16.490Z",
+    "farPhotoLocal": "경상북도 영덕군 온정로 130_FRF00004777000002006_far_20261103.jpg",
+    "closePhotoLocal": "경상북도 영덕군 온정로 130_FRF00004777000002006_close_20261103.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%EC%98%A8%EC%A0%95%EB%A1%9C%20130_FRF00004777000002006_far_20261103.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%EC%98%A8%EC%A0%95%EB%A1%9C%20130_FRF00004777000002006_close_20261103.jpg"
   }
 }
