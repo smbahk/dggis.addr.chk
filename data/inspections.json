@@ -5620,5 +5620,23 @@
     "closePhotoLocal": "전북특별자치도 김제시 벽골제로 150_FRF00005221000003106_close_20261103.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EB%B2%BD%EA%B3%A8%EC%A0%9C%EB%A1%9C%20150_FRF00005221000003106_far_20261103.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EB%B2%BD%EA%B3%A8%EC%A0%9C%EB%A1%9C%20150_FRF00005221000003106_close_20261103.jpg"
+  },
+  "FRF00004729000018293": {
+    "id": "FRF00004729000018293",
+    "addr": "경상북도 경산시 공단10로 218",
+    "surveyDate": "20261103",
+    "surveyor": "이은영",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.8748994,
+    "gpsLng": 128.8382631,
+    "gpsAccuracy": 28,
+    "distFromPoint": 12,
+    "gpsAt": "2026-11-03T04:32:16.886Z",
+    "updatedAt": "2026-11-03T04:32:16.886Z",
+    "farPhotoLocal": "경상북도 경산시 공단10로 218_FRF00004729000018293_far_20261103.jpg",
+    "closePhotoLocal": "경상북도 경산시 공단10로 218_FRF00004729000018293_close_20261103.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B3%B5%EB%8B%A810%EB%A1%9C%20218_FRF00004729000018293_far_20261103.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B3%B5%EB%8B%A810%EB%A1%9C%20218_FRF00004729000018293_close_20261103.jpg"
   }
 }
