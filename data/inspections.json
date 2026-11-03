@@ -4632,5 +4632,23 @@
     "closePhotoLocal": "전북특별자치도 김제시 아리랑로 647_FRF00005221000020200_close_20261103.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EC%95%84%EB%A6%AC%EB%9E%91%EB%A1%9C%20647_FRF00005221000020200_far_20261103.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EC%95%84%EB%A6%AC%EB%9E%91%EB%A1%9C%20647_FRF00005221000020200_close_20261103.jpg"
+  },
+  "FRF00004776000001751": {
+    "id": "FRF00004776000001751",
+    "addr": "경상북도 영양군 영양창수로 833",
+    "surveyDate": "20261103",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 36.6374862,
+    "gpsLng": 129.1912496,
+    "gpsAccuracy": 19,
+    "distFromPoint": 29,
+    "gpsAt": "2026-11-03T01:46:12.486Z",
+    "updatedAt": "2026-11-03T01:46:12.486Z",
+    "farPhotoLocal": "경상북도 영양군 영양창수로 833_FRF00004776000001751_far_20261103.jpg",
+    "closePhotoLocal": "경상북도 영양군 영양창수로 833_FRF00004776000001751_close_20261103.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%96%91%EA%B5%B0%20%EC%98%81%EC%96%91%EC%B0%BD%EC%88%98%EB%A1%9C%20833_FRF00004776000001751_far_20261103.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%96%91%EA%B5%B0%20%EC%98%81%EC%96%91%EC%B0%BD%EC%88%98%EB%A1%9C%20833_FRF00004776000001751_close_20261103.jpg"
   }
 }
