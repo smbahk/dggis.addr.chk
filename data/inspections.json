@@ -7978,5 +7978,23 @@
     "closePhotoLocal": "경상북도 영주시 영단로 467_FRF00004721000001783_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EC%98%81%EB%8B%A8%EB%A1%9C%20467_FRF00004721000001783_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EC%98%81%EB%8B%A8%EB%A1%9C%20467_FRF00004721000001783_close_20261104.jpg"
+  },
+  "FRF00005219000001631": {
+    "id": "FRF00005219000001631",
+    "addr": "전북특별자치도 남원시 황산로 560",
+    "surveyDate": "20261104",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.449184,
+    "gpsLng": 127.4839769,
+    "gpsAccuracy": 100,
+    "distFromPoint": 113,
+    "gpsAt": "2026-11-03T23:32:41.895Z",
+    "updatedAt": "2026-11-03T23:32:41.895Z",
+    "farPhotoLocal": "전북특별자치도 남원시 황산로 560_FRF00005219000001631_far_20261104.jpg",
+    "closePhotoLocal": "전북특별자치도 남원시 황산로 560_FRF00005219000001631_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%82%A8%EC%9B%90%EC%8B%9C%20%ED%99%A9%EC%82%B0%EB%A1%9C%20560_FRF00005219000001631_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%82%A8%EC%9B%90%EC%8B%9C%20%ED%99%A9%EC%82%B0%EB%A1%9C%20560_FRF00005219000001631_close_20261104.jpg"
   }
 }
