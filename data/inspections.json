@@ -8248,5 +8248,23 @@
     "closePhotoLocal": "경상북도 경산시 관방로 785_FRF00004729000002542_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B4%80%EB%B0%A9%EB%A1%9C%20785_FRF00004729000002542_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B4%80%EB%B0%A9%EB%A1%9C%20785_FRF00004729000002542_close_20261104.jpg"
+  },
+  "FRF00004721000004118": {
+    "id": "FRF00004721000004118",
+    "addr": "경상북도 영주시 노곡길 85",
+    "surveyDate": "20261104",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 36.9713121,
+    "gpsLng": 128.6309989,
+    "gpsAccuracy": 4,
+    "distFromPoint": 7,
+    "gpsAt": "2026-11-03T23:56:51.165Z",
+    "updatedAt": "2026-11-03T23:56:51.165Z",
+    "farPhotoLocal": "경상북도 영주시 노곡길 85_FRF00004721000004118_far_20261104.jpg",
+    "closePhotoLocal": "경상북도 영주시 노곡길 85_FRF00004721000004118_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EB%85%B8%EA%B3%A1%EA%B8%B8%2085_FRF00004721000004118_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EB%85%B8%EA%B3%A1%EA%B8%B8%2085_FRF00004721000004118_close_20261104.jpg"
   }
 }
