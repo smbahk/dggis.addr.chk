@@ -7671,5 +7671,23 @@
     "closePhotoLocal": "강원특별자치도 동해시 서동로 24_FRF00005117000001613_close_20261103.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%8F%99%ED%95%B4%EC%8B%9C%20%EC%84%9C%EB%8F%99%EB%A1%9C%2024_FRF00005117000001613_far_20261103.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%8F%99%ED%95%B4%EC%8B%9C%20%EC%84%9C%EB%8F%99%EB%A1%9C%2024_FRF00005117000001613_close_20261103.jpg"
+  },
+  "FRF00005117000001635": {
+    "id": "FRF00005117000001635",
+    "addr": "강원특별자치도 동해시 서동로 748",
+    "surveyDate": "20261103",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 37.5242477,
+    "gpsLng": 129.0152195,
+    "gpsAccuracy": 9,
+    "distFromPoint": 34,
+    "gpsAt": "2026-11-03T09:47:27.102Z",
+    "updatedAt": "2026-11-03T09:47:27.102Z",
+    "farPhotoLocal": "강원특별자치도 동해시 서동로 748_FRF00005117000001635_far_20261103.jpg",
+    "closePhotoLocal": "강원특별자치도 동해시 서동로 748_FRF00005117000001635_close_20261103.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%8F%99%ED%95%B4%EC%8B%9C%20%EC%84%9C%EB%8F%99%EB%A1%9C%20748_FRF00005117000001635_far_20261103.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%8F%99%ED%95%B4%EC%8B%9C%20%EC%84%9C%EB%8F%99%EB%A1%9C%20748_FRF00005117000001635_close_20261103.jpg"
   }
 }
