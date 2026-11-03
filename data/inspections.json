@@ -7581,5 +7581,23 @@
     "closePhotoLocal": "강원특별자치도 동해시 삼화로 18_FRF00005117000004127_close_20261103.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%8F%99%ED%95%B4%EC%8B%9C%20%EC%82%BC%ED%99%94%EB%A1%9C%2018_FRF00005117000004127_far_20261103.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%8F%99%ED%95%B4%EC%8B%9C%20%EC%82%BC%ED%99%94%EB%A1%9C%2018_FRF00005117000004127_close_20261103.jpg"
+  },
+  "FRF00005117000004114": {
+    "id": "FRF00005117000004114",
+    "addr": "강원특별자치도 동해시 삼화로 38",
+    "surveyDate": "20261103",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 37.486841,
+    "gpsLng": 129.0672653,
+    "gpsAccuracy": 7,
+    "distFromPoint": 169,
+    "gpsAt": "2026-11-03T09:11:10.496Z",
+    "updatedAt": "2026-11-03T09:11:10.496Z",
+    "farPhotoLocal": "강원특별자치도 동해시 삼화로 38_FRF00005117000004114_far_20261103.jpg",
+    "closePhotoLocal": "강원특별자치도 동해시 삼화로 38_FRF00005117000004114_close_20261103.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%8F%99%ED%95%B4%EC%8B%9C%20%EC%82%BC%ED%99%94%EB%A1%9C%2038_FRF00005117000004114_far_20261103.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%8F%99%ED%95%B4%EC%8B%9C%20%EC%82%BC%ED%99%94%EB%A1%9C%2038_FRF00005117000004114_close_20261103.jpg"
   }
 }
