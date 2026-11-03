@@ -8158,5 +8158,23 @@
     "closePhotoLocal": "경상북도 영주시 소백로 3419_FRF00004721000001763_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EC%86%8C%EB%B0%B1%EB%A1%9C%203419_FRF00004721000001763_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EC%86%8C%EB%B0%B1%EB%A1%9C%203419_FRF00004721000001763_close_20261104.jpg"
+  },
+  "FRF00005219000026980": {
+    "id": "FRF00005219000026980",
+    "addr": "전북특별자치도 남원시 서천길 88",
+    "surveyDate": "20261104",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.4346069,
+    "gpsLng": 127.526328,
+    "gpsAccuracy": 8,
+    "distFromPoint": 7,
+    "gpsAt": "2026-11-03T23:47:59.354Z",
+    "updatedAt": "2026-11-03T23:47:59.354Z",
+    "farPhotoLocal": "전북특별자치도 남원시 서천길 88_FRF00005219000026980_far_20261104.jpg",
+    "closePhotoLocal": "전북특별자치도 남원시 서천길 88_FRF00005219000026980_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%82%A8%EC%9B%90%EC%8B%9C%20%EC%84%9C%EC%B2%9C%EA%B8%B8%2088_FRF00005219000026980_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%82%A8%EC%9B%90%EC%8B%9C%20%EC%84%9C%EC%B2%9C%EA%B8%B8%2088_FRF00005219000026980_close_20261104.jpg"
   }
 }
