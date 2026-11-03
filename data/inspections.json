@@ -5764,5 +5764,23 @@
     "closePhotoLocal": "경상북도 경산시 공단10로 244_FRF00004729000018301_close_20261103.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B3%B5%EB%8B%A810%EB%A1%9C%20244_FRF00004729000018301_far_20261103.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B3%B5%EB%8B%A810%EB%A1%9C%20244_FRF00004729000018301_close_20261103.jpg"
+  },
+  "FRF00004729000018942": {
+    "id": "FRF00004729000018942",
+    "addr": "경상북도 경산시 공단10로 244",
+    "surveyDate": "20261103",
+    "surveyor": "이은영",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.8773004,
+    "gpsLng": 128.8380692,
+    "gpsAccuracy": 9,
+    "distFromPoint": 5,
+    "gpsAt": "2026-11-03T04:43:52.869Z",
+    "updatedAt": "2026-11-03T04:43:52.869Z",
+    "farPhotoLocal": "경상북도 경산시 공단10로 244_FRF00004729000018942_far_20261103.jpg",
+    "closePhotoLocal": "경상북도 경산시 공단10로 244_FRF00004729000018942_close_20261103.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B3%B5%EB%8B%A810%EB%A1%9C%20244_FRF00004729000018942_far_20261103.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B3%B5%EB%8B%A810%EB%A1%9C%20244_FRF00004729000018942_close_20261103.jpg"
   }
 }
