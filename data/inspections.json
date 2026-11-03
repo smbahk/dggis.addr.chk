@@ -4218,5 +4218,23 @@
     "closePhotoLocal": "전북특별자치도 김제시 콩쥐팥쥐로 464_FRF00005221000003363_close_20261103.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EC%BD%A9%EC%A5%90%ED%8C%A5%EC%A5%90%EB%A1%9C%20464_FRF00005221000003363_far_20261103.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EC%BD%A9%EC%A5%90%ED%8C%A5%EC%A5%90%EB%A1%9C%20464_FRF00005221000003363_close_20261103.jpg"
+  },
+  "FRF00004790000010574": {
+    "id": "FRF00004790000010574",
+    "addr": "경상북도 예천군 용문사길 187",
+    "surveyDate": "20261103",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 36.7185069,
+    "gpsLng": 128.3731246,
+    "gpsAccuracy": 6,
+    "distFromPoint": 14,
+    "gpsAt": "2026-11-03T00:27:27.438Z",
+    "updatedAt": "2026-11-03T00:27:27.438Z",
+    "farPhotoLocal": "경상북도 예천군 용문사길 187_FRF00004790000010574_far_20261103.jpg",
+    "closePhotoLocal": "경상북도 예천군 용문사길 187_FRF00004790000010574_close_20261103.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%88%EC%B2%9C%EA%B5%B0%20%EC%9A%A9%EB%AC%B8%EC%82%AC%EA%B8%B8%20187_FRF00004790000010574_far_20261103.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%88%EC%B2%9C%EA%B5%B0%20%EC%9A%A9%EB%AC%B8%EC%82%AC%EA%B8%B8%20187_FRF00004790000010574_close_20261103.jpg"
   }
 }
