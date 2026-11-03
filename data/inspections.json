@@ -7942,5 +7942,23 @@
     "closePhotoLocal": "전북특별자치도 남원시 황산로 440_FRF00005219000003621_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%82%A8%EC%9B%90%EC%8B%9C%20%ED%99%A9%EC%82%B0%EB%A1%9C%20440_FRF00005219000003621_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%82%A8%EC%9B%90%EC%8B%9C%20%ED%99%A9%EC%82%B0%EB%A1%9C%20440_FRF00005219000003621_close_20261104.jpg"
+  },
+  "FRF00004729000002707": {
+    "id": "FRF00004729000002707",
+    "addr": "경상북도 경산시 남천로 389",
+    "surveyDate": "20261104",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.7619248,
+    "gpsLng": 128.7331958,
+    "gpsAccuracy": 7,
+    "distFromPoint": 39,
+    "gpsAt": "2026-11-03T23:31:24.073Z",
+    "updatedAt": "2026-11-03T23:31:24.073Z",
+    "farPhotoLocal": "경상북도 경산시 남천로 389_FRF00004729000002707_far_20261104.jpg",
+    "closePhotoLocal": "경상북도 경산시 남천로 389_FRF00004729000002707_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EB%82%A8%EC%B2%9C%EB%A1%9C%20389_FRF00004729000002707_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EB%82%A8%EC%B2%9C%EB%A1%9C%20389_FRF00004729000002707_close_20261104.jpg"
   }
 }
