@@ -7960,5 +7960,23 @@
     "closePhotoLocal": "경상북도 경산시 남천로 389_FRF00004729000002707_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EB%82%A8%EC%B2%9C%EB%A1%9C%20389_FRF00004729000002707_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EB%82%A8%EC%B2%9C%EB%A1%9C%20389_FRF00004729000002707_close_20261104.jpg"
+  },
+  "FRF00004721000001783": {
+    "id": "FRF00004721000001783",
+    "addr": "경상북도 영주시 영단로 467",
+    "surveyDate": "20261104",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "영단로 467 망실 영단로 469 촬영",
+    "gpsLat": 36.9803316,
+    "gpsLng": 128.5907287,
+    "gpsAccuracy": 8,
+    "distFromPoint": 11,
+    "gpsAt": "2026-11-03T23:31:35.185Z",
+    "updatedAt": "2026-11-03T23:31:35.185Z",
+    "farPhotoLocal": "경상북도 영주시 영단로 467_FRF00004721000001783_far_20261104.jpg",
+    "closePhotoLocal": "경상북도 영주시 영단로 467_FRF00004721000001783_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EC%98%81%EB%8B%A8%EB%A1%9C%20467_FRF00004721000001783_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EC%98%81%EB%8B%A8%EB%A1%9C%20467_FRF00004721000001783_close_20261104.jpg"
   }
 }
