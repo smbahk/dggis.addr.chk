@@ -8266,5 +8266,23 @@
     "closePhotoLocal": "경상북도 영주시 노곡길 85_FRF00004721000004118_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EB%85%B8%EA%B3%A1%EA%B8%B8%2085_FRF00004721000004118_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EB%85%B8%EA%B3%A1%EA%B8%B8%2085_FRF00004721000004118_close_20261104.jpg"
+  },
+  "FRF00005219000026955": {
+    "id": "FRF00005219000026955",
+    "addr": "전북특별자치도 남원시 십승지길 726",
+    "surveyDate": "20261104",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.4506699,
+    "gpsLng": 127.5446893,
+    "gpsAccuracy": 32,
+    "distFromPoint": 35,
+    "gpsAt": "2026-11-03T23:59:16.628Z",
+    "updatedAt": "2026-11-03T23:59:16.628Z",
+    "farPhotoLocal": "전북특별자치도 남원시 십승지길 726_FRF00005219000026955_far_20261104.jpg",
+    "closePhotoLocal": "전북특별자치도 남원시 십승지길 726_FRF00005219000026955_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%82%A8%EC%9B%90%EC%8B%9C%20%EC%8B%AD%EC%8A%B9%EC%A7%80%EA%B8%B8%20726_FRF00005219000026955_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%82%A8%EC%9B%90%EC%8B%9C%20%EC%8B%AD%EC%8A%B9%EC%A7%80%EA%B8%B8%20726_FRF00005219000026955_close_20261104.jpg"
   }
 }
