@@ -4362,5 +4362,23 @@
     "closePhotoLocal": "경상북도 영덕군 영양창수로 2470_FRF00004777000002890_close_20261103.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%EC%98%81%EC%96%91%EC%B0%BD%EC%88%98%EB%A1%9C%202470_FRF00004777000002890_far_20261103.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%EC%98%81%EC%96%91%EC%B0%BD%EC%88%98%EB%A1%9C%202470_FRF00004777000002890_close_20261103.jpg"
+  },
+  "FRF00004729000018076": {
+    "id": "FRF00004729000018076",
+    "addr": "경상북도 경산시 진성로 369",
+    "surveyDate": "20261103",
+    "surveyor": "이은영",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.8543156,
+    "gpsLng": 128.8409436,
+    "gpsAccuracy": 4,
+    "distFromPoint": 9,
+    "gpsAt": "2026-11-03T01:24:52.932Z",
+    "updatedAt": "2026-11-03T01:24:52.932Z",
+    "farPhotoLocal": "경상북도 경산시 진성로 369_FRF00004729000018076_far_20261103.jpg",
+    "closePhotoLocal": "경상북도 경산시 진성로 369_FRF00004729000018076_close_20261103.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%A7%84%EC%84%B1%EB%A1%9C%20369_FRF00004729000018076_far_20261103.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%A7%84%EC%84%B1%EB%A1%9C%20369_FRF00004729000018076_close_20261103.jpg"
   }
 }
