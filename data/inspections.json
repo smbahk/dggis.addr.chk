@@ -6484,5 +6484,23 @@
     "closePhotoLocal": "경상북도 울진군 남회룡로 1079_FRF00004793000006968_close_20261103.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%9A%B8%EC%A7%84%EA%B5%B0%20%EB%82%A8%ED%9A%8C%EB%A3%A1%EB%A1%9C%201079_FRF00004793000006968_far_20261103.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%9A%B8%EC%A7%84%EA%B5%B0%20%EB%82%A8%ED%9A%8C%EB%A3%A1%EB%A1%9C%201079_FRF00004793000006968_close_20261103.jpg"
+  },
+  "FRF00004793000006953": {
+    "id": "FRF00004793000006953",
+    "addr": "경상북도 울진군 남회룡로 1106",
+    "surveyDate": "20261103",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 36.9006434,
+    "gpsLng": 129.1454462,
+    "gpsAccuracy": 98,
+    "distFromPoint": 7,
+    "gpsAt": "2026-11-03T06:19:50.819Z",
+    "updatedAt": "2026-11-03T06:19:50.819Z",
+    "farPhotoLocal": "경상북도 울진군 남회룡로 1106_FRF00004793000006953_far_20261103.jpg",
+    "closePhotoLocal": "경상북도 울진군 남회룡로 1106_FRF00004793000006953_close_20261103.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%9A%B8%EC%A7%84%EA%B5%B0%20%EB%82%A8%ED%9A%8C%EB%A3%A1%EB%A1%9C%201106_FRF00004793000006953_far_20261103.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%9A%B8%EC%A7%84%EA%B5%B0%20%EB%82%A8%ED%9A%8C%EB%A3%A1%EB%A1%9C%201106_FRF00004793000006953_close_20261103.jpg"
   }
 }
