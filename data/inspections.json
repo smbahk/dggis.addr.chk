@@ -7491,5 +7491,23 @@
     "closePhotoLocal": "전북특별자치도 순창군 충효로 425_FRF00005277000001391_close_20261103.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%88%9C%EC%B0%BD%EA%B5%B0%20%EC%B6%A9%ED%9A%A8%EB%A1%9C%20425_FRF00005277000001391_far_20261103.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%88%9C%EC%B0%BD%EA%B5%B0%20%EC%B6%A9%ED%9A%A8%EB%A1%9C%20425_FRF00005277000001391_close_20261103.jpg"
+  },
+  "FRF00005277000002085": {
+    "id": "FRF00005277000002085",
+    "addr": "전북특별자치도 순창군 충효로 500",
+    "surveyDate": "20261103",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "시인성",
+    "gpsLat": 35.4490053,
+    "gpsLng": 127.246336,
+    "gpsAccuracy": 48,
+    "distFromPoint": 11,
+    "gpsAt": "2026-11-03T08:41:27.159Z",
+    "updatedAt": "2026-11-03T08:41:27.159Z",
+    "farPhotoLocal": "전북특별자치도 순창군 충효로 500_FRF00005277000002085_far_20261103.jpg",
+    "closePhotoLocal": "전북특별자치도 순창군 충효로 500_FRF00005277000002085_close_20261103.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%88%9C%EC%B0%BD%EA%B5%B0%20%EC%B6%A9%ED%9A%A8%EB%A1%9C%20500_FRF00005277000002085_far_20261103.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%88%9C%EC%B0%BD%EA%B5%B0%20%EC%B6%A9%ED%9A%A8%EB%A1%9C%20500_FRF00005277000002085_close_20261103.jpg"
   }
 }
