@@ -5908,5 +5908,23 @@
     "closePhotoLocal": "경상북도 영주시 녹지로 69_FRF00004721000005146_close_20261103.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EB%85%B9%EC%A7%80%EB%A1%9C%2069_FRF00004721000005146_far_20261103.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EB%85%B9%EC%A7%80%EB%A1%9C%2069_FRF00004721000005146_close_20261103.jpg"
+  },
+  "FRF00004729000018158": {
+    "id": "FRF00004729000018158",
+    "addr": "경상북도 경산시 공단11로 239",
+    "surveyDate": "20261103",
+    "surveyor": "이은영",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.8766208,
+    "gpsLng": 128.8402924,
+    "gpsAccuracy": 45,
+    "distFromPoint": 55,
+    "gpsAt": "2026-11-03T05:00:59.021Z",
+    "updatedAt": "2026-11-03T05:00:59.021Z",
+    "farPhotoLocal": "경상북도 경산시 공단11로 239_FRF00004729000018158_far_20261103.jpg",
+    "closePhotoLocal": "경상북도 경산시 공단11로 239_FRF00004729000018158_close_20261103.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B3%B5%EB%8B%A811%EB%A1%9C%20239_FRF00004729000018158_far_20261103.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B3%B5%EB%8B%A811%EB%A1%9C%20239_FRF00004729000018158_close_20261103.jpg"
   }
 }
