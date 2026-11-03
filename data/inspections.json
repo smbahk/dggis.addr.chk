@@ -4776,5 +4776,23 @@
     "closePhotoLocal": "경상북도 영주시 용주로 546_FRF00004721000003962_close_20261103.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EC%9A%A9%EC%A3%BC%EB%A1%9C%20546_FRF00004721000003962_far_20261103.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EC%9A%A9%EC%A3%BC%EB%A1%9C%20546_FRF00004721000003962_close_20261103.jpg"
+  },
+  "FRF00005221000020237": {
+    "id": "FRF00005221000020237",
+    "addr": "전북특별자치도 김제시 아리랑로 545",
+    "surveyDate": "20261103",
+    "surveyor": "남정득",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.76386,
+    "gpsLng": 126.84684,
+    "gpsAccuracy": 5,
+    "distFromPoint": 13,
+    "gpsAt": "2026-11-03T02:03:44.076Z",
+    "updatedAt": "2026-11-03T02:03:44.076Z",
+    "farPhotoLocal": "전북특별자치도 김제시 아리랑로 545_FRF00005221000020237_far_20261103.jpg",
+    "closePhotoLocal": "전북특별자치도 김제시 아리랑로 545_FRF00005221000020237_close_20261103.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EC%95%84%EB%A6%AC%EB%9E%91%EB%A1%9C%20545_FRF00005221000020237_far_20261103.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EC%95%84%EB%A6%AC%EB%9E%91%EB%A1%9C%20545_FRF00005221000020237_close_20261103.jpg"
   }
 }
