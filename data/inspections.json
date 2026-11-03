@@ -4488,5 +4488,23 @@
     "closePhotoLocal": "경상북도 예천군 수한길 37_FRF00004790000002301_close_20261103.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%88%EC%B2%9C%EA%B5%B0%20%EC%88%98%ED%95%9C%EA%B8%B8%2037_FRF00004790000002301_far_20261103.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%88%EC%B2%9C%EA%B5%B0%20%EC%88%98%ED%95%9C%EA%B8%B8%2037_FRF00004790000002301_close_20261103.jpg"
+  },
+  "FRF00005221000020184": {
+    "id": "FRF00005221000020184",
+    "addr": "전북특별자치도 김제시 아리랑로 646",
+    "surveyDate": "20261103",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.77287,
+    "gpsLng": 126.847667,
+    "gpsAccuracy": 6,
+    "distFromPoint": 11,
+    "gpsAt": "2026-11-03T01:36:42.362Z",
+    "updatedAt": "2026-11-03T01:36:42.362Z",
+    "farPhotoLocal": "전북특별자치도 김제시 아리랑로 646_FRF00005221000020184_far_20261103.jpg",
+    "closePhotoLocal": "전북특별자치도 김제시 아리랑로 646_FRF00005221000020184_close_20261103.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EC%95%84%EB%A6%AC%EB%9E%91%EB%A1%9C%20646_FRF00005221000020184_far_20261103.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EC%95%84%EB%A6%AC%EB%9E%91%EB%A1%9C%20646_FRF00005221000020184_close_20261103.jpg"
   }
 }
