@@ -6754,5 +6754,23 @@
     "closePhotoLocal": "경상북도 울진군 남회룡로 1473_FRF00004793000006965_close_20261103.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%9A%B8%EC%A7%84%EA%B5%B0%20%EB%82%A8%ED%9A%8C%EB%A3%A1%EB%A1%9C%201473_FRF00004793000006965_far_20261103.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%9A%B8%EC%A7%84%EA%B5%B0%20%EB%82%A8%ED%9A%8C%EB%A3%A1%EB%A1%9C%201473_FRF00004793000006965_close_20261103.jpg"
+  },
+  "FRF00004793000005661": {
+    "id": "FRF00004793000005661",
+    "addr": "경상북도 울진군 불영계곡로 765",
+    "surveyDate": "20261103",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "버스승강장 반대편승강장없음",
+    "gpsLat": 36.9336852,
+    "gpsLng": 129.1829263,
+    "gpsAccuracy": 7,
+    "distFromPoint": 26,
+    "gpsAt": "2026-11-03T06:51:41.457Z",
+    "updatedAt": "2026-11-03T06:51:41.457Z",
+    "farPhotoLocal": "경상북도 울진군 불영계곡로 765_FRF00004793000005661_far_20261103.jpg",
+    "closePhotoLocal": "경상북도 울진군 불영계곡로 765_FRF00004793000005661_close_20261103.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%9A%B8%EC%A7%84%EA%B5%B0%20%EB%B6%88%EC%98%81%EA%B3%84%EA%B3%A1%EB%A1%9C%20765_FRF00004793000005661_far_20261103.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%9A%B8%EC%A7%84%EA%B5%B0%20%EB%B6%88%EC%98%81%EA%B3%84%EA%B3%A1%EB%A1%9C%20765_FRF00004793000005661_close_20261103.jpg"
   }
 }
