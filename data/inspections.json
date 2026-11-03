@@ -6142,5 +6142,23 @@
     "closePhotoLocal": "경상북도 영주시 문평로 808_FRF00004721000008192_close_20261103.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EB%AC%B8%ED%8F%89%EB%A1%9C%20808_FRF00004721000008192_far_20261103.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EB%AC%B8%ED%8F%89%EB%A1%9C%20808_FRF00004721000008192_close_20261103.jpg"
+  },
+  "FRF00004721000008191": {
+    "id": "FRF00004721000008191",
+    "addr": "경상북도 영주시 문평로 794",
+    "surveyDate": "20261103",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 36.7223804,
+    "gpsLng": 128.6530386,
+    "gpsAccuracy": 5,
+    "distFromPoint": 14,
+    "gpsAt": "2026-11-03T05:33:29.010Z",
+    "updatedAt": "2026-11-03T05:33:29.010Z",
+    "farPhotoLocal": "경상북도 영주시 문평로 794_FRF00004721000008191_far_20261103.jpg",
+    "closePhotoLocal": "경상북도 영주시 문평로 794_FRF00004721000008191_close_20261103.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EB%AC%B8%ED%8F%89%EB%A1%9C%20794_FRF00004721000008191_far_20261103.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EB%AC%B8%ED%8F%89%EB%A1%9C%20794_FRF00004721000008191_close_20261103.jpg"
   }
 }
