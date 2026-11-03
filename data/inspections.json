@@ -4416,5 +4416,23 @@
     "closePhotoLocal": "경상북도 경산시 진성로 367_FRF00004729000019027_close_20261103.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%A7%84%EC%84%B1%EB%A1%9C%20367_FRF00004729000019027_far_20261103.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%A7%84%EC%84%B1%EB%A1%9C%20367_FRF00004729000019027_close_20261103.jpg"
+  },
+  "FRF00004729000018777": {
+    "id": "FRF00004729000018777",
+    "addr": "경상북도 경산시 진성로 357",
+    "surveyDate": "20261103",
+    "surveyor": "이은영",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.8556755,
+    "gpsLng": 128.8397689,
+    "gpsAccuracy": 40,
+    "distFromPoint": 100,
+    "gpsAt": "2026-11-03T01:32:01.269Z",
+    "updatedAt": "2026-11-03T01:32:01.269Z",
+    "farPhotoLocal": "경상북도 경산시 진성로 357_FRF00004729000018777_far_20261103.jpg",
+    "closePhotoLocal": "경상북도 경산시 진성로 357_FRF00004729000018777_close_20261103.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%A7%84%EC%84%B1%EB%A1%9C%20357_FRF00004729000018777_far_20261103.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%A7%84%EC%84%B1%EB%A1%9C%20357_FRF00004729000018777_close_20261103.jpg"
   }
 }
