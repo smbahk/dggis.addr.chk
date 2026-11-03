@@ -8140,5 +8140,23 @@
     "closePhotoLocal": "경상북도 경산시 상대로 148_FRF00004729000002457_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%83%81%EB%8C%80%EB%A1%9C%20148_FRF00004729000002457_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%83%81%EB%8C%80%EB%A1%9C%20148_FRF00004729000002457_close_20261104.jpg"
+  },
+  "FRF00004721000001763": {
+    "id": "FRF00004721000001763",
+    "addr": "경상북도 영주시 소백로 3419",
+    "surveyDate": "20261104",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "소백로 3419 망실  소백로 3432 촬영",
+    "gpsLat": 36.962697,
+    "gpsLng": 128.6307022,
+    "gpsAccuracy": 4,
+    "distFromPoint": 96,
+    "gpsAt": "2026-11-03T23:46:07.177Z",
+    "updatedAt": "2026-11-03T23:46:07.177Z",
+    "farPhotoLocal": "경상북도 영주시 소백로 3419_FRF00004721000001763_far_20261104.jpg",
+    "closePhotoLocal": "경상북도 영주시 소백로 3419_FRF00004721000001763_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EC%86%8C%EB%B0%B1%EB%A1%9C%203419_FRF00004721000001763_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EC%86%8C%EB%B0%B1%EB%A1%9C%203419_FRF00004721000001763_close_20261104.jpg"
   }
 }
