@@ -7365,5 +7365,23 @@
     "farPhotoLocal": "경상북도 영주시 태장로 317_FRF00004721000013754_far_20261103.jpg",
     "closePhotoLocal": "경상북도 영주시 태장로 317_FRF00004721000013754_close_20261103.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%ED%83%9C%EC%9E%A5%EB%A1%9C%20317_FRF00004721000013754_far_20261103.jpg"
+  },
+  "FRF00004721000013753": {
+    "id": "FRF00004721000013753",
+    "addr": "경상북도 영주시 태장로 299",
+    "surveyDate": "20261103",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 36.9204717,
+    "gpsLng": 128.5406642,
+    "gpsAccuracy": 4,
+    "distFromPoint": 50,
+    "gpsAt": "2026-11-03T08:30:11.204Z",
+    "updatedAt": "2026-11-03T08:30:11.204Z",
+    "farPhotoLocal": "경상북도 영주시 태장로 299_FRF00004721000013753_far_20261103.jpg",
+    "closePhotoLocal": "경상북도 영주시 태장로 299_FRF00004721000013753_close_20261103.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%ED%83%9C%EC%9E%A5%EB%A1%9C%20299_FRF00004721000013753_far_20261103.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%ED%83%9C%EC%9E%A5%EB%A1%9C%20299_FRF00004721000013753_close_20261103.jpg"
   }
 }
