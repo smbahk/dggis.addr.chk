@@ -5944,5 +5944,23 @@
     "closePhotoLocal": "경상북도 영주시 경북대로 2358_FRF00004721000005451_close_20261103.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EA%B2%BD%EB%B6%81%EB%8C%80%EB%A1%9C%202358_FRF00004721000005451_far_20261103.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EA%B2%BD%EB%B6%81%EB%8C%80%EB%A1%9C%202358_FRF00004721000005451_close_20261103.jpg"
+  },
+  "FRF00004721000005452": {
+    "id": "FRF00004721000005452",
+    "addr": "경상북도 영주시 경북대로 2380",
+    "surveyDate": "20261103",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 36.7286937,
+    "gpsLng": 128.7182389,
+    "gpsAccuracy": 8,
+    "distFromPoint": 14,
+    "gpsAt": "2026-11-03T05:07:24.650Z",
+    "updatedAt": "2026-11-03T05:07:24.650Z",
+    "farPhotoLocal": "경상북도 영주시 경북대로 2380_FRF00004721000005452_far_20261103.jpg",
+    "closePhotoLocal": "경상북도 영주시 경북대로 2380_FRF00004721000005452_close_20261103.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EA%B2%BD%EB%B6%81%EB%8C%80%EB%A1%9C%202380_FRF00004721000005452_far_20261103.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EA%B2%BD%EB%B6%81%EB%8C%80%EB%A1%9C%202380_FRF00004721000005452_close_20261103.jpg"
   }
 }
