@@ -6952,5 +6952,23 @@
     "closePhotoLocal": "경상북도 영주시 테라피로 187_FRF00004721000006408_close_20261103.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%ED%85%8C%EB%9D%BC%ED%94%BC%EB%A1%9C%20187_FRF00004721000006408_far_20261103.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%ED%85%8C%EB%9D%BC%ED%94%BC%EB%A1%9C%20187_FRF00004721000006408_close_20261103.jpg"
+  },
+  "FRF00004721000003679": {
+    "id": "FRF00004721000003679",
+    "addr": "경상북도 영주시 옥동로 225",
+    "surveyDate": "20261103",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "표기내용 정상",
+    "gpsLat": 36.8696616,
+    "gpsLng": 128.4837968,
+    "gpsAccuracy": 5,
+    "distFromPoint": 8,
+    "gpsAt": "2026-11-03T07:32:49.377Z",
+    "updatedAt": "2026-11-03T07:32:49.377Z",
+    "farPhotoLocal": "경상북도 영주시 옥동로 225_FRF00004721000003679_far_20261103.jpg",
+    "closePhotoLocal": "경상북도 영주시 옥동로 225_FRF00004721000003679_close_20261103.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EC%98%A5%EB%8F%99%EB%A1%9C%20225_FRF00004721000003679_far_20261103.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EC%98%A5%EB%8F%99%EB%A1%9C%20225_FRF00004721000003679_close_20261103.jpg"
   }
 }
