@@ -4380,5 +4380,23 @@
     "closePhotoLocal": "경상북도 경산시 진성로 369_FRF00004729000018076_close_20261103.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%A7%84%EC%84%B1%EB%A1%9C%20369_FRF00004729000018076_far_20261103.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%A7%84%EC%84%B1%EB%A1%9C%20369_FRF00004729000018076_close_20261103.jpg"
+  },
+  "FRF00005221000020183": {
+    "id": "FRF00005221000020183",
+    "addr": "전북특별자치도 김제시 아리랑로 682",
+    "surveyDate": "20261103",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "사진은 진행항향에서 촬영",
+    "gpsLat": 35.775822,
+    "gpsLng": 126.847953,
+    "gpsAccuracy": 8,
+    "distFromPoint": 44,
+    "gpsAt": "2026-11-03T01:25:17.358Z",
+    "updatedAt": "2026-11-03T01:25:17.358Z",
+    "farPhotoLocal": "전북특별자치도 김제시 아리랑로 682_FRF00005221000020183_far_20261103.jpg",
+    "closePhotoLocal": "전북특별자치도 김제시 아리랑로 682_FRF00005221000020183_close_20261103.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EC%95%84%EB%A6%AC%EB%9E%91%EB%A1%9C%20682_FRF00005221000020183_far_20261103.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EC%95%84%EB%A6%AC%EB%9E%91%EB%A1%9C%20682_FRF00005221000020183_close_20261103.jpg"
   }
 }
