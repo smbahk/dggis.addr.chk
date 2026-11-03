@@ -4236,5 +4236,23 @@
     "closePhotoLocal": "경상북도 예천군 용문사길 187_FRF00004790000010574_close_20261103.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%88%EC%B2%9C%EA%B5%B0%20%EC%9A%A9%EB%AC%B8%EC%82%AC%EA%B8%B8%20187_FRF00004790000010574_far_20261103.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%88%EC%B2%9C%EA%B5%B0%20%EC%9A%A9%EB%AC%B8%EC%82%AC%EA%B8%B8%20187_FRF00004790000010574_close_20261103.jpg"
+  },
+  "FRF00004776000001769": {
+    "id": "FRF00004776000001769",
+    "addr": "경상북도 영양군 영양창수로 1298",
+    "surveyDate": "20261103",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "상단설치",
+    "gpsLat": 36.6257917,
+    "gpsLng": 129.2218539,
+    "gpsAccuracy": 8,
+    "distFromPoint": 14,
+    "gpsAt": "2026-11-03T00:35:22.214Z",
+    "updatedAt": "2026-11-03T00:35:22.214Z",
+    "farPhotoLocal": "경상북도 영양군 영양창수로 1298_FRF00004776000001769_far_20261103.jpg",
+    "closePhotoLocal": "경상북도 영양군 영양창수로 1298_FRF00004776000001769_close_20261103.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%96%91%EA%B5%B0%20%EC%98%81%EC%96%91%EC%B0%BD%EC%88%98%EB%A1%9C%201298_FRF00004776000001769_far_20261103.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%96%91%EA%B5%B0%20%EC%98%81%EC%96%91%EC%B0%BD%EC%88%98%EB%A1%9C%201298_FRF00004776000001769_close_20261103.jpg"
   }
 }
