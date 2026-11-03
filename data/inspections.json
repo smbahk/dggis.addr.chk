@@ -8104,5 +8104,39 @@
     "closePhotoLocal": "경상북도 영주시 소백로 3382_FRF00004721000006372_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EC%86%8C%EB%B0%B1%EB%A1%9C%203382_FRF00004721000006372_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EC%86%8C%EB%B0%B1%EB%A1%9C%203382_FRF00004721000006372_close_20261104.jpg"
+  },
+  "FRF00004729000002705": {
+    "id": "FRF00004729000002705",
+    "addr": "경상북도 경산시 남천로 368",
+    "surveyDate": "20261104",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.7611091,
+    "gpsLng": 128.7326838,
+    "gpsAccuracy": 98,
+    "distFromPoint": 230,
+    "gpsAt": "2026-11-03T23:37:32.917Z",
+    "updatedAt": "2026-11-03T23:37:32.917Z",
+    "farPhotoLocal": "경상북도 경산시 남천로 368_FRF00004729000002705_far_20261104.jpg",
+    "closePhotoLocal": "경상북도 경산시 남천로 368_FRF00004729000002705_close_20261104.jpg"
+  },
+  "FRF00004729000002457": {
+    "id": "FRF00004729000002457",
+    "addr": "경상북도 경산시 상대로 148",
+    "surveyDate": "20261104",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "망실  상대로150",
+    "gpsLat": 35.7674404,
+    "gpsLng": 128.7643247,
+    "gpsAccuracy": 94,
+    "distFromPoint": 9,
+    "gpsAt": "2026-11-03T23:44:08.434Z",
+    "updatedAt": "2026-11-03T23:44:08.434Z",
+    "farPhotoLocal": "경상북도 경산시 상대로 148_FRF00004729000002457_far_20261104.jpg",
+    "closePhotoLocal": "경상북도 경산시 상대로 148_FRF00004729000002457_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%83%81%EB%8C%80%EB%A1%9C%20148_FRF00004729000002457_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%83%81%EB%8C%80%EB%A1%9C%20148_FRF00004729000002457_close_20261104.jpg"
   }
 }
