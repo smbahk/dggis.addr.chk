@@ -8428,5 +8428,23 @@
     "closePhotoLocal": "전북특별자치도 남원시 구룡폭포길 325_FRF00005219000026915_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%82%A8%EC%9B%90%EC%8B%9C%20%EA%B5%AC%EB%A3%A1%ED%8F%AD%ED%8F%AC%EA%B8%B8%20325_FRF00005219000026915_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%82%A8%EC%9B%90%EC%8B%9C%20%EA%B5%AC%EB%A3%A1%ED%8F%AD%ED%8F%AC%EA%B8%B8%20325_FRF00005219000026915_close_20261104.jpg"
+  },
+  "FRF00004721000014521": {
+    "id": "FRF00004721000014521",
+    "addr": "경상북도 영주시 소백로 3502",
+    "surveyDate": "20261104",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "소백로 3502 망실  소백로 3254 촬영",
+    "gpsLat": 36.9514168,
+    "gpsLng": 128.6174611,
+    "gpsAccuracy": 4,
+    "distFromPoint": 2421,
+    "gpsAt": "2026-11-04T00:20:37.992Z",
+    "updatedAt": "2026-11-04T00:20:37.992Z",
+    "farPhotoLocal": "경상북도 영주시 소백로 3502_FRF00004721000014521_far_20261104.jpg",
+    "closePhotoLocal": "경상북도 영주시 소백로 3502_FRF00004721000014521_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EC%86%8C%EB%B0%B1%EB%A1%9C%203502_FRF00004721000014521_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EC%86%8C%EB%B0%B1%EB%A1%9C%203502_FRF00004721000014521_close_20261104.jpg"
   }
 }
