@@ -9812,5 +9812,23 @@
     "closePhotoLocal": "전북특별자치도 남원시 정령치로 1327_FRF00005219000002687_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%82%A8%EC%9B%90%EC%8B%9C%20%EC%A0%95%EB%A0%B9%EC%B9%98%EB%A1%9C%201327_FRF00005219000002687_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%82%A8%EC%9B%90%EC%8B%9C%20%EC%A0%95%EB%A0%B9%EC%B9%98%EB%A1%9C%201327_FRF00005219000002687_close_20261104.jpg"
+  },
+  "FRF00005175000003263": {
+    "id": "FRF00005175000003263",
+    "addr": "강원특별자치도 영월군 중앙로 209",
+    "surveyDate": "20261104",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "버스정류장뒤 벽면에 설치",
+    "gpsLat": 37.1737396,
+    "gpsLng": 128.4778744,
+    "gpsAccuracy": 8,
+    "distFromPoint": 1091,
+    "gpsAt": "2026-11-04T06:03:57.746Z",
+    "updatedAt": "2026-11-04T06:03:57.746Z",
+    "farPhotoLocal": "강원특별자치도 영월군 중앙로 209_FRF00005175000003263_far_20261104.jpg",
+    "closePhotoLocal": "강원특별자치도 영월군 중앙로 209_FRF00005175000003263_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EC%A4%91%EC%95%99%EB%A1%9C%20209_FRF00005175000003263_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EC%A4%91%EC%95%99%EB%A1%9C%20209_FRF00005175000003263_close_20261104.jpg"
   }
 }
