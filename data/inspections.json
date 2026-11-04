@@ -9722,5 +9722,23 @@
     "closePhotoLocal": "전북특별자치도 남원시 장백산로 44_FRF00005219000026898_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%82%A8%EC%9B%90%EC%8B%9C%20%EC%9E%A5%EB%B0%B1%EC%82%B0%EB%A1%9C%2044_FRF00005219000026898_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%82%A8%EC%9B%90%EC%8B%9C%20%EC%9E%A5%EB%B0%B1%EC%82%B0%EB%A1%9C%2044_FRF00005219000026898_close_20261104.jpg"
+  },
+  "FRF00005219000026896": {
+    "id": "FRF00005219000026896",
+    "addr": "전북특별자치도 남원시 장백산로 28",
+    "surveyDate": "20261104",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.3941394,
+    "gpsLng": 127.4484719,
+    "gpsAccuracy": 69,
+    "distFromPoint": 107,
+    "gpsAt": "2026-11-04T05:36:15.287Z",
+    "updatedAt": "2026-11-04T05:36:15.287Z",
+    "farPhotoLocal": "전북특별자치도 남원시 장백산로 28_FRF00005219000026896_far_20261104.jpg",
+    "closePhotoLocal": "전북특별자치도 남원시 장백산로 28_FRF00005219000026896_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%82%A8%EC%9B%90%EC%8B%9C%20%EC%9E%A5%EB%B0%B1%EC%82%B0%EB%A1%9C%2028_FRF00005219000026896_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%82%A8%EC%9B%90%EC%8B%9C%20%EC%9E%A5%EB%B0%B1%EC%82%B0%EB%A1%9C%2028_FRF00005219000026896_close_20261104.jpg"
   }
 }
