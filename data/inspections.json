@@ -9452,5 +9452,23 @@
     "closePhotoLocal": "강원특별자치도 영월군 태백산로 3511_FRF00005175000008344_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%ED%83%9C%EB%B0%B1%EC%82%B0%EB%A1%9C%203511_FRF00005175000008344_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%ED%83%9C%EB%B0%B1%EC%82%B0%EB%A1%9C%203511_FRF00005175000008344_close_20261104.jpg"
+  },
+  "FRF00004827000002049": {
+    "id": "FRF00004827000002049",
+    "addr": "경상남도 밀양시 밀양대로 1983",
+    "surveyDate": "20261104",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.5003258,
+    "gpsLng": 128.741687,
+    "gpsAccuracy": 7,
+    "distFromPoint": 13,
+    "gpsAt": "2026-11-04T04:39:13.211Z",
+    "updatedAt": "2026-11-04T04:39:13.211Z",
+    "farPhotoLocal": "경상남도 밀양시 밀양대로 1983_FRF00004827000002049_far_20261104.jpg",
+    "closePhotoLocal": "경상남도 밀양시 밀양대로 1983_FRF00004827000002049_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%EB%B0%80%EC%96%91%EB%8C%80%EB%A1%9C%201983_FRF00004827000002049_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%EB%B0%80%EC%96%91%EB%8C%80%EB%A1%9C%201983_FRF00004827000002049_close_20261104.jpg"
   }
 }
