@@ -9218,5 +9218,23 @@
     "closePhotoLocal": "강원특별자치도 영월군 영월동로 1597_FRF00005175000003227_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EC%98%81%EC%9B%94%EB%8F%99%EB%A1%9C%201597_FRF00005175000003227_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EC%98%81%EC%9B%94%EB%8F%99%EB%A1%9C%201597_FRF00005175000003227_close_20261104.jpg"
+  },
+  "FRF00005175000001408": {
+    "id": "FRF00005175000001408",
+    "addr": "강원특별자치도 영월군 강변로 1372",
+    "surveyDate": "20261104",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "버스정류장 기초번호판 철거 후 화장실에 설치",
+    "gpsLat": 37.1142291,
+    "gpsLng": 128.5279477,
+    "gpsAccuracy": 7,
+    "distFromPoint": 7,
+    "gpsAt": "2026-11-04T03:28:27.469Z",
+    "updatedAt": "2026-11-04T03:28:27.469Z",
+    "farPhotoLocal": "강원특별자치도 영월군 강변로 1372_FRF00005175000001408_far_20261104.jpg",
+    "closePhotoLocal": "강원특별자치도 영월군 강변로 1372_FRF00005175000001408_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EA%B0%95%EB%B3%80%EB%A1%9C%201372_FRF00005175000001408_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EA%B0%95%EB%B3%80%EB%A1%9C%201372_FRF00005175000001408_close_20261104.jpg"
   }
 }
