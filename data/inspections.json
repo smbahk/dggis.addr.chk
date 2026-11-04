@@ -11017,5 +11017,23 @@
     "closePhotoLocal": "강원특별자치도 영월군 서강로 571_FRF00005175000003578_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EC%84%9C%EA%B0%95%EB%A1%9C%20571_FRF00005175000003578_far_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EC%84%9C%EA%B0%95%EB%A1%9C%20571_FRF00005175000003578_close_20261105.jpg"
+  },
+  "FRF00004623000007506": {
+    "id": "FRF00004623000007506",
+    "addr": "전남광주통합특별시 광양시 해광로 570",
+    "surveyDate": "20261105",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "버정, 한전주 둘다 촬영 / 한전주는 사진으로",
+    "gpsLat": 34.9429265,
+    "gpsLng": 127.5809065,
+    "gpsAccuracy": 30,
+    "distFromPoint": 38,
+    "gpsAt": "2026-11-04T23:54:32.428Z",
+    "updatedAt": "2026-11-04T23:54:32.428Z",
+    "farPhotoLocal": "전남광주통합특별시 광양시 해광로 570_FRF00004623000007506_far_20261105.jpg",
+    "closePhotoLocal": "전남광주통합특별시 광양시 해광로 570_FRF00004623000007506_close_20261105.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%ED%95%B4%EA%B4%91%EB%A1%9C%20570_FRF00004623000007506_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%ED%95%B4%EA%B4%91%EB%A1%9C%20570_FRF00004623000007506_close_20261105.jpg"
   }
 }
