@@ -9038,5 +9038,23 @@
     "closePhotoLocal": "전북특별자치도 남원시 지리산첫길 344_FRF00005219000026906_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%82%A8%EC%9B%90%EC%8B%9C%20%EC%A7%80%EB%A6%AC%EC%82%B0%EC%B2%AB%EA%B8%B8%20344_FRF00005219000026906_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%82%A8%EC%9B%90%EC%8B%9C%20%EC%A7%80%EB%A6%AC%EC%82%B0%EC%B2%AB%EA%B8%B8%20344_FRF00005219000026906_close_20261104.jpg"
+  },
+  "FRF00005219000026907": {
+    "id": "FRF00005219000026907",
+    "addr": "전북특별자치도 남원시 지리산첫길 356",
+    "surveyDate": "20261104",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.397515,
+    "gpsLng": 127.4800939,
+    "gpsAccuracy": 26,
+    "distFromPoint": 163,
+    "gpsAt": "2026-11-04T02:25:36.437Z",
+    "updatedAt": "2026-11-04T02:25:36.437Z",
+    "farPhotoLocal": "전북특별자치도 남원시 지리산첫길 356_FRF00005219000026907_far_20261104.jpg",
+    "closePhotoLocal": "전북특별자치도 남원시 지리산첫길 356_FRF00005219000026907_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%82%A8%EC%9B%90%EC%8B%9C%20%EC%A7%80%EB%A6%AC%EC%82%B0%EC%B2%AB%EA%B8%B8%20356_FRF00005219000026907_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%82%A8%EC%9B%90%EC%8B%9C%20%EC%A7%80%EB%A6%AC%EC%82%B0%EC%B2%AB%EA%B8%B8%20356_FRF00005219000026907_close_20261104.jpg"
   }
 }
