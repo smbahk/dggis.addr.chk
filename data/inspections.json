@@ -8284,5 +8284,23 @@
     "closePhotoLocal": "전북특별자치도 남원시 십승지길 726_FRF00005219000026955_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%82%A8%EC%9B%90%EC%8B%9C%20%EC%8B%AD%EC%8A%B9%EC%A7%80%EA%B8%B8%20726_FRF00005219000026955_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%82%A8%EC%9B%90%EC%8B%9C%20%EC%8B%AD%EC%8A%B9%EC%A7%80%EA%B8%B8%20726_FRF00005219000026955_close_20261104.jpg"
+  },
+  "FRF00004721000014515": {
+    "id": "FRF00004721000014515",
+    "addr": "경상북도 영주시 소백로 3472",
+    "surveyDate": "20261104",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "소백로 3472 망실  소백로 3566 촬영",
+    "gpsLat": 36.9706266,
+    "gpsLng": 128.6419375,
+    "gpsAccuracy": 64,
+    "distFromPoint": 936,
+    "gpsAt": "2026-11-04T00:03:59.614Z",
+    "updatedAt": "2026-11-04T00:03:59.614Z",
+    "farPhotoLocal": "경상북도 영주시 소백로 3472_FRF00004721000014515_far_20261104.jpg",
+    "closePhotoLocal": "경상북도 영주시 소백로 3472_FRF00004721000014515_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EC%86%8C%EB%B0%B1%EB%A1%9C%203472_FRF00004721000014515_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EC%86%8C%EB%B0%B1%EB%A1%9C%203472_FRF00004721000014515_close_20261104.jpg"
   }
 }
