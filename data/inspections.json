@@ -10944,7 +10944,8 @@
     "updatedAt": "2026-11-04T09:14:09.213Z",
     "farPhotoLocal": "전남광주통합특별시 광양시 인덕로 856_FRF00004623000003710_far_20261104.jpg",
     "closePhotoLocal": "전남광주통합특별시 광양시 인덕로 856_FRF00004623000003710_close_20261104.jpg",
-    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EC%9D%B8%EB%8D%95%EB%A1%9C%20856_FRF00004623000003710_close_20261104.jpg"
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EC%9D%B8%EB%8D%95%EB%A1%9C%20856_FRF00004623000003710_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EC%9D%B8%EB%8D%95%EB%A1%9C%20856_FRF00004623000003710_far_20261104.jpg"
   },
   "FRF00004623000007564": {
     "id": "FRF00004623000007564",
@@ -10962,5 +10963,23 @@
     "farPhotoLocal": "전남광주통합특별시 광양시 인덕로 874_FRF00004623000007564_far_20261104.jpg",
     "closePhotoLocal": "전남광주통합특별시 광양시 인덕로 874_FRF00004623000007564_close_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EC%9D%B8%EB%8D%95%EB%A1%9C%20874_FRF00004623000007564_close_20261104.jpg"
+  },
+  "FRF00004623000007563": {
+    "id": "FRF00004623000007563",
+    "addr": "전남광주통합특별시 광양시 인덕로 866",
+    "surveyDate": "20261104",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "866은 현장 망실\n- 862, 866 누리집 기초번호 조회 안됨\n862로 대체",
+    "gpsLat": 34.9601037,
+    "gpsLng": 127.5802767,
+    "gpsAccuracy": 27,
+    "distFromPoint": 47,
+    "gpsAt": "2026-11-04T09:29:17.812Z",
+    "updatedAt": "2026-11-04T09:29:17.812Z",
+    "farPhotoLocal": "전남광주통합특별시 광양시 인덕로 866_FRF00004623000007563_far_20261104.jpg",
+    "closePhotoLocal": "전남광주통합특별시 광양시 인덕로 866_FRF00004623000007563_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EC%9D%B8%EB%8D%95%EB%A1%9C%20866_FRF00004623000007563_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EC%9D%B8%EB%8D%95%EB%A1%9C%20866_FRF00004623000007563_close_20261104.jpg"
   }
 }
