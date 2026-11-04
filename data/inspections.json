@@ -8464,5 +8464,23 @@
     "closePhotoLocal": "경상북도 청도군 새마을로 1603_FRF00004782000001276_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B2%AD%EB%8F%84%EA%B5%B0%20%EC%83%88%EB%A7%88%EC%9D%84%EB%A1%9C%201603_FRF00004782000001276_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B2%AD%EB%8F%84%EA%B5%B0%20%EC%83%88%EB%A7%88%EC%9D%84%EB%A1%9C%201603_FRF00004782000001276_close_20261104.jpg"
+  },
+  "FRF00004721000004126": {
+    "id": "FRF00004721000004126",
+    "addr": "경상북도 영주시 노곡길 337",
+    "surveyDate": "20261104",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 36.982734,
+    "gpsLng": 128.6415949,
+    "gpsAccuracy": 4,
+    "distFromPoint": 9,
+    "gpsAt": "2026-11-04T00:30:43.522Z",
+    "updatedAt": "2026-11-04T00:30:43.522Z",
+    "farPhotoLocal": "경상북도 영주시 노곡길 337_FRF00004721000004126_far_20261104.jpg",
+    "closePhotoLocal": "경상북도 영주시 노곡길 337_FRF00004721000004126_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EB%85%B8%EA%B3%A1%EA%B8%B8%20337_FRF00004721000004126_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EB%85%B8%EA%B3%A1%EA%B8%B8%20337_FRF00004721000004126_close_20261104.jpg"
   }
 }
