@@ -10874,5 +10874,23 @@
     "closePhotoLocal": "경상남도 양산시 내포양달길 14-134_FRF00004833000014043_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EB%82%B4%ED%8F%AC%EC%96%91%EB%8B%AC%EA%B8%B8%2014-134_FRF00004833000014043_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EB%82%B4%ED%8F%AC%EC%96%91%EB%8B%AC%EA%B8%B8%2014-134_FRF00004833000014043_close_20261104.jpg"
+  },
+  "FRF00004623000015982": {
+    "id": "FRF00004623000015982",
+    "addr": "전남광주통합특별시 광양시 덕용로 286",
+    "surveyDate": "20261104",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 34.9561675,
+    "gpsLng": 127.5812873,
+    "gpsAccuracy": 6,
+    "distFromPoint": 2,
+    "gpsAt": "2026-11-04T09:06:13.576Z",
+    "updatedAt": "2026-11-04T09:06:13.576Z",
+    "farPhotoLocal": "전남광주통합특별시 광양시 덕용로 286_FRF00004623000015982_far_20261104.jpg",
+    "closePhotoLocal": "전남광주통합특별시 광양시 덕용로 286_FRF00004623000015982_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EB%8D%95%EC%9A%A9%EB%A1%9C%20286_FRF00004623000015982_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EB%8D%95%EC%9A%A9%EB%A1%9C%20286_FRF00004623000015982_close_20261104.jpg"
   }
 }
