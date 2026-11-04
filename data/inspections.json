@@ -10064,5 +10064,23 @@
     "closePhotoLocal": "경상남도 밀양시 산내로 1694_FRF00004827000004447_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%EC%82%B0%EB%82%B4%EB%A1%9C%201694_FRF00004827000004447_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%EC%82%B0%EB%82%B4%EB%A1%9C%201694_FRF00004827000004447_close_20261104.jpg"
+  },
+  "FRF00004827000004448": {
+    "id": "FRF00004827000004448",
+    "addr": "경상남도 밀양시 산내로 1704",
+    "surveyDate": "20261104",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.589911,
+    "gpsLng": 128.997888,
+    "gpsAccuracy": 7,
+    "distFromPoint": 139,
+    "gpsAt": "2026-11-04T06:34:26.224Z",
+    "updatedAt": "2026-11-04T06:34:26.224Z",
+    "farPhotoLocal": "경상남도 밀양시 산내로 1704_FRF00004827000004448_far_20261104.jpg",
+    "closePhotoLocal": "경상남도 밀양시 산내로 1704_FRF00004827000004448_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%EC%82%B0%EB%82%B4%EB%A1%9C%201704_FRF00004827000004448_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%EC%82%B0%EB%82%B4%EB%A1%9C%201704_FRF00004827000004448_close_20261104.jpg"
   }
 }
