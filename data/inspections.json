@@ -9308,5 +9308,23 @@
     "closePhotoLocal": "경상남도 밀양시 창밀로 2347_FRF00004827000005736_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%EC%B0%BD%EB%B0%80%EB%A1%9C%202347_FRF00004827000005736_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%EC%B0%BD%EB%B0%80%EB%A1%9C%202347_FRF00004827000005736_close_20261104.jpg"
+  },
+  "FRF00005219000026902": {
+    "id": "FRF00005219000026902",
+    "addr": "전북특별자치도 남원시 지리산첫길 122",
+    "surveyDate": "20261104",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.3980595,
+    "gpsLng": 127.4579093,
+    "gpsAccuracy": 12,
+    "distFromPoint": 344,
+    "gpsAt": "2026-11-04T04:13:18.449Z",
+    "updatedAt": "2026-11-04T04:13:18.449Z",
+    "farPhotoLocal": "전북특별자치도 남원시 지리산첫길 122_FRF00005219000026902_far_20261104.jpg",
+    "closePhotoLocal": "전북특별자치도 남원시 지리산첫길 122_FRF00005219000026902_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%82%A8%EC%9B%90%EC%8B%9C%20%EC%A7%80%EB%A6%AC%EC%82%B0%EC%B2%AB%EA%B8%B8%20122_FRF00005219000026902_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%82%A8%EC%9B%90%EC%8B%9C%20%EC%A7%80%EB%A6%AC%EC%82%B0%EC%B2%AB%EA%B8%B8%20122_FRF00005219000026902_close_20261104.jpg"
   }
 }
