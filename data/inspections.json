@@ -8804,5 +8804,23 @@
     "closePhotoLocal": "경상북도 영주시 소백로 4045_FRF00004721000003592_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EC%86%8C%EB%B0%B1%EB%A1%9C%204045_FRF00004721000003592_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EC%86%8C%EB%B0%B1%EB%A1%9C%204045_FRF00004721000003592_close_20261104.jpg"
+  },
+  "FRF00004782000001266": {
+    "id": "FRF00004782000001266",
+    "addr": "경상북도 청도군 새마을로 375",
+    "surveyDate": "20261104",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.5849477,
+    "gpsLng": 128.7749779,
+    "gpsAccuracy": 7,
+    "distFromPoint": 86,
+    "gpsAt": "2026-11-04T01:47:13.548Z",
+    "updatedAt": "2026-11-04T01:47:13.548Z",
+    "farPhotoLocal": "경상북도 청도군 새마을로 375_FRF00004782000001266_far_20261104.jpg",
+    "closePhotoLocal": "경상북도 청도군 새마을로 375_FRF00004782000001266_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B2%AD%EB%8F%84%EA%B5%B0%20%EC%83%88%EB%A7%88%EC%9D%84%EB%A1%9C%20375_FRF00004782000001266_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B2%AD%EB%8F%84%EA%B5%B0%20%EC%83%88%EB%A7%88%EC%9D%84%EB%A1%9C%20375_FRF00004782000001266_close_20261104.jpg"
   }
 }
