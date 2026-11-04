@@ -9776,5 +9776,23 @@
     "closePhotoLocal": "경상남도 밀양시 도래재로 633_FRF00004827000004770_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%EB%8F%84%EB%9E%98%EC%9E%AC%EB%A1%9C%20633_FRF00004827000004770_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%EB%8F%84%EB%9E%98%EC%9E%AC%EB%A1%9C%20633_FRF00004827000004770_close_20261104.jpg"
+  },
+  "FRF00005219000002789": {
+    "id": "FRF00005219000002789",
+    "addr": "전북특별자치도 남원시 정령치로 867",
+    "surveyDate": "20261104",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "앞뒤 각각 (2개)",
+    "gpsLat": 35.3852622,
+    "gpsLng": 127.5011567,
+    "gpsAccuracy": 32,
+    "distFromPoint": 37,
+    "gpsAt": "2026-11-04T05:52:00.718Z",
+    "updatedAt": "2026-11-04T05:52:00.718Z",
+    "farPhotoLocal": "전북특별자치도 남원시 정령치로 867_FRF00005219000002789_far_20261104.jpg",
+    "closePhotoLocal": "전북특별자치도 남원시 정령치로 867_FRF00005219000002789_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%82%A8%EC%9B%90%EC%8B%9C%20%EC%A0%95%EB%A0%B9%EC%B9%98%EB%A1%9C%20867_FRF00005219000002789_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%82%A8%EC%9B%90%EC%8B%9C%20%EC%A0%95%EB%A0%B9%EC%B9%98%EB%A1%9C%20867_FRF00005219000002789_close_20261104.jpg"
   }
 }
