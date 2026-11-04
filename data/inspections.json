@@ -10730,5 +10730,23 @@
     "closePhotoLocal": "경상남도 양산시 어실로 804_FRF00004833000003842_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%96%B4%EC%8B%A4%EB%A1%9C%20804_FRF00004833000003842_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%96%B4%EC%8B%A4%EB%A1%9C%20804_FRF00004833000003842_close_20261104.jpg"
+  },
+  "FRF00004623000019753": {
+    "id": "FRF00004623000019753",
+    "addr": "전남광주통합특별시 광양시 백계로 1",
+    "surveyDate": "20261104",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "현장 공사로 백계로 1 망실 \n백계로 5 대체 측량",
+    "gpsLat": 35.0277755,
+    "gpsLng": 127.6145295,
+    "gpsAccuracy": 6,
+    "distFromPoint": 21,
+    "gpsAt": "2026-11-04T08:18:46.407Z",
+    "updatedAt": "2026-11-04T08:18:46.407Z",
+    "farPhotoLocal": "전남광주통합특별시 광양시 백계로 1_FRF00004623000019753_far_20261104.jpg",
+    "closePhotoLocal": "전남광주통합특별시 광양시 백계로 1_FRF00004623000019753_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EB%B0%B1%EA%B3%84%EB%A1%9C%201_FRF00004623000019753_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EB%B0%B1%EA%B3%84%EB%A1%9C%201_FRF00004623000019753_close_20261104.jpg"
   }
 }
