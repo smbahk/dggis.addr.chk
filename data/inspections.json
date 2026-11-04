@@ -10568,5 +10568,23 @@
     "closePhotoLocal": "전남광주통합특별시 광양시 도솔로 371_FRF00004623000003888_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EB%8F%84%EC%86%94%EB%A1%9C%20371_FRF00004623000003888_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EB%8F%84%EC%86%94%EB%A1%9C%20371_FRF00004623000003888_close_20261104.jpg"
+  },
+  "FRF00004623000003889": {
+    "id": "FRF00004623000003889",
+    "addr": "전남광주통합특별시 광양시 도솔로 391",
+    "surveyDate": "20261104",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.0449151,
+    "gpsLng": 127.594621,
+    "gpsAccuracy": 6,
+    "distFromPoint": 41,
+    "gpsAt": "2026-11-04T07:59:11.429Z",
+    "updatedAt": "2026-11-04T07:59:11.429Z",
+    "farPhotoLocal": "전남광주통합특별시 광양시 도솔로 391_FRF00004623000003889_far_20261104.jpg",
+    "closePhotoLocal": "전남광주통합특별시 광양시 도솔로 391_FRF00004623000003889_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EB%8F%84%EC%86%94%EB%A1%9C%20391_FRF00004623000003889_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EB%8F%84%EC%86%94%EB%A1%9C%20391_FRF00004623000003889_close_20261104.jpg"
   }
 }
