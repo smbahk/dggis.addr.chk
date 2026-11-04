@@ -9074,5 +9074,23 @@
     "closePhotoLocal": "경상북도 경산시 육동로 122_FRF00004729000002706_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%9C%A1%EB%8F%99%EB%A1%9C%20122_FRF00004729000002706_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%9C%A1%EB%8F%99%EB%A1%9C%20122_FRF00004729000002706_close_20261104.jpg"
+  },
+  "FRF00004729000002717": {
+    "id": "FRF00004729000002717",
+    "addr": "경상북도 경산시 육동로 256",
+    "surveyDate": "20261104",
+    "surveyor": "이은영",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.7761163,
+    "gpsLng": 128.8885173,
+    "gpsAccuracy": 7,
+    "distFromPoint": 33,
+    "gpsAt": "2026-11-04T02:39:15.988Z",
+    "updatedAt": "2026-11-04T02:39:15.988Z",
+    "farPhotoLocal": "경상북도 경산시 육동로 256_FRF00004729000002717_far_20261104.jpg",
+    "closePhotoLocal": "경상북도 경산시 육동로 256_FRF00004729000002717_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%9C%A1%EB%8F%99%EB%A1%9C%20256_FRF00004729000002717_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%9C%A1%EB%8F%99%EB%A1%9C%20256_FRF00004729000002717_close_20261104.jpg"
   }
 }
