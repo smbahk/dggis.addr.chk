@@ -9938,5 +9938,23 @@
     "closePhotoLocal": "강원특별자치도 영월군 영월로 1490_FRF00005175000008084_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EC%98%81%EC%9B%94%EB%A1%9C%201490_FRF00005175000008084_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EC%98%81%EC%9B%94%EB%A1%9C%201490_FRF00005175000008084_close_20261104.jpg"
+  },
+  "FRF00005175000003259": {
+    "id": "FRF00005175000003259",
+    "addr": "강원특별자치도 영월군 영월로 1476",
+    "surveyDate": "20261104",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 37.2060397,
+    "gpsLng": 128.4351729,
+    "gpsAccuracy": 8,
+    "distFromPoint": 24,
+    "gpsAt": "2026-11-04T06:22:56.266Z",
+    "updatedAt": "2026-11-04T06:22:56.266Z",
+    "farPhotoLocal": "강원특별자치도 영월군 영월로 1476_FRF00005175000003259_far_20261104.jpg",
+    "closePhotoLocal": "강원특별자치도 영월군 영월로 1476_FRF00005175000003259_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EC%98%81%EC%9B%94%EB%A1%9C%201476_FRF00005175000003259_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EC%98%81%EC%9B%94%EB%A1%9C%201476_FRF00005175000003259_close_20261104.jpg"
   }
 }
