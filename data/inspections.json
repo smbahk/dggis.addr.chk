@@ -8984,5 +8984,23 @@
     "closePhotoLocal": "경상북도 경산시 설총로 81_FRF00004729000007572_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%84%A4%EC%B4%9D%EB%A1%9C%2081_FRF00004729000007572_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%84%A4%EC%B4%9D%EB%A1%9C%2081_FRF00004729000007572_close_20261104.jpg"
+  },
+  "FRF00004729000007570": {
+    "id": "FRF00004729000007570",
+    "addr": "경상북도 경산시 설총로 45",
+    "surveyDate": "20261104",
+    "surveyor": "이은영",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.7501286,
+    "gpsLng": 128.8546956,
+    "gpsAccuracy": 4,
+    "distFromPoint": 8,
+    "gpsAt": "2026-11-04T02:15:26.469Z",
+    "updatedAt": "2026-11-04T02:15:26.469Z",
+    "farPhotoLocal": "경상북도 경산시 설총로 45_FRF00004729000007570_far_20261104.jpg",
+    "closePhotoLocal": "경상북도 경산시 설총로 45_FRF00004729000007570_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%84%A4%EC%B4%9D%EB%A1%9C%2045_FRF00004729000007570_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%84%A4%EC%B4%9D%EB%A1%9C%2045_FRF00004729000007570_close_20261104.jpg"
   }
 }
