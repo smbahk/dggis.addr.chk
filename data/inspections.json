@@ -10496,5 +10496,23 @@
     "closePhotoLocal": "강원특별자치도 영월군 토교로 53_FRF00005175000003342_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%ED%86%A0%EA%B5%90%EB%A1%9C%2053_FRF00005175000003342_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%ED%86%A0%EA%B5%90%EB%A1%9C%2053_FRF00005175000003342_close_20261104.jpg"
+  },
+  "FRF00004833000003257": {
+    "id": "FRF00004833000003257",
+    "addr": "경상남도 양산시 배내로 178",
+    "surveyDate": "20261104",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.4684081,
+    "gpsLng": 128.9726823,
+    "gpsAccuracy": 7,
+    "distFromPoint": 13,
+    "gpsAt": "2026-11-04T07:50:40.285Z",
+    "updatedAt": "2026-11-04T07:50:40.285Z",
+    "farPhotoLocal": "경상남도 양산시 배내로 178_FRF00004833000003257_far_20261104.jpg",
+    "closePhotoLocal": "경상남도 양산시 배내로 178_FRF00004833000003257_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EB%B0%B0%EB%82%B4%EB%A1%9C%20178_FRF00004833000003257_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EB%B0%B0%EB%82%B4%EB%A1%9C%20178_FRF00004833000003257_close_20261104.jpg"
   }
 }
