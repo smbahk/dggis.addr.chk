@@ -8590,5 +8590,23 @@
     "closePhotoLocal": "경상북도 영주시 소백로3792번길 238_FRF00004721000005032_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EC%86%8C%EB%B0%B1%EB%A1%9C3792%EB%B2%88%EA%B8%B8%20238_FRF00004721000005032_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EC%86%8C%EB%B0%B1%EB%A1%9C3792%EB%B2%88%EA%B8%B8%20238_FRF00004721000005032_close_20261104.jpg"
+  },
+  "FRF00004721000005031": {
+    "id": "FRF00004721000005031",
+    "addr": "경상북도 영주시 소백로3792번길 232",
+    "surveyDate": "20261104",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 36.9681079,
+    "gpsLng": 128.6728277,
+    "gpsAccuracy": 5,
+    "distFromPoint": 2,
+    "gpsAt": "2026-11-04T01:24:55.484Z",
+    "updatedAt": "2026-11-04T01:24:55.484Z",
+    "farPhotoLocal": "경상북도 영주시 소백로3792번길 232_FRF00004721000005031_far_20261104.jpg",
+    "closePhotoLocal": "경상북도 영주시 소백로3792번길 232_FRF00004721000005031_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EC%86%8C%EB%B0%B1%EB%A1%9C3792%EB%B2%88%EA%B8%B8%20232_FRF00004721000005031_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EC%86%8C%EB%B0%B1%EB%A1%9C3792%EB%B2%88%EA%B8%B8%20232_FRF00004721000005031_close_20261104.jpg"
   }
 }
