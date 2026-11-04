@@ -9416,5 +9416,23 @@
     "closePhotoLocal": "경상남도 밀양시 창밀로 3564_FRF00004827000002054_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%EC%B0%BD%EB%B0%80%EB%A1%9C%203564_FRF00004827000002054_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%EC%B0%BD%EB%B0%80%EB%A1%9C%203564_FRF00004827000002054_close_20261104.jpg"
+  },
+  "FRF00004827000002053": {
+    "id": "FRF00004827000002053",
+    "addr": "경상남도 밀양시 창밀로 3563",
+    "surveyDate": "20261104",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.5042333,
+    "gpsLng": 128.738433,
+    "gpsAccuracy": 11,
+    "distFromPoint": 17,
+    "gpsAt": "2026-11-04T04:33:40.038Z",
+    "updatedAt": "2026-11-04T04:33:40.038Z",
+    "farPhotoLocal": "경상남도 밀양시 창밀로 3563_FRF00004827000002053_far_20261104.jpg",
+    "closePhotoLocal": "경상남도 밀양시 창밀로 3563_FRF00004827000002053_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%EC%B0%BD%EB%B0%80%EB%A1%9C%203563_FRF00004827000002053_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%EC%B0%BD%EB%B0%80%EB%A1%9C%203563_FRF00004827000002053_close_20261104.jpg"
   }
 }
