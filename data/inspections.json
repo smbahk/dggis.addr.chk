@@ -10388,5 +10388,23 @@
     "closePhotoLocal": "경상남도 양산시 고례로 84_FRF00004833000002689_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EA%B3%A0%EB%A1%80%EB%A1%9C%2084_FRF00004833000002689_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EA%B3%A0%EB%A1%80%EB%A1%9C%2084_FRF00004833000002689_close_20261104.jpg"
+  },
+  "FRF00005175000008117": {
+    "id": "FRF00005175000008117",
+    "addr": "강원특별자치도 영월군 영월로 815",
+    "surveyDate": "20261104",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 37.1859278,
+    "gpsLng": 128.3986952,
+    "gpsAccuracy": 97,
+    "distFromPoint": 45,
+    "gpsAt": "2026-11-04T07:37:21.652Z",
+    "updatedAt": "2026-11-04T07:37:21.652Z",
+    "farPhotoLocal": "강원특별자치도 영월군 영월로 815_FRF00005175000008117_far_20261104.jpg",
+    "closePhotoLocal": "강원특별자치도 영월군 영월로 815_FRF00005175000008117_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EC%98%81%EC%9B%94%EB%A1%9C%20815_FRF00005175000008117_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EC%98%81%EC%9B%94%EB%A1%9C%20815_FRF00005175000008117_close_20261104.jpg"
   }
 }
