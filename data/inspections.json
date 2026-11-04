@@ -9686,5 +9686,23 @@
     "closePhotoLocal": "경상남도 밀양시 표충로 1255_FRF00004827000003554_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%ED%91%9C%EC%B6%A9%EB%A1%9C%201255_FRF00004827000003554_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%ED%91%9C%EC%B6%A9%EB%A1%9C%201255_FRF00004827000003554_close_20261104.jpg"
+  },
+  "FRF00005175000003197": {
+    "id": "FRF00005175000003197",
+    "addr": "강원특별자치도 영월군 태백산로 921",
+    "surveyDate": "20261104",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 37.1598546,
+    "gpsLng": 128.6677571,
+    "gpsAccuracy": 5,
+    "distFromPoint": 4382,
+    "gpsAt": "2026-11-04T05:30:25.737Z",
+    "updatedAt": "2026-11-04T05:30:25.737Z",
+    "farPhotoLocal": "강원특별자치도 영월군 태백산로 921_FRF00005175000003197_far_20261104.jpg",
+    "closePhotoLocal": "강원특별자치도 영월군 태백산로 921_FRF00005175000003197_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%ED%83%9C%EB%B0%B1%EC%82%B0%EB%A1%9C%20921_FRF00005175000003197_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%ED%83%9C%EB%B0%B1%EC%82%B0%EB%A1%9C%20921_FRF00005175000003197_close_20261104.jpg"
   }
 }
