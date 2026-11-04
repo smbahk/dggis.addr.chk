@@ -10784,5 +10784,23 @@
     "closePhotoLocal": "경상남도 양산시 늘밭로 640_FRF00004833000014056_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EB%8A%98%EB%B0%AD%EB%A1%9C%20640_FRF00004833000014056_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EB%8A%98%EB%B0%AD%EB%A1%9C%20640_FRF00004833000014056_close_20261104.jpg"
+  },
+  "FRF00004623000002799": {
+    "id": "FRF00004623000002799",
+    "addr": "전남광주통합특별시 광양시 매천로 691",
+    "surveyDate": "20261104",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 34.9814593,
+    "gpsLng": 127.573736,
+    "gpsAccuracy": 32,
+    "distFromPoint": 6,
+    "gpsAt": "2026-11-04T08:41:38.131Z",
+    "updatedAt": "2026-11-04T08:41:38.131Z",
+    "farPhotoLocal": "전남광주통합특별시 광양시 매천로 691_FRF00004623000002799_far_20261104.jpg",
+    "closePhotoLocal": "전남광주통합특별시 광양시 매천로 691_FRF00004623000002799_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EB%A7%A4%EC%B2%9C%EB%A1%9C%20691_FRF00004623000002799_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EB%A7%A4%EC%B2%9C%EB%A1%9C%20691_FRF00004623000002799_close_20261104.jpg"
   }
 }
