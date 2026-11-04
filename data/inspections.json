@@ -10928,5 +10928,39 @@
     "closePhotoLocal": "경상남도 양산시 원동로 1793_FRF00004833000003464_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%9B%90%EB%8F%99%EB%A1%9C%201793_FRF00004833000003464_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%9B%90%EB%8F%99%EB%A1%9C%201793_FRF00004833000003464_close_20261104.jpg"
+  },
+  "FRF00004623000003710": {
+    "id": "FRF00004623000003710",
+    "addr": "전남광주통합특별시 광양시 인덕로 856",
+    "surveyDate": "20261104",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 34.9596285,
+    "gpsLng": 127.5801668,
+    "gpsAccuracy": 16,
+    "distFromPoint": 12,
+    "gpsAt": "2026-11-04T09:14:09.213Z",
+    "updatedAt": "2026-11-04T09:14:09.213Z",
+    "farPhotoLocal": "전남광주통합특별시 광양시 인덕로 856_FRF00004623000003710_far_20261104.jpg",
+    "closePhotoLocal": "전남광주통합특별시 광양시 인덕로 856_FRF00004623000003710_close_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EC%9D%B8%EB%8D%95%EB%A1%9C%20856_FRF00004623000003710_close_20261104.jpg"
+  },
+  "FRF00004623000007564": {
+    "id": "FRF00004623000007564",
+    "addr": "전남광주통합특별시 광양시 인덕로 874",
+    "surveyDate": "20261104",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 34.9609296,
+    "gpsLng": 127.5798274,
+    "gpsAccuracy": 6,
+    "distFromPoint": 21,
+    "gpsAt": "2026-11-04T09:18:59.417Z",
+    "updatedAt": "2026-11-04T09:18:59.417Z",
+    "farPhotoLocal": "전남광주통합특별시 광양시 인덕로 874_FRF00004623000007564_far_20261104.jpg",
+    "closePhotoLocal": "전남광주통합특별시 광양시 인덕로 874_FRF00004623000007564_close_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EC%9D%B8%EB%8D%95%EB%A1%9C%20874_FRF00004623000007564_close_20261104.jpg"
   }
 }
