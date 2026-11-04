@@ -11035,5 +11035,23 @@
     "closePhotoLocal": "전남광주통합특별시 광양시 해광로 570_FRF00004623000007506_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%ED%95%B4%EA%B4%91%EB%A1%9C%20570_FRF00004623000007506_far_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%ED%95%B4%EA%B4%91%EB%A1%9C%20570_FRF00004623000007506_close_20261105.jpg"
+  },
+  "FRF00004623000004562": {
+    "id": "FRF00004623000004562",
+    "addr": "전남광주통합특별시 광양시 해광로 576",
+    "surveyDate": "20261105",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 34.9427454,
+    "gpsLng": 127.581324,
+    "gpsAccuracy": 4,
+    "distFromPoint": 39,
+    "gpsAt": "2026-11-04T23:55:42.129Z",
+    "updatedAt": "2026-11-04T23:55:42.129Z",
+    "farPhotoLocal": "전남광주통합특별시 광양시 해광로 576_FRF00004623000004562_far_20261105.jpg",
+    "closePhotoLocal": "전남광주통합특별시 광양시 해광로 576_FRF00004623000004562_close_20261105.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%ED%95%B4%EA%B4%91%EB%A1%9C%20576_FRF00004623000004562_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%ED%95%B4%EA%B4%91%EB%A1%9C%20576_FRF00004623000004562_close_20261105.jpg"
   }
 }
