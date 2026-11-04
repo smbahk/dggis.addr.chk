@@ -9362,5 +9362,23 @@
     "closePhotoLocal": "경상북도 경산시 금학로 563_FRF00004729000007283_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B8%88%ED%95%99%EB%A1%9C%20563_FRF00004729000007283_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B8%88%ED%95%99%EB%A1%9C%20563_FRF00004729000007283_close_20261104.jpg"
+  },
+  "FRF00004729000002660": {
+    "id": "FRF00004729000002660",
+    "addr": "경상북도 경산시 금학로 547",
+    "surveyDate": "20261104",
+    "surveyor": "이은영",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.8037615,
+    "gpsLng": 128.8677968,
+    "gpsAccuracy": 4,
+    "distFromPoint": 21,
+    "gpsAt": "2026-11-04T04:29:50.249Z",
+    "updatedAt": "2026-11-04T04:29:50.249Z",
+    "farPhotoLocal": "경상북도 경산시 금학로 547_FRF00004729000002660_far_20261104.jpg",
+    "closePhotoLocal": "경상북도 경산시 금학로 547_FRF00004729000002660_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B8%88%ED%95%99%EB%A1%9C%20547_FRF00004729000002660_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B8%88%ED%95%99%EB%A1%9C%20547_FRF00004729000002660_close_20261104.jpg"
   }
 }
