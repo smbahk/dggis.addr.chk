@@ -10999,5 +10999,23 @@
     "closePhotoLocal": "강원특별자치도 영월군 안새내길 63_FRF00005175000003853_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EC%95%88%EC%83%88%EB%82%B4%EA%B8%B8%2063_FRF00005175000003853_far_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EC%95%88%EC%83%88%EB%82%B4%EA%B8%B8%2063_FRF00005175000003853_close_20261105.jpg"
+  },
+  "FRF00005175000003578": {
+    "id": "FRF00005175000003578",
+    "addr": "강원특별자치도 영월군 서강로 571",
+    "surveyDate": "20261105",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 37.24084,
+    "gpsLng": 128.3110266,
+    "gpsAccuracy": 4,
+    "distFromPoint": 17,
+    "gpsAt": "2026-11-04T23:50:29.678Z",
+    "updatedAt": "2026-11-04T23:50:29.678Z",
+    "farPhotoLocal": "강원특별자치도 영월군 서강로 571_FRF00005175000003578_far_20261105.jpg",
+    "closePhotoLocal": "강원특별자치도 영월군 서강로 571_FRF00005175000003578_close_20261105.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EC%84%9C%EA%B0%95%EB%A1%9C%20571_FRF00005175000003578_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EC%84%9C%EA%B0%95%EB%A1%9C%20571_FRF00005175000003578_close_20261105.jpg"
   }
 }
