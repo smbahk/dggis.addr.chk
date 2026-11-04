@@ -9632,5 +9632,23 @@
     "closePhotoLocal": "강원특별자치도 영월군 태백산로 2108_FRF00005175000003193_close_20261104.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%ED%83%9C%EB%B0%B1%EC%82%B0%EB%A1%9C%202108_FRF00005175000003193_far_20261104.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%ED%83%9C%EB%B0%B1%EC%82%B0%EB%A1%9C%202108_FRF00005175000003193_close_20261104.jpg"
+  },
+  "FRF00005175000008377": {
+    "id": "FRF00005175000008377",
+    "addr": "강원특별자치도 영월군 태백산로 1919",
+    "surveyDate": "20261104",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "반대편에 설치",
+    "gpsLat": 37.1341446,
+    "gpsLng": 128.7208445,
+    "gpsAccuracy": 5,
+    "distFromPoint": 374,
+    "gpsAt": "2026-11-04T05:14:13.027Z",
+    "updatedAt": "2026-11-04T05:14:13.027Z",
+    "farPhotoLocal": "강원특별자치도 영월군 태백산로 1919_FRF00005175000008377_far_20261104.jpg",
+    "closePhotoLocal": "강원특별자치도 영월군 태백산로 1919_FRF00005175000008377_close_20261104.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%ED%83%9C%EB%B0%B1%EC%82%B0%EB%A1%9C%201919_FRF00005175000008377_far_20261104.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%ED%83%9C%EB%B0%B1%EC%82%B0%EB%A1%9C%201919_FRF00005175000008377_close_20261104.jpg"
   }
 }
