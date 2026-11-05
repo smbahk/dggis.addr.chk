@@ -11268,5 +11268,23 @@
     "closePhotoLocal": "강원특별자치도 영월군 송학주천로 900_FRF00005175000003395_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EC%86%A1%ED%95%99%EC%A3%BC%EC%B2%9C%EB%A1%9C%20900_FRF00005175000003395_far_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EC%86%A1%ED%95%99%EC%A3%BC%EC%B2%9C%EB%A1%9C%20900_FRF00005175000003395_close_20261105.jpg"
+  },
+  "FRF00004623000016678": {
+    "id": "FRF00004623000016678",
+    "addr": "전남광주통합특별시 광양시 사곡로 341",
+    "surveyDate": "20261105",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 34.9727084,
+    "gpsLng": 127.6278666,
+    "gpsAccuracy": 4,
+    "distFromPoint": 6,
+    "gpsAt": "2026-11-05T00:38:58.147Z",
+    "updatedAt": "2026-11-05T00:38:58.147Z",
+    "farPhotoLocal": "전남광주통합특별시 광양시 사곡로 341_FRF00004623000016678_far_20261105.jpg",
+    "closePhotoLocal": "전남광주통합특별시 광양시 사곡로 341_FRF00004623000016678_close_20261105.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EC%82%AC%EA%B3%A1%EB%A1%9C%20341_FRF00004623000016678_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EC%82%AC%EA%B3%A1%EB%A1%9C%20341_FRF00004623000016678_close_20261105.jpg"
   }
 }
