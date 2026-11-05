@@ -11250,5 +11250,23 @@
     "closePhotoLocal": "경상남도 양산시 양주로 37_FRF00004833000004481_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%96%91%EC%A3%BC%EB%A1%9C%2037_FRF00004833000004481_far_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%96%91%EC%A3%BC%EB%A1%9C%2037_FRF00004833000004481_close_20261105.jpg"
+  },
+  "FRF00005175000003395": {
+    "id": "FRF00005175000003395",
+    "addr": "강원특별자치도 영월군 송학주천로 900",
+    "surveyDate": "20261105",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 37.2355359,
+    "gpsLng": 128.2407325,
+    "gpsAccuracy": 4,
+    "distFromPoint": 1723,
+    "gpsAt": "2026-11-05T00:35:22.005Z",
+    "updatedAt": "2026-11-05T00:35:22.005Z",
+    "farPhotoLocal": "강원특별자치도 영월군 송학주천로 900_FRF00005175000003395_far_20261105.jpg",
+    "closePhotoLocal": "강원특별자치도 영월군 송학주천로 900_FRF00005175000003395_close_20261105.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EC%86%A1%ED%95%99%EC%A3%BC%EC%B2%9C%EB%A1%9C%20900_FRF00005175000003395_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EC%86%A1%ED%95%99%EC%A3%BC%EC%B2%9C%EB%A1%9C%20900_FRF00005175000003395_close_20261105.jpg"
   }
 }
