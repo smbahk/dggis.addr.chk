@@ -12471,7 +12471,8 @@
     "updatedAt": "2026-11-05T02:30:25.999Z",
     "farPhotoLocal": "강원특별자치도 영월군 도원운학로 1423_FRF00005175000010030_far_20261105.jpg",
     "closePhotoLocal": "강원특별자치도 영월군 도원운학로 1423_FRF00005175000010030_close_20261105.jpg",
-    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EB%8F%84%EC%9B%90%EC%9A%B4%ED%95%99%EB%A1%9C%201423_FRF00005175000010030_far_20261105.jpg"
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EB%8F%84%EC%9B%90%EC%9A%B4%ED%95%99%EB%A1%9C%201423_FRF00005175000010030_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EB%8F%84%EC%9B%90%EC%9A%B4%ED%95%99%EB%A1%9C%201423_FRF00005175000010030_close_20261105.jpg"
   },
   "FRF00005175000001641": {
     "id": "FRF00005175000001641",
@@ -12616,5 +12617,23 @@
     "closePhotoLocal": "경상북도 경산시 금송로 487_FRF00004729000019899_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B8%88%EC%86%A1%EB%A1%9C%20487_FRF00004729000019899_far_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B8%88%EC%86%A1%EB%A1%9C%20487_FRF00004729000019899_close_20261105.jpg"
+  },
+  "FRF00005175000001527": {
+    "id": "FRF00005175000001527",
+    "addr": "강원특별자치도 영월군 두산길 137",
+    "surveyDate": "20261105",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 37.3131653,
+    "gpsLng": 128.1776162,
+    "gpsAccuracy": 4,
+    "distFromPoint": 6,
+    "gpsAt": "2026-11-05T02:47:43.464Z",
+    "updatedAt": "2026-11-05T02:47:43.464Z",
+    "farPhotoLocal": "강원특별자치도 영월군 두산길 137_FRF00005175000001527_far_20261105.jpg",
+    "closePhotoLocal": "강원특별자치도 영월군 두산길 137_FRF00005175000001527_close_20261105.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EB%91%90%EC%82%B0%EA%B8%B8%20137_FRF00005175000001527_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EB%91%90%EC%82%B0%EA%B8%B8%20137_FRF00005175000001527_close_20261105.jpg"
   }
 }
