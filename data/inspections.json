@@ -13342,11 +13342,11 @@
     "surveyor": "이은영",
     "surveyStatus": "촬영완료",
     "memo": "",
-    "gpsLat": 35.9605991,
-    "gpsLng": 128.7715819,
+    "gpsLat": 35.9605954,
+    "gpsLng": 128.7715741,
     "gpsAccuracy": 6,
-    "distFromPoint": 50,
-    "gpsAt": "2026-11-05T05:05:57.446Z",
-    "updatedAt": "2026-11-05T05:05:57.446Z"
+    "distFromPoint": 51,
+    "gpsAt": "2026-11-05T05:07:10.559Z",
+    "updatedAt": "2026-11-05T05:07:10.559Z"
   }
 }
