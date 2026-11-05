@@ -15178,7 +15178,9 @@
     "gpsAt": "2026-11-05T23:23:44.640Z",
     "updatedAt": "2026-11-05T23:23:44.640Z",
     "farPhotoLocal": "경상남도 하동군 경충로 607_FRF00004885000015608_far_20261106.jpg",
-    "closePhotoLocal": "경상남도 하동군 경충로 607_FRF00004885000015608_close_20261106.jpg"
+    "closePhotoLocal": "경상남도 하동군 경충로 607_FRF00004885000015608_close_20261106.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%95%98%EB%8F%99%EA%B5%B0%20%EA%B2%BD%EC%B6%A9%EB%A1%9C%20607_FRF00004885000015608_far_20261106.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%95%98%EB%8F%99%EA%B5%B0%20%EA%B2%BD%EC%B6%A9%EB%A1%9C%20607_FRF00004885000015608_close_20261106.jpg"
   },
   "FRF00004885000015609": {
     "id": "FRF00004885000015609",
