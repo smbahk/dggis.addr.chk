@@ -11502,5 +11502,23 @@
     "closePhotoLocal": "경상남도 양산시 원동로 527_FRF00004833000003409_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%9B%90%EB%8F%99%EB%A1%9C%20527_FRF00004833000003409_far_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%9B%90%EB%8F%99%EB%A1%9C%20527_FRF00004833000003409_close_20261105.jpg"
+  },
+  "FRF00004833000003406": {
+    "id": "FRF00004833000003406",
+    "addr": "경상남도 양산시 원동로 490",
+    "surveyDate": "20261105",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.3382808,
+    "gpsLng": 128.9742653,
+    "gpsAccuracy": 7,
+    "distFromPoint": 3,
+    "gpsAt": "2026-11-05T01:19:31.754Z",
+    "updatedAt": "2026-11-05T01:19:31.754Z",
+    "farPhotoLocal": "경상남도 양산시 원동로 490_FRF00004833000003406_far_20261105.jpg",
+    "closePhotoLocal": "경상남도 양산시 원동로 490_FRF00004833000003406_close_20261105.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%9B%90%EB%8F%99%EB%A1%9C%20490_FRF00004833000003406_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%9B%90%EB%8F%99%EB%A1%9C%20490_FRF00004833000003406_close_20261105.jpg"
   }
 }
