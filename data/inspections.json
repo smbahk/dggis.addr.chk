@@ -12759,5 +12759,23 @@
     "closePhotoLocal": "강원특별자치도 영월군 청옥계곡길 2_FRF00005175000000844_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EC%B2%AD%EC%98%A5%EA%B3%84%EA%B3%A1%EA%B8%B8%202_FRF00005175000000844_far_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EC%B2%AD%EC%98%A5%EA%B3%84%EA%B3%A1%EA%B8%B8%202_FRF00005175000000844_close_20261105.jpg"
+  },
+  "FRF00005175000001504": {
+    "id": "FRF00005175000001504",
+    "addr": "강원특별자치도 영월군 두산길 679",
+    "surveyDate": "20261105",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 37.3210619,
+    "gpsLng": 128.1346544,
+    "gpsAccuracy": 4,
+    "distFromPoint": 145,
+    "gpsAt": "2026-11-05T03:06:38.372Z",
+    "updatedAt": "2026-11-05T03:06:38.372Z",
+    "farPhotoLocal": "강원특별자치도 영월군 두산길 679_FRF00005175000001504_far_20261105.jpg",
+    "closePhotoLocal": "강원특별자치도 영월군 두산길 679_FRF00005175000001504_close_20261105.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EB%91%90%EC%82%B0%EA%B8%B8%20679_FRF00005175000001504_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EB%91%90%EC%82%B0%EA%B8%B8%20679_FRF00005175000001504_close_20261105.jpg"
   }
 }
