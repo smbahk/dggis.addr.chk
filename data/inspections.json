@@ -15055,5 +15055,23 @@
     "closePhotoLocal": "경상남도 마산합포구 공원묘원로 59_FRF00004812000008723_close_20261106.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%A7%88%EC%82%B0%ED%95%A9%ED%8F%AC%EA%B5%AC%20%EA%B3%B5%EC%9B%90%EB%AC%98%EC%9B%90%EB%A1%9C%2059_FRF00004812000008723_far_20261106.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%A7%88%EC%82%B0%ED%95%A9%ED%8F%AC%EA%B5%AC%20%EA%B3%B5%EC%9B%90%EB%AC%98%EC%9B%90%EB%A1%9C%2059_FRF00004812000008723_close_20261106.jpg"
+  },
+  "FRF00004812000008734": {
+    "id": "FRF00004812000008734",
+    "addr": "경상남도 마산합포구 동전고개로 204",
+    "surveyDate": "20261106",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.1520395,
+    "gpsLng": 128.5281524,
+    "gpsAccuracy": 8,
+    "distFromPoint": 482,
+    "gpsAt": "2026-11-05T23:00:40.272Z",
+    "updatedAt": "2026-11-05T23:00:40.272Z",
+    "farPhotoLocal": "경상남도 마산합포구 동전고개로 204_FRF00004812000008734_far_20261106.jpg",
+    "closePhotoLocal": "경상남도 마산합포구 동전고개로 204_FRF00004812000008734_close_20261106.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%A7%88%EC%82%B0%ED%95%A9%ED%8F%AC%EA%B5%AC%20%EB%8F%99%EC%A0%84%EA%B3%A0%EA%B0%9C%EB%A1%9C%20204_FRF00004812000008734_far_20261106.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%A7%88%EC%82%B0%ED%95%A9%ED%8F%AC%EA%B5%AC%20%EB%8F%99%EC%A0%84%EA%B3%A0%EA%B0%9C%EB%A1%9C%20204_FRF00004812000008734_close_20261106.jpg"
   }
 }
