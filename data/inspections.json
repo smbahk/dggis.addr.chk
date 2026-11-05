@@ -15431,5 +15431,23 @@
     "closePhotoLocal": "경상남도 마산회원구 삼풍로 58_FRF00004812000024051_close_20261106.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%A7%88%EC%82%B0%ED%9A%8C%EC%9B%90%EA%B5%AC%20%EC%82%BC%ED%92%8D%EB%A1%9C%2058_FRF00004812000024051_far_20261106.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%A7%88%EC%82%B0%ED%9A%8C%EC%9B%90%EA%B5%AC%20%EC%82%BC%ED%92%8D%EB%A1%9C%2058_FRF00004812000024051_close_20261106.jpg"
+  },
+  "FRF20260000000000197": {
+    "id": "FRF20260000000000197",
+    "addr": "경상남도 사천시 곤북로 460",
+    "surveyDate": "20261106",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.0692939,
+    "gpsLng": 127.9205735,
+    "gpsAccuracy": 4,
+    "distFromPoint": 1,
+    "gpsAt": "2026-11-05T23:53:14.663Z",
+    "updatedAt": "2026-11-05T23:53:14.663Z",
+    "farPhotoLocal": "경상남도 사천시 곤북로 460_FRF20260000000000197_far_20261106.jpg",
+    "closePhotoLocal": "경상남도 사천시 곤북로 460_FRF20260000000000197_close_20261106.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EA%B3%A4%EB%B6%81%EB%A1%9C%20460_FRF20260000000000197_far_20261106.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EA%B3%A4%EB%B6%81%EB%A1%9C%20460_FRF20260000000000197_close_20261106.jpg"
   }
 }
