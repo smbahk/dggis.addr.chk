@@ -13011,5 +13011,23 @@
     "closePhotoLocal": "전남광주통합특별시 광양시 섬진강매화로 1502_FRF00004623000004916_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EC%84%AC%EC%A7%84%EA%B0%95%EB%A7%A4%ED%99%94%EB%A1%9C%201502_FRF00004623000004916_far_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EC%84%AC%EC%A7%84%EA%B0%95%EB%A7%A4%ED%99%94%EB%A1%9C%201502_FRF00004623000004916_close_20261105.jpg"
+  },
+  "FRF00004885000001484": {
+    "id": "FRF00004885000001484",
+    "addr": "경상남도 하동군 섬진강대로 3109",
+    "surveyDate": "20261105",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.1344734,
+    "gpsLng": 127.6937672,
+    "gpsAccuracy": 6,
+    "distFromPoint": 8,
+    "gpsAt": "2026-11-05T03:59:31.968Z",
+    "updatedAt": "2026-11-05T03:59:31.968Z",
+    "farPhotoLocal": "경상남도 하동군 섬진강대로 3109_FRF00004885000001484_far_20261105.jpg",
+    "closePhotoLocal": "경상남도 하동군 섬진강대로 3109_FRF00004885000001484_close_20261105.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%95%98%EB%8F%99%EA%B5%B0%20%EC%84%AC%EC%A7%84%EA%B0%95%EB%8C%80%EB%A1%9C%203109_FRF00004885000001484_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%95%98%EB%8F%99%EA%B5%B0%20%EC%84%AC%EC%A7%84%EA%B0%95%EB%8C%80%EB%A1%9C%203109_FRF00004885000001484_close_20261105.jpg"
   }
 }
