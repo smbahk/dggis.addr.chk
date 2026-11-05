@@ -11755,5 +11755,23 @@
     "closePhotoLocal": "경상북도 경산시 지식산업8로 119_FRF00004729000019895_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%A7%80%EC%8B%9D%EC%82%B0%EC%97%858%EB%A1%9C%20119_FRF00004729000019895_far_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%A7%80%EC%8B%9D%EC%82%B0%EC%97%858%EB%A1%9C%20119_FRF00004729000019895_close_20261105.jpg"
+  },
+  "FRF00004729000019894": {
+    "id": "FRF00004729000019894",
+    "addr": "경상북도 경산시 지식산업8로 117",
+    "surveyDate": "20261105",
+    "surveyor": "이은영",
+    "surveyStatus": "촬영완료",
+    "memo": "지식산업8로 119",
+    "gpsLat": 35.951352,
+    "gpsLng": 128.8349183,
+    "gpsAccuracy": 5,
+    "distFromPoint": 30,
+    "gpsAt": "2026-11-05T01:47:43.180Z",
+    "updatedAt": "2026-11-05T01:47:43.180Z",
+    "farPhotoLocal": "경상북도 경산시 지식산업8로 117_FRF00004729000019894_far_20261105.jpg",
+    "closePhotoLocal": "경상북도 경산시 지식산업8로 117_FRF00004729000019894_close_20261105.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%A7%80%EC%8B%9D%EC%82%B0%EC%97%858%EB%A1%9C%20117_FRF00004729000019894_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%A7%80%EC%8B%9D%EC%82%B0%EC%97%858%EB%A1%9C%20117_FRF00004729000019894_close_20261105.jpg"
   }
 }
