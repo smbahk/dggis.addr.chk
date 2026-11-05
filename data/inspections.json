@@ -11664,5 +11664,23 @@
     "closePhotoLocal": "경상남도 양산시 천태로 1506_FRF00004833000002691_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%B2%9C%ED%83%9C%EB%A1%9C%201506_FRF00004833000002691_far_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%B2%9C%ED%83%9C%EB%A1%9C%201506_FRF00004833000002691_close_20261105.jpg"
+  },
+  "FRF00004833000002693": {
+    "id": "FRF00004833000002693",
+    "addr": "경상남도 양산시 천태로 1478",
+    "surveyDate": "20261105",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "망실 천태로1490",
+    "gpsLat": 35.3715152,
+    "gpsLng": 128.9137419,
+    "gpsAccuracy": 7,
+    "distFromPoint": 113,
+    "gpsAt": "2026-11-05T01:40:47.299Z",
+    "updatedAt": "2026-11-05T01:40:47.299Z",
+    "farPhotoLocal": "경상남도 양산시 천태로 1478_FRF00004833000002693_far_20261105.jpg",
+    "closePhotoLocal": "경상남도 양산시 천태로 1478_FRF00004833000002693_close_20261105.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%B2%9C%ED%83%9C%EB%A1%9C%201478_FRF00004833000002693_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%B2%9C%ED%83%9C%EB%A1%9C%201478_FRF00004833000002693_close_20261105.jpg"
   }
 }
