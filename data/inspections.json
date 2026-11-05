@@ -15233,5 +15233,23 @@
     "closePhotoLocal": "경상남도 하동군 경충로 744_FRF00004885000015617_close_20261106.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%95%98%EB%8F%99%EA%B5%B0%20%EA%B2%BD%EC%B6%A9%EB%A1%9C%20744_FRF00004885000015617_far_20261106.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%95%98%EB%8F%99%EA%B5%B0%20%EA%B2%BD%EC%B6%A9%EB%A1%9C%20744_FRF00004885000015617_close_20261106.jpg"
+  },
+  "FRF00004885000015618": {
+    "id": "FRF00004885000015618",
+    "addr": "경상남도 하동군 경충로 766",
+    "surveyDate": "20261106",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.0025508,
+    "gpsLng": 127.907878,
+    "gpsAccuracy": 8,
+    "distFromPoint": 23,
+    "gpsAt": "2026-11-05T23:32:36.647Z",
+    "updatedAt": "2026-11-05T23:32:36.647Z",
+    "farPhotoLocal": "경상남도 하동군 경충로 766_FRF00004885000015618_far_20261106.jpg",
+    "closePhotoLocal": "경상남도 하동군 경충로 766_FRF00004885000015618_close_20261106.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%95%98%EB%8F%99%EA%B5%B0%20%EA%B2%BD%EC%B6%A9%EB%A1%9C%20766_FRF00004885000015618_far_20261106.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%95%98%EB%8F%99%EA%B5%B0%20%EA%B2%BD%EC%B6%A9%EB%A1%9C%20766_FRF00004885000015618_close_20261106.jpg"
   }
 }
