@@ -11574,5 +11574,23 @@
     "closePhotoLocal": "경상북도 경산시 강변동로 391_FRF00004729000002865_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B0%95%EB%B3%80%EB%8F%99%EB%A1%9C%20391_FRF00004729000002865_far_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B0%95%EB%B3%80%EB%8F%99%EB%A1%9C%20391_FRF00004729000002865_close_20261105.jpg"
+  },
+  "FRF00005175000002778": {
+    "id": "FRF00005175000002778",
+    "addr": "강원특별자치도 영월군 명마동길 131",
+    "surveyDate": "20261105",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "명마동길 131 위치에 성치 명마동길 161과 위치바뀜",
+    "gpsLat": 37.2917142,
+    "gpsLng": 128.2869192,
+    "gpsAccuracy": 4,
+    "distFromPoint": 62,
+    "gpsAt": "2026-11-05T01:33:14.244Z",
+    "updatedAt": "2026-11-05T01:33:14.244Z",
+    "farPhotoLocal": "강원특별자치도 영월군 명마동길 131_FRF00005175000002778_far_20261105.jpg",
+    "closePhotoLocal": "강원특별자치도 영월군 명마동길 131_FRF00005175000002778_close_20261105.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EB%AA%85%EB%A7%88%EB%8F%99%EA%B8%B8%20131_FRF00005175000002778_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EB%AA%85%EB%A7%88%EB%8F%99%EA%B8%B8%20131_FRF00005175000002778_close_20261105.jpg"
   }
 }
