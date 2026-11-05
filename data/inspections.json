@@ -11214,5 +11214,23 @@
     "closePhotoLocal": "전남광주통합특별시 광양시 와룡길 35_FRF00004623000002864_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EC%99%80%EB%A3%A1%EA%B8%B8%2035_FRF00004623000002864_far_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EC%99%80%EB%A3%A1%EA%B8%B8%2035_FRF00004623000002864_close_20261105.jpg"
+  },
+  "FRF00005175000000784": {
+    "id": "FRF00005175000000784",
+    "addr": "강원특별자치도 영월군 마래미길 74",
+    "surveyDate": "20261105",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 37.2595381,
+    "gpsLng": 128.2569371,
+    "gpsAccuracy": 4,
+    "distFromPoint": 1,
+    "gpsAt": "2026-11-05T00:28:12.097Z",
+    "updatedAt": "2026-11-05T00:28:12.097Z",
+    "farPhotoLocal": "강원특별자치도 영월군 마래미길 74_FRF00005175000000784_far_20261105.jpg",
+    "closePhotoLocal": "강원특별자치도 영월군 마래미길 74_FRF00005175000000784_close_20261105.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EB%A7%88%EB%9E%98%EB%AF%B8%EA%B8%B8%2074_FRF00005175000000784_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EB%A7%88%EB%9E%98%EB%AF%B8%EA%B8%B8%2074_FRF00005175000000784_close_20261105.jpg"
   }
 }
