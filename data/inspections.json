@@ -11187,12 +11187,12 @@
     "surveyor": "우병기",
     "surveyStatus": "촬영완료",
     "memo": "",
-    "gpsLat": 37.2548494,
-    "gpsLng": 128.248751,
+    "gpsLat": 37.2606445,
+    "gpsLng": 128.2578719,
     "gpsAccuracy": 4,
-    "distFromPoint": 1043,
-    "gpsAt": "2026-11-05T00:40:08.996Z",
-    "updatedAt": "2026-11-05T00:40:08.996Z",
+    "distFromPoint": 10,
+    "gpsAt": "2026-11-05T00:25:52.283Z",
+    "updatedAt": "2026-11-05T00:25:52.283Z",
     "farPhotoLocal": "강원특별자치도 영월군 마래미길 58_FRF00005175000003429_far_20261105.jpg",
     "closePhotoLocal": "강원특별자치도 영월군 마래미길 58_FRF00005175000003429_close_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EB%A7%88%EB%9E%98%EB%AF%B8%EA%B8%B8%2058_FRF00005175000003429_close_20261105.jpg"
@@ -11914,8 +11914,7 @@
     "updatedAt": "2026-11-05T01:45:52.275Z",
     "farPhotoLocal": "경상북도 경산시 경산로 260_FRF00004729000006661_far_20261105.jpg",
     "closePhotoLocal": "경상북도 경산시 경산로 260_FRF00004729000006661_close_20261105.jpg",
-    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B2%BD%EC%82%B0%EB%A1%9C%20260_FRF00004729000006661_far_20261105.jpg",
-    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B2%BD%EC%82%B0%EB%A1%9C%20260_FRF00004729000006661_close_20261105.jpg"
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B2%BD%EC%82%B0%EB%A1%9C%20260_FRF00004729000006661_far_20261105.jpg"
   },
   "FRF00004729000002884": {
     "id": "FRF00004729000002884",
@@ -15001,5 +15000,23 @@
     "closePhotoLocal": "경상남도 성산구 남해안대로 6675_FRF00004812000025610_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%84%B1%EC%82%B0%EA%B5%AC%20%EB%82%A8%ED%95%B4%EC%95%88%EB%8C%80%EB%A1%9C%206675_FRF00004812000025610_far_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%84%B1%EC%82%B0%EA%B5%AC%20%EB%82%A8%ED%95%B4%EC%95%88%EB%8C%80%EB%A1%9C%206675_FRF00004812000025610_close_20261105.jpg"
+  },
+  "FRF00004623000003053": {
+    "id": "FRF00004623000003053",
+    "addr": "전남광주통합특별시 광양시 태인6길 34",
+    "surveyDate": "20261105",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 34.9473522,
+    "gpsLng": 127.7621714,
+    "gpsAccuracy": 4,
+    "distFromPoint": 7,
+    "gpsAt": "2026-11-05T09:54:20.135Z",
+    "updatedAt": "2026-11-05T09:54:20.135Z",
+    "farPhotoLocal": "전남광주통합특별시 광양시 태인6길 34_FRF00004623000003053_far_20261105.jpg",
+    "closePhotoLocal": "전남광주통합특별시 광양시 태인6길 34_FRF00004623000003053_close_20261105.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%ED%83%9C%EC%9D%B86%EA%B8%B8%2034_FRF00004623000003053_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%ED%83%9C%EC%9D%B86%EA%B8%B8%2034_FRF00004623000003053_close_20261105.jpg"
   }
 }
