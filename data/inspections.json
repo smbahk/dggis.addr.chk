@@ -11187,12 +11187,12 @@
     "surveyor": "우병기",
     "surveyStatus": "촬영완료",
     "memo": "",
-    "gpsLat": 37.2606445,
-    "gpsLng": 128.2578719,
+    "gpsLat": 37.2548494,
+    "gpsLng": 128.248751,
     "gpsAccuracy": 4,
-    "distFromPoint": 10,
-    "gpsAt": "2026-11-05T00:25:52.283Z",
-    "updatedAt": "2026-11-05T00:25:52.283Z",
+    "distFromPoint": 1043,
+    "gpsAt": "2026-11-05T00:40:08.996Z",
+    "updatedAt": "2026-11-05T00:40:08.996Z",
     "farPhotoLocal": "강원특별자치도 영월군 마래미길 58_FRF00005175000003429_far_20261105.jpg",
     "closePhotoLocal": "강원특별자치도 영월군 마래미길 58_FRF00005175000003429_close_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EB%A7%88%EB%9E%98%EB%AF%B8%EA%B8%B8%2058_FRF00005175000003429_close_20261105.jpg"
@@ -11556,5 +11556,23 @@
     "closePhotoLocal": "전남광주통합특별시 광양시 지원길 13_FRF00004623000003045_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EC%A7%80%EC%9B%90%EA%B8%B8%2013_FRF00004623000003045_far_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EC%A7%80%EC%9B%90%EA%B8%B8%2013_FRF00004623000003045_close_20261105.jpg"
+  },
+  "FRF00004729000002865": {
+    "id": "FRF00004729000002865",
+    "addr": "경상북도 경산시 강변동로 391",
+    "surveyDate": "20261105",
+    "surveyor": "이윤태",
+    "surveyStatus": "촬영완료",
+    "memo": "망실",
+    "gpsLat": 35.843344261345806,
+    "gpsLng": 128.72630974022474,
+    "gpsAccuracy": 73,
+    "distFromPoint": 56,
+    "gpsAt": "2026-11-05T01:32:42.239Z",
+    "updatedAt": "2026-11-05T01:32:42.239Z",
+    "farPhotoLocal": "경상북도 경산시 강변동로 391_FRF00004729000002865_far_20261105.jpg",
+    "closePhotoLocal": "경상북도 경산시 강변동로 391_FRF00004729000002865_close_20261105.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B0%95%EB%B3%80%EB%8F%99%EB%A1%9C%20391_FRF00004729000002865_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B0%95%EB%B3%80%EB%8F%99%EB%A1%9C%20391_FRF00004729000002865_close_20261105.jpg"
   }
 }
