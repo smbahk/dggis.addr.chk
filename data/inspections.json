@@ -15019,5 +15019,23 @@
     "closePhotoLocal": "전남광주통합특별시 광양시 태인6길 34_FRF00004623000003053_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%ED%83%9C%EC%9D%B86%EA%B8%B8%2034_FRF00004623000003053_far_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%ED%83%9C%EC%9D%B86%EA%B8%B8%2034_FRF00004623000003053_close_20261105.jpg"
+  },
+  "FRF00004812000008730": {
+    "id": "FRF00004812000008730",
+    "addr": "경상남도 마산합포구 동전고개로 105",
+    "surveyDate": "20261106",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.1517756,
+    "gpsLng": 128.5193157,
+    "gpsAccuracy": 7,
+    "distFromPoint": 67,
+    "gpsAt": "2026-11-05T22:41:35.407Z",
+    "updatedAt": "2026-11-05T22:41:35.407Z",
+    "farPhotoLocal": "경상남도 마산합포구 동전고개로 105_FRF00004812000008730_far_20261106.jpg",
+    "closePhotoLocal": "경상남도 마산합포구 동전고개로 105_FRF00004812000008730_close_20261106.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%A7%88%EC%82%B0%ED%95%A9%ED%8F%AC%EA%B5%AC%20%EB%8F%99%EC%A0%84%EA%B3%A0%EA%B0%9C%EB%A1%9C%20105_FRF00004812000008730_far_20261106.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%A7%88%EC%82%B0%ED%95%A9%ED%8F%AC%EA%B5%AC%20%EB%8F%99%EC%A0%84%EA%B3%A0%EA%B0%9C%EB%A1%9C%20105_FRF00004812000008730_close_20261106.jpg"
   }
 }
