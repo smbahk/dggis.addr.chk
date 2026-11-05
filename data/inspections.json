@@ -12598,5 +12598,23 @@
     "closePhotoLocal": "경상북도 경산시 금송로 485_FRF00004729000019898_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B8%88%EC%86%A1%EB%A1%9C%20485_FRF00004729000019898_far_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B8%88%EC%86%A1%EB%A1%9C%20485_FRF00004729000019898_close_20261105.jpg"
+  },
+  "FRF00004729000019899": {
+    "id": "FRF00004729000019899",
+    "addr": "경상북도 경산시 금송로 487",
+    "surveyDate": "20261105",
+    "surveyor": "이은영",
+    "surveyStatus": "촬영완료",
+    "memo": "지식산업8로 103",
+    "gpsLat": 35.9525147,
+    "gpsLng": 128.8352374,
+    "gpsAccuracy": 33,
+    "distFromPoint": 12,
+    "gpsAt": "2026-11-05T02:47:37.190Z",
+    "updatedAt": "2026-11-05T02:47:37.190Z",
+    "farPhotoLocal": "경상북도 경산시 금송로 487_FRF00004729000019899_far_20261105.jpg",
+    "closePhotoLocal": "경상북도 경산시 금송로 487_FRF00004729000019899_close_20261105.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B8%88%EC%86%A1%EB%A1%9C%20487_FRF00004729000019899_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B8%88%EC%86%A1%EB%A1%9C%20487_FRF00004729000019899_close_20261105.jpg"
   }
 }
