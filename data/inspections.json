@@ -14532,5 +14532,23 @@
     "closePhotoLocal": "전남광주통합특별시 광양시 이순신대로 805_FRF00004623000013267_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EC%9D%B4%EC%88%9C%EC%8B%A0%EB%8C%80%EB%A1%9C%20805_FRF00004623000013267_far_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EC%9D%B4%EC%88%9C%EC%8B%A0%EB%8C%80%EB%A1%9C%20805_FRF00004623000013267_close_20261105.jpg"
+  },
+  "FRF00004623000013265": {
+    "id": "FRF00004623000013265",
+    "addr": "전남광주통합특별시 광양시 이순신대로 791",
+    "surveyDate": "20261105",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 34.9237328,
+    "gpsLng": 127.7049265,
+    "gpsAccuracy": 8,
+    "distFromPoint": 56,
+    "gpsAt": "2026-11-05T07:46:39.007Z",
+    "updatedAt": "2026-11-05T07:46:39.007Z",
+    "farPhotoLocal": "전남광주통합특별시 광양시 이순신대로 791_FRF00004623000013265_far_20261105.jpg",
+    "closePhotoLocal": "전남광주통합특별시 광양시 이순신대로 791_FRF00004623000013265_close_20261105.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EC%9D%B4%EC%88%9C%EC%8B%A0%EB%8C%80%EB%A1%9C%20791_FRF00004623000013265_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EC%9D%B4%EC%88%9C%EC%8B%A0%EB%8C%80%EB%A1%9C%20791_FRF00004623000013265_close_20261105.jpg"
   }
 }
