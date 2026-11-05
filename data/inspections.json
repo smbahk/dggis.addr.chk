@@ -11187,12 +11187,12 @@
     "surveyor": "우병기",
     "surveyStatus": "촬영완료",
     "memo": "",
-    "gpsLat": 37.2606445,
-    "gpsLng": 128.2578719,
+    "gpsLat": 37.2548494,
+    "gpsLng": 128.248751,
     "gpsAccuracy": 4,
-    "distFromPoint": 10,
-    "gpsAt": "2026-11-05T00:25:52.283Z",
-    "updatedAt": "2026-11-05T00:25:52.283Z",
+    "distFromPoint": 1043,
+    "gpsAt": "2026-11-05T00:40:08.996Z",
+    "updatedAt": "2026-11-05T00:40:08.996Z",
     "farPhotoLocal": "강원특별자치도 영월군 마래미길 58_FRF00005175000003429_far_20261105.jpg",
     "closePhotoLocal": "강원특별자치도 영월군 마래미길 58_FRF00005175000003429_close_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EB%A7%88%EB%9E%98%EB%AF%B8%EA%B8%B8%2058_FRF00005175000003429_close_20261105.jpg"
@@ -11239,13 +11239,13 @@
     "surveyDate": "20261105",
     "surveyor": "노경수",
     "surveyStatus": "촬영완료",
-    "memo": "양주로41 승강장. 철거",
-    "gpsLat": 35.3317201,
-    "gpsLng": 129.0272165,
-    "gpsAccuracy": 18,
-    "distFromPoint": 15,
-    "gpsAt": "2026-11-05T00:32:52.023Z",
-    "updatedAt": "2026-11-05T00:32:52.023Z",
+    "memo": "",
+    "gpsLat": 35.3317782,
+    "gpsLng": 129.027407,
+    "gpsAccuracy": 8,
+    "distFromPoint": 7,
+    "gpsAt": "2026-11-05T00:32:20.627Z",
+    "updatedAt": "2026-11-05T00:32:20.627Z",
     "farPhotoLocal": "경상남도 양산시 양주로 37_FRF00004833000004481_far_20261105.jpg",
     "closePhotoLocal": "경상남도 양산시 양주로 37_FRF00004833000004481_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%96%91%EC%A3%BC%EB%A1%9C%2037_FRF00004833000004481_far_20261105.jpg",
@@ -11914,7 +11914,8 @@
     "updatedAt": "2026-11-05T01:45:52.275Z",
     "farPhotoLocal": "경상북도 경산시 경산로 260_FRF00004729000006661_far_20261105.jpg",
     "closePhotoLocal": "경상북도 경산시 경산로 260_FRF00004729000006661_close_20261105.jpg",
-    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B2%BD%EC%82%B0%EB%A1%9C%20260_FRF00004729000006661_far_20261105.jpg"
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B2%BD%EC%82%B0%EB%A1%9C%20260_FRF00004729000006661_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B2%BD%EC%82%B0%EB%A1%9C%20260_FRF00004729000006661_close_20261105.jpg"
   },
   "FRF00004729000002884": {
     "id": "FRF00004729000002884",
@@ -12471,7 +12472,8 @@
     "updatedAt": "2026-11-05T02:30:25.999Z",
     "farPhotoLocal": "강원특별자치도 영월군 도원운학로 1423_FRF00005175000010030_far_20261105.jpg",
     "closePhotoLocal": "강원특별자치도 영월군 도원운학로 1423_FRF00005175000010030_close_20261105.jpg",
-    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EB%8F%84%EC%9B%90%EC%9A%B4%ED%95%99%EB%A1%9C%201423_FRF00005175000010030_far_20261105.jpg"
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EB%8F%84%EC%9B%90%EC%9A%B4%ED%95%99%EB%A1%9C%201423_FRF00005175000010030_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EB%8F%84%EC%9B%90%EC%9A%B4%ED%95%99%EB%A1%9C%201423_FRF00005175000010030_close_20261105.jpg"
   },
   "FRF00005175000001641": {
     "id": "FRF00005175000001641",
@@ -12812,5 +12814,23 @@
     "closePhotoLocal": "경상남도 양산시 양산대로 930_FRF00004833000004496_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%96%91%EC%82%B0%EB%8C%80%EB%A1%9C%20930_FRF00004833000004496_far_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%96%91%EC%82%B0%EB%8C%80%EB%A1%9C%20930_FRF00004833000004496_close_20261105.jpg"
+  },
+  "FRF00004729000002594": {
+    "id": "FRF00004729000002594",
+    "addr": "경상북도 경산시 원효로 331",
+    "surveyDate": "20261105",
+    "surveyor": "이윤태",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.81430051976557,
+    "gpsLng": 128.77109613769096,
+    "gpsAccuracy": 46,
+    "distFromPoint": 40,
+    "gpsAt": "2026-11-05T03:13:40.682Z",
+    "updatedAt": "2026-11-05T03:13:40.682Z",
+    "farPhotoLocal": "경상북도 경산시 원효로 331_FRF00004729000002594_far_20261105.jpg",
+    "closePhotoLocal": "경상북도 경산시 원효로 331_FRF00004729000002594_close_20261105.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%9B%90%ED%9A%A8%EB%A1%9C%20331_FRF00004729000002594_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%9B%90%ED%9A%A8%EB%A1%9C%20331_FRF00004729000002594_close_20261105.jpg"
   }
 }
