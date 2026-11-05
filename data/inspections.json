@@ -13029,5 +13029,23 @@
     "closePhotoLocal": "경상남도 하동군 섬진강대로 3109_FRF00004885000001484_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%95%98%EB%8F%99%EA%B5%B0%20%EC%84%AC%EC%A7%84%EA%B0%95%EB%8C%80%EB%A1%9C%203109_FRF00004885000001484_far_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%95%98%EB%8F%99%EA%B5%B0%20%EC%84%AC%EC%A7%84%EA%B0%95%EB%8C%80%EB%A1%9C%203109_FRF00004885000001484_close_20261105.jpg"
+  },
+  "FRF00004885000002565": {
+    "id": "FRF00004885000002565",
+    "addr": "경상남도 하동군 악양동로 81",
+    "surveyDate": "20261105",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.1391029,
+    "gpsLng": 127.6994019,
+    "gpsAccuracy": 4,
+    "distFromPoint": 7,
+    "gpsAt": "2026-11-05T04:04:54.772Z",
+    "updatedAt": "2026-11-05T04:04:54.772Z",
+    "farPhotoLocal": "경상남도 하동군 악양동로 81_FRF00004885000002565_far_20261105.jpg",
+    "closePhotoLocal": "경상남도 하동군 악양동로 81_FRF00004885000002565_close_20261105.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%95%98%EB%8F%99%EA%B5%B0%20%EC%95%85%EC%96%91%EB%8F%99%EB%A1%9C%2081_FRF00004885000002565_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%95%98%EB%8F%99%EA%B5%B0%20%EC%95%85%EC%96%91%EB%8F%99%EB%A1%9C%2081_FRF00004885000002565_close_20261105.jpg"
   }
 }
