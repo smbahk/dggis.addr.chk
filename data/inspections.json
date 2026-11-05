@@ -11239,13 +11239,13 @@
     "surveyDate": "20261105",
     "surveyor": "노경수",
     "surveyStatus": "촬영완료",
-    "memo": "양주로41 승강장. 철거",
-    "gpsLat": 35.3317201,
-    "gpsLng": 129.0272165,
-    "gpsAccuracy": 18,
-    "distFromPoint": 15,
-    "gpsAt": "2026-11-05T00:32:52.023Z",
-    "updatedAt": "2026-11-05T00:32:52.023Z",
+    "memo": "",
+    "gpsLat": 35.3317782,
+    "gpsLng": 129.027407,
+    "gpsAccuracy": 8,
+    "distFromPoint": 7,
+    "gpsAt": "2026-11-05T00:32:20.627Z",
+    "updatedAt": "2026-11-05T00:32:20.627Z",
     "farPhotoLocal": "경상남도 양산시 양주로 37_FRF00004833000004481_far_20261105.jpg",
     "closePhotoLocal": "경상남도 양산시 양주로 37_FRF00004833000004481_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%96%91%EC%A3%BC%EB%A1%9C%2037_FRF00004833000004481_far_20261105.jpg",
@@ -12471,7 +12471,8 @@
     "updatedAt": "2026-11-05T02:30:25.999Z",
     "farPhotoLocal": "강원특별자치도 영월군 도원운학로 1423_FRF00005175000010030_far_20261105.jpg",
     "closePhotoLocal": "강원특별자치도 영월군 도원운학로 1423_FRF00005175000010030_close_20261105.jpg",
-    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EB%8F%84%EC%9B%90%EC%9A%B4%ED%95%99%EB%A1%9C%201423_FRF00005175000010030_far_20261105.jpg"
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EB%8F%84%EC%9B%90%EC%9A%B4%ED%95%99%EB%A1%9C%201423_FRF00005175000010030_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EB%8F%84%EC%9B%90%EC%9A%B4%ED%95%99%EB%A1%9C%201423_FRF00005175000010030_close_20261105.jpg"
   },
   "FRF00005175000001641": {
     "id": "FRF00005175000001641",
@@ -12992,5 +12993,23 @@
     "closePhotoLocal": "경상남도 양산시 대운로 353_FRF00004833000005582_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EB%8C%80%EC%9A%B4%EB%A1%9C%20353_FRF00004833000005582_far_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EB%8C%80%EC%9A%B4%EB%A1%9C%20353_FRF00004833000005582_close_20261105.jpg"
+  },
+  "FRF00004623000004916": {
+    "id": "FRF00004623000004916",
+    "addr": "전남광주통합특별시 광양시 섬진강매화로 1502",
+    "surveyDate": "20261105",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.0790788,
+    "gpsLng": 127.7213493,
+    "gpsAccuracy": 4,
+    "distFromPoint": 3,
+    "gpsAt": "2026-11-05T03:39:00.182Z",
+    "updatedAt": "2026-11-05T03:39:00.182Z",
+    "farPhotoLocal": "전남광주통합특별시 광양시 섬진강매화로 1502_FRF00004623000004916_far_20261105.jpg",
+    "closePhotoLocal": "전남광주통합특별시 광양시 섬진강매화로 1502_FRF00004623000004916_close_20261105.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EC%84%AC%EC%A7%84%EA%B0%95%EB%A7%A4%ED%99%94%EB%A1%9C%201502_FRF00004623000004916_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EC%84%AC%EC%A7%84%EA%B0%95%EB%A7%A4%ED%99%94%EB%A1%9C%201502_FRF00004623000004916_close_20261105.jpg"
   }
 }
