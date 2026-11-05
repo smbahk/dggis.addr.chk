@@ -13343,12 +13343,16 @@
     "surveyor": "이은영",
     "surveyStatus": "촬영완료",
     "memo": "",
-    "gpsLat": 35.9605954,
-    "gpsLng": 128.7715741,
-    "gpsAccuracy": 6,
-    "distFromPoint": 51,
-    "gpsAt": "2026-11-05T05:07:10.559Z",
-    "updatedAt": "2026-11-05T05:07:10.559Z"
+    "gpsLat": 35.96058282497863,
+    "gpsLng": 128.77156202618863,
+    "gpsAccuracy": 5,
+    "distFromPoint": 52,
+    "gpsAt": "2026-11-05T05:16:02.465Z",
+    "updatedAt": "2026-11-05T05:16:02.465Z",
+    "farPhotoLocal": "경상북도 경산시 팔공로 269_FRF00004729000002603_far_20261105.jpg",
+    "closePhotoLocal": "경상북도 경산시 팔공로 269_FRF00004729000002603_close_20261105.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%ED%8C%94%EA%B3%B5%EB%A1%9C%20269_FRF00004729000002603_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%ED%8C%94%EA%B3%B5%EB%A1%9C%20269_FRF00004729000002603_close_20261105.jpg"
   },
   "FRF00005175000003402": {
     "id": "FRF00005175000003402",
@@ -13717,15 +13721,14 @@
     "surveyor": "우병기",
     "surveyStatus": "촬영완료",
     "memo": "",
-    "gpsLat": 37.2094952,
-    "gpsLng": 128.3249762,
-    "gpsAccuracy": 11,
-    "distFromPoint": 3502,
-    "gpsAt": "2026-11-05T05:51:18.974Z",
-    "updatedAt": "2026-11-05T05:51:18.974Z",
+    "gpsLat": 37.1797674,
+    "gpsLng": 128.3200828,
+    "gpsAccuracy": 8,
+    "distFromPoint": 572,
+    "gpsAt": "2026-11-05T05:35:34.375Z",
+    "updatedAt": "2026-11-05T05:35:34.375Z",
     "farPhotoLocal": "강원특별자치도 영월군 쌍용로 56_FRF00005175000018886_far_20261105.jpg",
-    "closePhotoLocal": "강원특별자치도 영월군 쌍용로 56_FRF00005175000018886_close_20261105.jpg",
-    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EC%8C%8D%EC%9A%A9%EB%A1%9C%2056_FRF00005175000018886_close_20261105.jpg"
+    "closePhotoLocal": "강원특별자치도 영월군 쌍용로 56_FRF00005175000018886_close_20261105.jpg"
   },
   "FRF00004623000004619": {
     "id": "FRF00004623000004619",
@@ -13834,5 +13837,23 @@
     "closePhotoLocal": "경상남도 양산시 양산대로 389_FRF00004833000004377_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%96%91%EC%82%B0%EB%8C%80%EB%A1%9C%20389_FRF00004833000004377_far_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%96%91%EC%82%B0%EB%8C%80%EB%A1%9C%20389_FRF00004833000004377_close_20261105.jpg"
+  },
+  "FRF00004729000007272": {
+    "id": "FRF00004729000007272",
+    "addr": "경상북도 경산시 금송로 598",
+    "surveyDate": "20261105",
+    "surveyor": "노태완",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.96111189183958,
+    "gpsLng": 128.82944380216313,
+    "gpsAccuracy": 6,
+    "distFromPoint": 11,
+    "gpsAt": "2026-11-05T05:51:45.249Z",
+    "updatedAt": "2026-11-05T05:51:45.249Z",
+    "farPhotoLocal": "경상북도 경산시 금송로 598_FRF00004729000007272_far_20261105.jpg",
+    "closePhotoLocal": "경상북도 경산시 금송로 598_FRF00004729000007272_close_20261105.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B8%88%EC%86%A1%EB%A1%9C%20598_FRF00004729000007272_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B8%88%EC%86%A1%EB%A1%9C%20598_FRF00004729000007272_close_20261105.jpg"
   }
 }
