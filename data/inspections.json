@@ -13995,5 +13995,41 @@
     "closePhotoLocal": "강원특별자치도 영월군 서강로 1073_FRF00005175000003375_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EC%84%9C%EA%B0%95%EB%A1%9C%201073_FRF00005175000003375_far_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EC%84%9C%EA%B0%95%EB%A1%9C%201073_FRF00005175000003375_close_20261105.jpg"
+  },
+  "FRF00004833000014548": {
+    "id": "FRF00004833000014548",
+    "addr": "경상남도 양산시 어곡로 270",
+    "surveyDate": "20261105",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "중복",
+    "gpsLat": 35.2915006,
+    "gpsLng": 129.0175982,
+    "gpsAccuracy": 17,
+    "distFromPoint": 8838,
+    "gpsAt": "2026-11-05T06:00:27.183Z",
+    "updatedAt": "2026-11-05T06:00:27.183Z",
+    "farPhotoLocal": "경상남도 양산시 어곡로 270_FRF00004833000014548_far_20261105.jpg",
+    "closePhotoLocal": "경상남도 양산시 어곡로 270_FRF00004833000014548_close_20261105.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%96%B4%EA%B3%A1%EB%A1%9C%20270_FRF00004833000014548_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%96%B4%EA%B3%A1%EB%A1%9C%20270_FRF00004833000014548_close_20261105.jpg"
+  },
+  "FRF00004833000014550": {
+    "id": "FRF00004833000014550",
+    "addr": "경상남도 양산시 어곡로 423",
+    "surveyDate": "20261105",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "중복",
+    "gpsLat": 35.2874192,
+    "gpsLng": 129.0149522,
+    "gpsAccuracy": 16,
+    "distFromPoint": 8716,
+    "gpsAt": "2026-11-05T06:01:11.407Z",
+    "updatedAt": "2026-11-05T06:01:11.407Z",
+    "farPhotoLocal": "경상남도 양산시 어곡로 423_FRF00004833000014550_far_20261105.jpg",
+    "closePhotoLocal": "경상남도 양산시 어곡로 423_FRF00004833000014550_close_20261105.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%96%B4%EA%B3%A1%EB%A1%9C%20423_FRF00004833000014550_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%96%B4%EA%B3%A1%EB%A1%9C%20423_FRF00004833000014550_close_20261105.jpg"
   }
 }
