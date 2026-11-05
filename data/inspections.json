@@ -14157,5 +14157,23 @@
     "closePhotoLocal": "전남광주통합특별시 광양시 강변로 37_FRF00004623000002752_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EA%B0%95%EB%B3%80%EB%A1%9C%2037_FRF00004623000002752_far_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EA%B0%95%EB%B3%80%EB%A1%9C%2037_FRF00004623000002752_close_20261105.jpg"
+  },
+  "FRF00004812000024690": {
+    "id": "FRF00004812000024690",
+    "addr": "경상남도 진해구 명제로 243",
+    "surveyDate": "20261105",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.0977481,
+    "gpsLng": 128.7223662,
+    "gpsAccuracy": 8,
+    "distFromPoint": 2,
+    "gpsAt": "2026-11-05T06:49:46.856Z",
+    "updatedAt": "2026-11-05T06:49:46.856Z",
+    "farPhotoLocal": "경상남도 진해구 명제로 243_FRF00004812000024690_far_20261105.jpg",
+    "closePhotoLocal": "경상남도 진해구 명제로 243_FRF00004812000024690_close_20261105.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%ED%95%B4%EA%B5%AC%20%EB%AA%85%EC%A0%9C%EB%A1%9C%20243_FRF00004812000024690_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%ED%95%B4%EA%B5%AC%20%EB%AA%85%EC%A0%9C%EB%A1%9C%20243_FRF00004812000024690_close_20261105.jpg"
   }
 }
