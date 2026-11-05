@@ -15109,5 +15109,23 @@
     "closePhotoLocal": "경상남도 하동군 경충로 847_FRF00004885000015624_close_20261106.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%95%98%EB%8F%99%EA%B5%B0%20%EA%B2%BD%EC%B6%A9%EB%A1%9C%20847_FRF00004885000015624_far_20261106.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%95%98%EB%8F%99%EA%B5%B0%20%EA%B2%BD%EC%B6%A9%EB%A1%9C%20847_FRF00004885000015624_close_20261106.jpg"
+  },
+  "FRF00004812000008720": {
+    "id": "FRF00004812000008720",
+    "addr": "경상남도 마산합포구 옥계로 248",
+    "surveyDate": "20261106",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.0948305,
+    "gpsLng": 128.6117636,
+    "gpsAccuracy": 5,
+    "distFromPoint": 75,
+    "gpsAt": "2026-11-05T23:19:12.838Z",
+    "updatedAt": "2026-11-05T23:19:12.838Z",
+    "farPhotoLocal": "경상남도 마산합포구 옥계로 248_FRF00004812000008720_far_20261106.jpg",
+    "closePhotoLocal": "경상남도 마산합포구 옥계로 248_FRF00004812000008720_close_20261106.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%A7%88%EC%82%B0%ED%95%A9%ED%8F%AC%EA%B5%AC%20%EC%98%A5%EA%B3%84%EB%A1%9C%20248_FRF00004812000008720_far_20261106.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%A7%88%EC%82%B0%ED%95%A9%ED%8F%AC%EA%B5%AC%20%EC%98%A5%EA%B3%84%EB%A1%9C%20248_FRF00004812000008720_close_20261106.jpg"
   }
 }
