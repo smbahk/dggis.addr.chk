@@ -11671,13 +11671,13 @@
     "surveyDate": "20261105",
     "surveyor": "노경수",
     "surveyStatus": "촬영완료",
-    "memo": "망실 천태로1490",
-    "gpsLat": 35.3715152,
-    "gpsLng": 128.9137419,
+    "memo": "",
+    "gpsLat": 35.3713805,
+    "gpsLng": 128.9125629,
     "gpsAccuracy": 7,
-    "distFromPoint": 113,
-    "gpsAt": "2026-11-05T01:40:47.299Z",
-    "updatedAt": "2026-11-05T01:40:47.299Z",
+    "distFromPoint": 5,
+    "gpsAt": "2026-11-05T01:42:47.035Z",
+    "updatedAt": "2026-11-05T01:42:47.035Z",
     "farPhotoLocal": "경상남도 양산시 천태로 1478_FRF00004833000002693_far_20261105.jpg",
     "closePhotoLocal": "경상남도 양산시 천태로 1478_FRF00004833000002693_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%B2%9C%ED%83%9C%EB%A1%9C%201478_FRF00004833000002693_far_20261105.jpg",
@@ -11914,7 +11914,8 @@
     "updatedAt": "2026-11-05T01:45:52.275Z",
     "farPhotoLocal": "경상북도 경산시 경산로 260_FRF00004729000006661_far_20261105.jpg",
     "closePhotoLocal": "경상북도 경산시 경산로 260_FRF00004729000006661_close_20261105.jpg",
-    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B2%BD%EC%82%B0%EB%A1%9C%20260_FRF00004729000006661_far_20261105.jpg"
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B2%BD%EC%82%B0%EB%A1%9C%20260_FRF00004729000006661_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EA%B2%BD%EC%82%B0%EB%A1%9C%20260_FRF00004729000006661_close_20261105.jpg"
   },
   "FRF00004729000002884": {
     "id": "FRF00004729000002884",
@@ -13367,5 +13368,23 @@
     "closePhotoLocal": "강원특별자치도 영월군 솔치로 523_FRF00005175000003402_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EC%86%94%EC%B9%98%EB%A1%9C%20523_FRF00005175000003402_far_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EC%86%94%EC%B9%98%EB%A1%9C%20523_FRF00005175000003402_close_20261105.jpg"
+  },
+  "FRF00004729000002555": {
+    "id": "FRF00004729000002555",
+    "addr": "경상북도 경산시 무학로 107",
+    "surveyDate": "20261105",
+    "surveyor": "이윤태",
+    "surveyStatus": "촬영완료",
+    "memo": "반대편 설치",
+    "gpsLat": 35.92404624450572,
+    "gpsLng": 128.80898206506745,
+    "gpsAccuracy": 4,
+    "distFromPoint": 54,
+    "gpsAt": "2026-11-05T05:11:12.141Z",
+    "updatedAt": "2026-11-05T05:11:12.141Z",
+    "farPhotoLocal": "경상북도 경산시 무학로 107_FRF00004729000002555_far_20261105.jpg",
+    "closePhotoLocal": "경상북도 경산시 무학로 107_FRF00004729000002555_close_20261105.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EB%AC%B4%ED%95%99%EB%A1%9C%20107_FRF00004729000002555_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EB%AC%B4%ED%95%99%EB%A1%9C%20107_FRF00004729000002555_close_20261105.jpg"
   }
 }
