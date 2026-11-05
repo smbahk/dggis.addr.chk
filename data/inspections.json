@@ -12490,5 +12490,23 @@
     "closePhotoLocal": "강원특별자치도 영월군 학산길 161_FRF00005175000001641_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%ED%95%99%EC%82%B0%EA%B8%B8%20161_FRF00005175000001641_far_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%ED%95%99%EC%82%B0%EA%B8%B8%20161_FRF00005175000001641_close_20261105.jpg"
+  },
+  "FRF00005175000014612": {
+    "id": "FRF00005175000014612",
+    "addr": "강원특별자치도 영월군 학산길 151-1",
+    "surveyDate": "20261105",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 37.3259508,
+    "gpsLng": 128.1858277,
+    "gpsAccuracy": 4,
+    "distFromPoint": 9,
+    "gpsAt": "2026-11-05T02:38:06.993Z",
+    "updatedAt": "2026-11-05T02:38:06.993Z",
+    "farPhotoLocal": "강원특별자치도 영월군 학산길 151-1_FRF00005175000014612_far_20261105.jpg",
+    "closePhotoLocal": "강원특별자치도 영월군 학산길 151-1_FRF00005175000014612_close_20261105.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%ED%95%99%EC%82%B0%EA%B8%B8%20151-1_FRF00005175000014612_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%ED%95%99%EC%82%B0%EA%B8%B8%20151-1_FRF00005175000014612_close_20261105.jpg"
   }
 }
