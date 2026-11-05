@@ -14929,5 +14929,23 @@
     "closePhotoLocal": "경상남도 진해구 충장로 218_FRF00004812000009087_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%ED%95%B4%EA%B5%AC%20%EC%B6%A9%EC%9E%A5%EB%A1%9C%20218_FRF00004812000009087_far_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%ED%95%B4%EA%B5%AC%20%EC%B6%A9%EC%9E%A5%EB%A1%9C%20218_FRF00004812000009087_close_20261105.jpg"
+  },
+  "FRF00004812000009090": {
+    "id": "FRF00004812000009090",
+    "addr": "경상남도 진해구 충장로 312",
+    "surveyDate": "20261105",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "충장로320 312 두개부착",
+    "gpsLat": 35.1534035,
+    "gpsLng": 128.686954,
+    "gpsAccuracy": 7,
+    "distFromPoint": 1,
+    "gpsAt": "2026-11-05T08:55:37.328Z",
+    "updatedAt": "2026-11-05T08:55:37.328Z",
+    "farPhotoLocal": "경상남도 진해구 충장로 312_FRF00004812000009090_far_20261105.jpg",
+    "closePhotoLocal": "경상남도 진해구 충장로 312_FRF00004812000009090_close_20261105.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%ED%95%B4%EA%B5%AC%20%EC%B6%A9%EC%9E%A5%EB%A1%9C%20312_FRF00004812000009090_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%ED%95%B4%EA%B5%AC%20%EC%B6%A9%EC%9E%A5%EB%A1%9C%20312_FRF00004812000009090_close_20261105.jpg"
   }
 }
