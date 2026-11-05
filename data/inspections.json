@@ -11161,5 +11161,23 @@
     "closePhotoLocal": "전남광주통합특별시 광양시 제철로 116_FRF00004623000003014_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EC%A0%9C%EC%B2%A0%EB%A1%9C%20116_FRF00004623000003014_far_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EC%A0%9C%EC%B2%A0%EB%A1%9C%20116_FRF00004623000003014_close_20261105.jpg"
+  },
+  "FRF00005175000000533": {
+    "id": "FRF00005175000000533",
+    "addr": "강원특별자치도 영월군 송학주천로 1326",
+    "surveyDate": "20261105",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "송학주천로 1326 없음 송학주천로 1328 촬영",
+    "gpsLat": 37.2637062,
+    "gpsLng": 128.2629133,
+    "gpsAccuracy": 4,
+    "distFromPoint": 63,
+    "gpsAt": "2026-11-05T00:20:18.998Z",
+    "updatedAt": "2026-11-05T00:20:18.998Z",
+    "farPhotoLocal": "강원특별자치도 영월군 송학주천로 1326_FRF00005175000000533_far_20261105.jpg",
+    "closePhotoLocal": "강원특별자치도 영월군 송학주천로 1326_FRF00005175000000533_close_20261105.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EC%86%A1%ED%95%99%EC%A3%BC%EC%B2%9C%EB%A1%9C%201326_FRF00005175000000533_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EC%86%A1%ED%95%99%EC%A3%BC%EC%B2%9C%EB%A1%9C%201326_FRF00005175000000533_close_20261105.jpg"
   }
 }
