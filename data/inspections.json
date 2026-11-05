@@ -14497,5 +14497,23 @@
     "closePhotoLocal": "경상남도 의창구 창이대로 833_FRF00004812000008940_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%9D%98%EC%B0%BD%EA%B5%AC%20%EC%B0%BD%EC%9D%B4%EB%8C%80%EB%A1%9C%20833_FRF00004812000008940_far_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%9D%98%EC%B0%BD%EA%B5%AC%20%EC%B0%BD%EC%9D%B4%EB%8C%80%EB%A1%9C%20833_FRF00004812000008940_close_20261105.jpg"
+  },
+  "FRF00004812000008941": {
+    "id": "FRF00004812000008941",
+    "addr": "경상남도 성산구 창이대로 813",
+    "surveyDate": "20261105",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.2129682,
+    "gpsLng": 128.7050707,
+    "gpsAccuracy": 89,
+    "distFromPoint": 25,
+    "gpsAt": "2026-11-05T07:40:29.100Z",
+    "updatedAt": "2026-11-05T07:40:29.100Z",
+    "farPhotoLocal": "경상남도 성산구 창이대로 813_FRF00004812000008941_far_20261105.jpg",
+    "closePhotoLocal": "경상남도 성산구 창이대로 813_FRF00004812000008941_close_20261105.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%84%B1%EC%82%B0%EA%B5%AC%20%EC%B0%BD%EC%9D%B4%EB%8C%80%EB%A1%9C%20813_FRF00004812000008941_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%84%B1%EC%82%B0%EA%B5%AC%20%EC%B0%BD%EC%9D%B4%EB%8C%80%EB%A1%9C%20813_FRF00004812000008941_close_20261105.jpg"
   }
 }
