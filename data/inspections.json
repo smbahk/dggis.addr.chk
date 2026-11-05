@@ -13530,5 +13530,23 @@
     "closePhotoLocal": "경상남도 양산시 양산대로 1801_FRF00004833000003645_close_20261105.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%96%91%EC%82%B0%EB%8C%80%EB%A1%9C%201801_FRF00004833000003645_far_20261105.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%96%91%EC%82%B0%EB%8C%80%EB%A1%9C%201801_FRF00004833000003645_close_20261105.jpg"
+  },
+  "FRF00004833000003642": {
+    "id": "FRF00004833000003642",
+    "addr": "경상남도 양산시 양산대로 1721",
+    "surveyDate": "20261105",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.4185689,
+    "gpsLng": 129.0618606,
+    "gpsAccuracy": 6,
+    "distFromPoint": 9,
+    "gpsAt": "2026-11-05T05:26:25.522Z",
+    "updatedAt": "2026-11-05T05:26:25.522Z",
+    "farPhotoLocal": "경상남도 양산시 양산대로 1721_FRF00004833000003642_far_20261105.jpg",
+    "closePhotoLocal": "경상남도 양산시 양산대로 1721_FRF00004833000003642_close_20261105.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%96%91%EC%82%B0%EB%8C%80%EB%A1%9C%201721_FRF00004833000003642_far_20261105.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%96%91%EC%82%B0%EB%8C%80%EB%A1%9C%201721_FRF00004833000003642_close_20261105.jpg"
   }
 }
