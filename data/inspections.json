@@ -18326,5 +18326,23 @@
     "closePhotoLocal": "경상남도 사천시 경서대로 3412_FRF00004824000020350_close_20261106.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EA%B2%BD%EC%84%9C%EB%8C%80%EB%A1%9C%203412_FRF00004824000020350_far_20261106.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EA%B2%BD%EC%84%9C%EB%8C%80%EB%A1%9C%203412_FRF00004824000020350_close_20261106.jpg"
+  },
+  "FRF00004817000014128": {
+    "id": "FRF00004817000014128",
+    "addr": "경상남도 진주시 동부로 200",
+    "surveyDate": "20261107",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.1645587,
+    "gpsLng": 128.1284578,
+    "gpsAccuracy": 8,
+    "distFromPoint": 31,
+    "gpsAt": "2026-11-06T23:44:47.151Z",
+    "updatedAt": "2026-11-06T23:44:47.151Z",
+    "farPhotoLocal": "경상남도 진주시 동부로 200_FRF00004817000014128_far_20261107.jpg",
+    "closePhotoLocal": "경상남도 진주시 동부로 200_FRF00004817000014128_close_20261107.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%EC%A3%BC%EC%8B%9C%20%EB%8F%99%EB%B6%80%EB%A1%9C%20200_FRF00004817000014128_far_20261107.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%EC%A3%BC%EC%8B%9C%20%EB%8F%99%EB%B6%80%EB%A1%9C%20200_FRF00004817000014128_close_20261107.jpg"
   }
 }
