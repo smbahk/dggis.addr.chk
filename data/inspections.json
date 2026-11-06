@@ -16923,5 +16923,23 @@
     "closePhotoLocal": "경상남도 사천시 용현로 66_FRF00004824000002114_close_20261106.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EC%9A%A9%ED%98%84%EB%A1%9C%2066_FRF00004824000002114_far_20261106.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EC%9A%A9%ED%98%84%EB%A1%9C%2066_FRF00004824000002114_close_20261106.jpg"
+  },
+  "FRF00004824000012676": {
+    "id": "FRF00004824000012676",
+    "addr": "경상남도 사천시 금문3길 73",
+    "surveyDate": "20261106",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "망실 금문3길82표기",
+    "gpsLat": 35.0046822,
+    "gpsLng": 128.0486533,
+    "gpsAccuracy": 6,
+    "distFromPoint": 6,
+    "gpsAt": "2026-11-06T05:28:03.849Z",
+    "updatedAt": "2026-11-06T05:28:03.849Z",
+    "farPhotoLocal": "경상남도 사천시 금문3길 73_FRF00004824000012676_far_20261106.jpg",
+    "closePhotoLocal": "경상남도 사천시 금문3길 73_FRF00004824000012676_close_20261106.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EA%B8%88%EB%AC%B83%EA%B8%B8%2073_FRF00004824000012676_far_20261106.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EA%B8%88%EB%AC%B83%EA%B8%B8%2073_FRF00004824000012676_close_20261106.jpg"
   }
 }
