@@ -17355,5 +17355,41 @@
     "closePhotoLocal": "경상남도 사천시 남일대길 55-81_FRF00004824000020802_close_20261106.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EB%82%A8%EC%9D%BC%EB%8C%80%EA%B8%B8%2055-81_FRF00004824000020802_far_20261106.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EB%82%A8%EC%9D%BC%EB%8C%80%EA%B8%B8%2055-81_FRF00004824000020802_close_20261106.jpg"
+  },
+  "FRF00004817000005682": {
+    "id": "FRF00004817000005682",
+    "addr": "경상남도 진주시 진주대로 1827",
+    "surveyDate": "20261106",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.2261194,
+    "gpsLng": 128.0220983,
+    "gpsAccuracy": 5,
+    "distFromPoint": 26,
+    "gpsAt": "2026-11-06T06:46:52.154Z",
+    "updatedAt": "2026-11-06T06:46:52.154Z",
+    "farPhotoLocal": "경상남도 진주시 진주대로 1827_FRF00004817000005682_far_20261106.jpg",
+    "closePhotoLocal": "경상남도 진주시 진주대로 1827_FRF00004817000005682_close_20261106.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%EC%A3%BC%EC%8B%9C%20%EC%A7%84%EC%A3%BC%EB%8C%80%EB%A1%9C%201827_FRF00004817000005682_far_20261106.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%EC%A3%BC%EC%8B%9C%20%EC%A7%84%EC%A3%BC%EB%8C%80%EB%A1%9C%201827_FRF00004817000005682_close_20261106.jpg"
+  },
+  "FRF00004817000016501": {
+    "id": "FRF00004817000016501",
+    "addr": "경상남도 진주시 호반로 184",
+    "surveyDate": "20261106",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.1474102,
+    "gpsLng": 128.0098167,
+    "gpsAccuracy": 4,
+    "distFromPoint": 64,
+    "gpsAt": "2026-11-06T07:08:05.779Z",
+    "updatedAt": "2026-11-06T07:08:05.779Z",
+    "farPhotoLocal": "경상남도 진주시 호반로 184_FRF00004817000016501_far_20261106.jpg",
+    "closePhotoLocal": "경상남도 진주시 호반로 184_FRF00004817000016501_close_20261106.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%EC%A3%BC%EC%8B%9C%20%ED%98%B8%EB%B0%98%EB%A1%9C%20184_FRF00004817000016501_far_20261106.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%EC%A3%BC%EC%8B%9C%20%ED%98%B8%EB%B0%98%EB%A1%9C%20184_FRF00004817000016501_close_20261106.jpg"
   }
 }
