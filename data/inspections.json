@@ -17410,22 +17410,22 @@
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%EC%A3%BC%EC%8B%9C%20%ED%98%B8%EB%B0%98%EB%A1%9C%2049_FRF00004817000016493_far_20261106.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%EC%A3%BC%EC%8B%9C%20%ED%98%B8%EB%B0%98%EB%A1%9C%2049_FRF00004817000016493_close_20261106.jpg"
   },
-  "FRF00004817000016492": {
-    "id": "FRF00004817000016492",
-    "addr": "경상남도 진주시 호반로 33",
+  "FRF00004824000002211": {
+    "id": "FRF00004824000002211",
+    "addr": "경상남도 사천시 상궁지길 100",
     "surveyDate": "20261106",
-    "surveyor": "우병기",
+    "surveyor": "노경수",
     "surveyStatus": "촬영완료",
-    "memo": "",
-    "gpsLat": 35.141336,
-    "gpsLng": 128.0240552,
-    "gpsAccuracy": 4,
-    "distFromPoint": 70,
-    "gpsAt": "2026-11-06T07:13:07.099Z",
-    "updatedAt": "2026-11-06T07:13:07.099Z",
-    "farPhotoLocal": "경상남도 진주시 호반로 33_FRF00004817000016492_far_20261106.jpg",
-    "closePhotoLocal": "경상남도 진주시 호반로 33_FRF00004817000016492_close_20261106.jpg",
-    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%EC%A3%BC%EC%8B%9C%20%ED%98%B8%EB%B0%98%EB%A1%9C%2033_FRF00004817000016492_far_20261106.jpg",
-    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%EC%A3%BC%EC%8B%9C%20%ED%98%B8%EB%B0%98%EB%A1%9C%2033_FRF00004817000016492_close_20261106.jpg"
+    "memo": "망실 승강장 상궁지길100-10",
+    "gpsLat": 34.9405425,
+    "gpsLng": 128.1228034,
+    "gpsAccuracy": 3,
+    "distFromPoint": 3,
+    "gpsAt": "2026-11-06T07:13:54.456Z",
+    "updatedAt": "2026-11-06T07:13:54.456Z",
+    "farPhotoLocal": "경상남도 사천시 상궁지길 100_FRF00004824000002211_far_20261106.jpg",
+    "closePhotoLocal": "경상남도 사천시 상궁지길 100_FRF00004824000002211_close_20261106.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EC%83%81%EA%B6%81%EC%A7%80%EA%B8%B8%20100_FRF00004824000002211_far_20261106.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EC%83%81%EA%B6%81%EC%A7%80%EA%B8%B8%20100_FRF00004824000002211_close_20261106.jpg"
   }
 }
