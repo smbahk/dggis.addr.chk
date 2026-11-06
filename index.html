@@ -713,13 +713,13 @@ const GH = {
     const LS_KEY = 'dggis_i';
     if (!c.owner||!c.repo) { App.insp=JSON.parse(localStorage.getItem(LS_KEY)||'{}'); return; }
     try {
-      // SHA는 Contents API로 (파일 크기 무관), 내용은 raw URL로 (1MB 제한 우회)
+      let remote = {};
       const metaR = await fetch(`${this.base()}/${this._encPath('data/inspections.json')}`,{headers:this.hdrs()});
       if (metaR.ok) {
+        // 토큰 정상: Contents API로 SHA 취득
         const meta = await metaR.json();
         App.inspSha = meta.sha;
-        let remote = {};
-        if (meta.content) {
+        if (meta.content && meta.content.trim()) {
           // 1MB 미만: 응답에 내용 포함
           remote = JSON.parse(atob(meta.content.replace(/\n/g,'')));
         } else {
@@ -727,11 +727,13 @@ const GH = {
           const rawR = await fetch(`https://raw.githubusercontent.com/${c.owner}/${c.repo}/${c.branch}/data/inspections.json?t=${Date.now()}`);
           if (rawR.ok) remote = await rawR.json();
         }
-        const local = JSON.parse(localStorage.getItem(LS_KEY)||'{}');
-        App.insp = {...remote,...local};
       } else {
-        App.insp = JSON.parse(localStorage.getItem(LS_KEY)||'{}');
+        // 토큰 없거나 만료: 공개 저장소 raw URL로 내용만 읽기
+        const rawR = await fetch(`https://raw.githubusercontent.com/${c.owner}/${c.repo}/${c.branch}/data/inspections.json?t=${Date.now()}`);
+        if (rawR.ok) remote = await rawR.json();
       }
+      const local = JSON.parse(localStorage.getItem(LS_KEY)||'{}');
+      App.insp = {...remote,...local};
     } catch(e) {
       console.warn('loadInsp error:', e);
       App.insp = JSON.parse(localStorage.getItem(LS_KEY)||'{}');
@@ -978,6 +980,12 @@ const MC = {
     kakao.maps.event.addListener(kakaoMap,'click',()=>UI.closeSh());
     this.myLoc(true);
     this.loadAll();
+    // 3분마다 다른 조사자 변경사항 자동 반영
+    setInterval(()=>MC.silentRefresh(), 3*60*1000);
+    // 앱으로 돌아올 때(탭 활성화) 즉시 갱신
+    document.addEventListener('visibilitychange',()=>{
+      if (document.visibilityState==='visible') MC.silentRefresh();
+    });
   },
   svgPin(status) {
     let col, inner;
@@ -1085,6 +1093,20 @@ const MC = {
     },()=>{ if (!silent) UI.toast('위치를 가져올 수 없습니다.'); });
   },
   refresh() { this.loadAll(); UI.toast('새로고침 완료'); },
+  /* 다른 조사자 변경사항 반영 — 마커만 조용히 갱신 */
+  async silentRefresh() {
+    try {
+      const c=Cfg.get();
+      if (!c.owner||!c.repo) return;
+      const rawR=await fetch(`https://raw.githubusercontent.com/${c.owner}/${c.repo}/${c.branch}/data/inspections.json?t=${Date.now()}`);
+      if (!rawR.ok) return;
+      const remote=await rawR.json();
+      // 서버 데이터와 내 로컬 데이터 병합 (내 로컬 우선)
+      const local=JSON.parse(localStorage.getItem('dggis_i')||'{}');
+      App.insp={...remote,...local};
+      this.redraw();
+    } catch(e) { console.warn('silentRefresh error:',e); }
+  },
   setType(t) {
     ['mtRoad','mtDist','mtSky'].forEach(id=>g(id).classList.remove('on'));
     if (overlayType) { kakaoMap.removeOverlayMapTypeId(overlayType); overlayType=null; }
@@ -1550,7 +1572,7 @@ function loadKakao(key) {
 /* ============================================================
    VERSION
    ============================================================ */
-const APP_VERSION = 'v2.0.3';
+const APP_VERSION = 'v2.0.4';
 
 async function checkVersion() {
   try {
