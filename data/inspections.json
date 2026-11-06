@@ -17517,5 +17517,23 @@
     "closePhotoLocal": "경상남도 사천시 곤수로 122_FRF20260000000000221_close_20261106.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EA%B3%A4%EC%88%98%EB%A1%9C%20122_FRF20260000000000221_far_20261106.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EA%B3%A4%EC%88%98%EB%A1%9C%20122_FRF20260000000000221_close_20261106.jpg"
+  },
+  "FRF20260000000000223": {
+    "id": "FRF20260000000000223",
+    "addr": "경상남도 사천시 곤수로 158",
+    "surveyDate": "20261106",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.1350491,
+    "gpsLng": 127.9622932,
+    "gpsAccuracy": 4,
+    "distFromPoint": 2,
+    "gpsAt": "2026-11-06T07:25:28.042Z",
+    "updatedAt": "2026-11-06T07:25:28.042Z",
+    "farPhotoLocal": "경상남도 사천시 곤수로 158_FRF20260000000000223_far_20261106.jpg",
+    "closePhotoLocal": "경상남도 사천시 곤수로 158_FRF20260000000000223_close_20261106.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EA%B3%A4%EC%88%98%EB%A1%9C%20158_FRF20260000000000223_far_20261106.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EA%B3%A4%EC%88%98%EB%A1%9C%20158_FRF20260000000000223_close_20261106.jpg"
   }
 }
