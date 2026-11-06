@@ -16547,5 +16547,23 @@
     "closePhotoLocal": "경상남도 의령군 의령대로 1669_FRF00004872000003374_close_20261106.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%9D%98%EB%A0%B9%EA%B5%B0%20%EC%9D%98%EB%A0%B9%EB%8C%80%EB%A1%9C%201669_FRF00004872000003374_far_20261106.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%9D%98%EB%A0%B9%EA%B5%B0%20%EC%9D%98%EB%A0%B9%EB%8C%80%EB%A1%9C%201669_FRF00004872000003374_close_20261106.jpg"
+  },
+  "FRF00004872000003372": {
+    "id": "FRF00004872000003372",
+    "addr": "경상남도 의령군 의령대로 1659",
+    "surveyDate": "20261106",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.3168461,
+    "gpsLng": 128.2611801,
+    "gpsAccuracy": 4,
+    "distFromPoint": 69,
+    "gpsAt": "2026-11-06T02:59:54.650Z",
+    "updatedAt": "2026-11-06T02:59:54.650Z",
+    "farPhotoLocal": "경상남도 의령군 의령대로 1659_FRF00004872000003372_far_20261106.jpg",
+    "closePhotoLocal": "경상남도 의령군 의령대로 1659_FRF00004872000003372_close_20261106.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%9D%98%EB%A0%B9%EA%B5%B0%20%EC%9D%98%EB%A0%B9%EB%8C%80%EB%A1%9C%201659_FRF00004872000003372_far_20261106.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%9D%98%EB%A0%B9%EA%B5%B0%20%EC%9D%98%EB%A0%B9%EB%8C%80%EB%A1%9C%201659_FRF00004872000003372_close_20261106.jpg"
   }
 }
