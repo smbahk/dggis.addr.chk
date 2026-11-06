@@ -16869,5 +16869,23 @@
     "closePhotoLocal": "경상남도 사천시 능화길 108_FRF00004824000002206_close_20261106.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EB%8A%A5%ED%99%94%EA%B8%B8%20108_FRF00004824000002206_far_20261106.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EB%8A%A5%ED%99%94%EA%B8%B8%20108_FRF00004824000002206_close_20261106.jpg"
+  },
+  "FRF20260000000001257": {
+    "id": "FRF20260000000001257",
+    "addr": "경상남도 사천시 백가숲길 127",
+    "surveyDate": "20261106",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "시설물 나무",
+    "gpsLat": 35.0082252,
+    "gpsLng": 128.1088124,
+    "gpsAccuracy": 9,
+    "distFromPoint": 26,
+    "gpsAt": "2026-11-06T05:02:18.379Z",
+    "updatedAt": "2026-11-06T05:02:18.379Z",
+    "farPhotoLocal": "경상남도 사천시 백가숲길 127_FRF20260000000001257_far_20261106.jpg",
+    "closePhotoLocal": "경상남도 사천시 백가숲길 127_FRF20260000000001257_close_20261106.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EB%B0%B1%EA%B0%80%EC%88%B2%EA%B8%B8%20127_FRF20260000000001257_far_20261106.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EB%B0%B1%EA%B0%80%EC%88%B2%EA%B8%B8%20127_FRF20260000000001257_close_20261106.jpg"
   }
 }
