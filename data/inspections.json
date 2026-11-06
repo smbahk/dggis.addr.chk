@@ -15178,7 +15178,9 @@
     "gpsAt": "2026-11-05T23:23:44.640Z",
     "updatedAt": "2026-11-05T23:23:44.640Z",
     "farPhotoLocal": "경상남도 하동군 경충로 607_FRF00004885000015608_far_20261106.jpg",
-    "closePhotoLocal": "경상남도 하동군 경충로 607_FRF00004885000015608_close_20261106.jpg"
+    "closePhotoLocal": "경상남도 하동군 경충로 607_FRF00004885000015608_close_20261106.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%95%98%EB%8F%99%EA%B5%B0%20%EA%B2%BD%EC%B6%A9%EB%A1%9C%20607_FRF00004885000015608_far_20261106.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%95%98%EB%8F%99%EA%B5%B0%20%EA%B2%BD%EC%B6%A9%EB%A1%9C%20607_FRF00004885000015608_close_20261106.jpg"
   },
   "FRF00004885000015609": {
     "id": "FRF00004885000015609",
@@ -15647,5 +15649,23 @@
     "closePhotoLocal": "경상남도 마산회원구 용담로 20_FRF00004812000037960_close_20261106.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%A7%88%EC%82%B0%ED%9A%8C%EC%9B%90%EA%B5%AC%20%EC%9A%A9%EB%8B%B4%EB%A1%9C%2020_FRF00004812000037960_far_20261106.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%A7%88%EC%82%B0%ED%9A%8C%EC%9B%90%EA%B5%AC%20%EC%9A%A9%EB%8B%B4%EB%A1%9C%2020_FRF00004812000037960_close_20261106.jpg"
+  },
+  "FRF20260000000001212": {
+    "id": "FRF20260000000001212",
+    "addr": "경상남도 사천시 송남숲길 34",
+    "surveyDate": "20261106",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.0751763,
+    "gpsLng": 127.9583338,
+    "gpsAccuracy": 24,
+    "distFromPoint": 125,
+    "gpsAt": "2026-11-06T00:19:13.639Z",
+    "updatedAt": "2026-11-06T00:19:13.639Z",
+    "farPhotoLocal": "경상남도 사천시 송남숲길 34_FRF20260000000001212_far_20261106.jpg",
+    "closePhotoLocal": "경상남도 사천시 송남숲길 34_FRF20260000000001212_close_20261106.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EC%86%A1%EB%82%A8%EC%88%B2%EA%B8%B8%2034_FRF20260000000001212_far_20261106.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EC%86%A1%EB%82%A8%EC%88%B2%EA%B8%B8%2034_FRF20260000000001212_close_20261106.jpg"
   }
 }
