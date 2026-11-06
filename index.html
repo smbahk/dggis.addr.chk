@@ -661,13 +661,10 @@ if (!c.inspector) { UI.toast('⚠️ 측량자 이름을 입력해 주세요.');
     g('cBranch').value=c.branch;  g('cInsp').value=c.inspector;
     const el=g('cfgVersion'); if(el) el.textContent=APP_VERSION;
   },
-  async resetLocal() {
+  resetLocal() {
     if (!confirm('로컬 조사 데이터를 초기화하고 서버에서 다시 불러올까요?\n설정(토큰·이름)은 유지됩니다.')) return;
     localStorage.removeItem('dggis_i');
-    App.insp = {}; App.inspSha = null;
-    UI.closeMod('modCfg');
-    UI.toast('초기화 완료 — 서버에서 데이터를 불러옵니다...');
-    await MC.loadAll();
+    location.reload();
   }
 };
 
