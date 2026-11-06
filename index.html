@@ -712,15 +712,29 @@ const GH = {
     const c=Cfg.get();
     const LS_KEY = 'dggis_i';
     if (!c.owner||!c.repo) { App.insp=JSON.parse(localStorage.getItem(LS_KEY)||'{}'); return; }
-    const f = await this.getFile('data/inspections.json');
-    if (f) {
-      try {
-        const remote=JSON.parse(f.content);
-        const local=JSON.parse(localStorage.getItem(LS_KEY)||'{}');
-        App.insp={...remote,...local}; App.inspSha=f.sha;
-      } catch { App.insp=JSON.parse(localStorage.getItem(LS_KEY)||'{}'); }
-    } else {
-      App.insp=JSON.parse(localStorage.getItem(LS_KEY)||'{}');
+    try {
+      // SHA는 Contents API로 (파일 크기 무관), 내용은 raw URL로 (1MB 제한 우회)
+      const metaR = await fetch(`${this.base()}/${this._encPath('data/inspections.json')}`,{headers:this.hdrs()});
+      if (metaR.ok) {
+        const meta = await metaR.json();
+        App.inspSha = meta.sha;
+        let remote = {};
+        if (meta.content) {
+          // 1MB 미만: 응답에 내용 포함
+          remote = JSON.parse(atob(meta.content.replace(/\n/g,'')));
+        } else {
+          // 1MB 초과: raw URL로 별도 fetch
+          const rawR = await fetch(`https://raw.githubusercontent.com/${c.owner}/${c.repo}/${c.branch}/data/inspections.json?t=${Date.now()}`);
+          if (rawR.ok) remote = await rawR.json();
+        }
+        const local = JSON.parse(localStorage.getItem(LS_KEY)||'{}');
+        App.insp = {...remote,...local};
+      } else {
+        App.insp = JSON.parse(localStorage.getItem(LS_KEY)||'{}');
+      }
+    } catch(e) {
+      console.warn('loadInsp error:', e);
+      App.insp = JSON.parse(localStorage.getItem(LS_KEY)||'{}');
     }
     MC.redraw();
   },
@@ -735,8 +749,13 @@ const GH = {
       const res=await this.putFile('data/inspections.json',JSON.stringify(App.insp,null,2),App.inspSha,`측량: ${insp.addr||insp.id}`);
       if (res && !res._conflict) { App.inspSha=res.content.sha; return true; }
       if (res?._conflict) {
-        const f=await this.getFile('data/inspections.json');
-        if (f) { try { const r=JSON.parse(f.content); App.insp={...r,...App.insp}; App.inspSha=f.sha; } catch {} }
+        // 충돌 시 raw URL로 최신 내용 가져오기 (1MB 제한 우회)
+        try {
+          const rawR = await fetch(`https://raw.githubusercontent.com/${c.owner}/${c.repo}/${c.branch}/data/inspections.json?t=${Date.now()}`);
+          if (rawR.ok) { const r=await rawR.json(); App.insp={...r,...App.insp}; }
+          const metaR = await fetch(`${this.base()}/${this._encPath('data/inspections.json')}`,{headers:this.hdrs()});
+          if (metaR.ok) { const m=await metaR.json(); App.inspSha=m.sha; }
+        } catch {}
       } else break;
     }
     return false;
