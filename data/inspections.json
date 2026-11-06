@@ -18344,5 +18344,23 @@
     "closePhotoLocal": "경상남도 진주시 동부로 200_FRF00004817000014128_close_20261107.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%EC%A3%BC%EC%8B%9C%20%EB%8F%99%EB%B6%80%EB%A1%9C%20200_FRF00004817000014128_far_20261107.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%EC%A3%BC%EC%8B%9C%20%EB%8F%99%EB%B6%80%EB%A1%9C%20200_FRF00004817000014128_close_20261107.jpg"
+  },
+  "FRF00004817000014166": {
+    "id": "FRF00004817000014166",
+    "addr": "경상남도 진주시 범골로 31",
+    "surveyDate": "20261107",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.168007,
+    "gpsLng": 128.1293681,
+    "gpsAccuracy": 4,
+    "distFromPoint": 3,
+    "gpsAt": "2026-11-06T23:48:18.132Z",
+    "updatedAt": "2026-11-06T23:48:18.132Z",
+    "farPhotoLocal": "경상남도 진주시 범골로 31_FRF00004817000014166_far_20261107.jpg",
+    "closePhotoLocal": "경상남도 진주시 범골로 31_FRF00004817000014166_close_20261107.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%EC%A3%BC%EC%8B%9C%20%EB%B2%94%EA%B3%A8%EB%A1%9C%2031_FRF00004817000014166_far_20261107.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%EC%A3%BC%EC%8B%9C%20%EB%B2%94%EA%B3%A8%EB%A1%9C%2031_FRF00004817000014166_close_20261107.jpg"
   }
 }
