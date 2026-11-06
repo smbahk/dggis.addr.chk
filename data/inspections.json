@@ -16600,5 +16600,23 @@
     "closePhotoLocal": "경상남도 사천시 사천대로 2055_FRF00004824000003267_close_20261106.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EC%82%AC%EC%B2%9C%EB%8C%80%EB%A1%9C%202055_FRF00004824000003267_far_20261106.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EC%82%AC%EC%B2%9C%EB%8C%80%EB%A1%9C%202055_FRF00004824000003267_close_20261106.jpg"
+  },
+  "FRF00004824000003268": {
+    "id": "FRF00004824000003268",
+    "addr": "경상남도 사천시 사천대로 1777",
+    "surveyDate": "20261106",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.0751271,
+    "gpsLng": 128.0816106,
+    "gpsAccuracy": 92,
+    "distFromPoint": 20,
+    "gpsAt": "2026-11-06T03:17:31.192Z",
+    "updatedAt": "2026-11-06T03:17:31.192Z",
+    "farPhotoLocal": "경상남도 사천시 사천대로 1777_FRF00004824000003268_far_20261106.jpg",
+    "closePhotoLocal": "경상남도 사천시 사천대로 1777_FRF00004824000003268_close_20261106.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EC%82%AC%EC%B2%9C%EB%8C%80%EB%A1%9C%201777_FRF00004824000003268_far_20261106.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EC%82%AC%EC%B2%9C%EB%8C%80%EB%A1%9C%201777_FRF00004824000003268_close_20261106.jpg"
   }
 }
