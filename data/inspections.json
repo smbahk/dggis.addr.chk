@@ -17211,5 +17211,23 @@
     "closePhotoLocal": "경상남도 진주시 진주대로 1921_FRF00004817000005693_close_20261106.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%EC%A3%BC%EC%8B%9C%20%EC%A7%84%EC%A3%BC%EB%8C%80%EB%A1%9C%201921_FRF00004817000005693_far_20261106.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%EC%A3%BC%EC%8B%9C%20%EC%A7%84%EC%A3%BC%EB%8C%80%EB%A1%9C%201921_FRF00004817000005693_close_20261106.jpg"
+  },
+  "FRF00004817000014057": {
+    "id": "FRF00004817000014057",
+    "addr": "경상남도 진주시 진주대로 1859",
+    "surveyDate": "20261106",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.227776,
+    "gpsLng": 128.0190301,
+    "gpsAccuracy": 4,
+    "distFromPoint": 12,
+    "gpsAt": "2026-11-06T06:42:45.381Z",
+    "updatedAt": "2026-11-06T06:42:45.381Z",
+    "farPhotoLocal": "경상남도 진주시 진주대로 1859_FRF00004817000014057_far_20261106.jpg",
+    "closePhotoLocal": "경상남도 진주시 진주대로 1859_FRF00004817000014057_close_20261106.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%EC%A3%BC%EC%8B%9C%20%EC%A7%84%EC%A3%BC%EB%8C%80%EB%A1%9C%201859_FRF00004817000014057_far_20261106.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%EC%A3%BC%EC%8B%9C%20%EC%A7%84%EC%A3%BC%EB%8C%80%EB%A1%9C%201859_FRF00004817000014057_close_20261106.jpg"
   }
 }
