@@ -18093,5 +18093,23 @@
     "closePhotoLocal": "경상남도 사천시 동문2길 44_FRF00004824000020722_close_20261106.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EB%8F%99%EB%AC%B82%EA%B8%B8%2044_FRF00004824000020722_far_20261106.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EB%8F%99%EB%AC%B82%EA%B8%B8%2044_FRF00004824000020722_close_20261106.jpg"
+  },
+  "FRF00004824000013371": {
+    "id": "FRF00004824000013371",
+    "addr": "경상남도 사천시 옥산로 45",
+    "surveyDate": "20261106",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.0798222,
+    "gpsLng": 128.0879391,
+    "gpsAccuracy": 4,
+    "distFromPoint": 9,
+    "gpsAt": "2026-11-06T08:37:24.086Z",
+    "updatedAt": "2026-11-06T08:37:24.086Z",
+    "farPhotoLocal": "경상남도 사천시 옥산로 45_FRF00004824000013371_far_20261106.jpg",
+    "closePhotoLocal": "경상남도 사천시 옥산로 45_FRF00004824000013371_close_20261106.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EC%98%A5%EC%82%B0%EB%A1%9C%2045_FRF00004824000013371_far_20261106.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EC%98%A5%EC%82%B0%EB%A1%9C%2045_FRF00004824000013371_close_20261106.jpg"
   }
 }
