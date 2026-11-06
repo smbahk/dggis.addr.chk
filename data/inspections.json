@@ -16851,5 +16851,23 @@
     "closePhotoLocal": "경상남도 사천시 사남로 574_FRF00004824000002207_close_20261106.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EC%82%AC%EB%82%A8%EB%A1%9C%20574_FRF00004824000002207_far_20261106.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EC%82%AC%EB%82%A8%EB%A1%9C%20574_FRF00004824000002207_close_20261106.jpg"
+  },
+  "FRF00004824000002206": {
+    "id": "FRF00004824000002206",
+    "addr": "경상남도 사천시 능화길 108",
+    "surveyDate": "20261106",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "망실 능화길109표기",
+    "gpsLat": 35.029538,
+    "gpsLng": 128.1261371,
+    "gpsAccuracy": 7,
+    "distFromPoint": 6,
+    "gpsAt": "2026-11-06T04:45:39.804Z",
+    "updatedAt": "2026-11-06T04:45:39.804Z",
+    "farPhotoLocal": "경상남도 사천시 능화길 108_FRF00004824000002206_far_20261106.jpg",
+    "closePhotoLocal": "경상남도 사천시 능화길 108_FRF00004824000002206_close_20261106.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EB%8A%A5%ED%99%94%EA%B8%B8%20108_FRF00004824000002206_far_20261106.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EB%8A%A5%ED%99%94%EA%B8%B8%20108_FRF00004824000002206_close_20261106.jpg"
   }
 }
