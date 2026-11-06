@@ -16043,5 +16043,23 @@
     "closePhotoLocal": "경상남도 의령군 자굴산로 1100_FRF00004872000006371_close_20261106.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%9D%98%EB%A0%B9%EA%B5%B0%20%EC%9E%90%EA%B5%B4%EC%82%B0%EB%A1%9C%201100_FRF00004872000006371_far_20261106.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%9D%98%EB%A0%B9%EA%B5%B0%20%EC%9E%90%EA%B5%B4%EC%82%B0%EB%A1%9C%201100_FRF00004872000006371_close_20261106.jpg"
+  },
+  "FRF00004872000006372": {
+    "id": "FRF00004872000006372",
+    "addr": "경상남도 의령군 자굴산로 1111",
+    "surveyDate": "20261106",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.3792809,
+    "gpsLng": 128.2207926,
+    "gpsAccuracy": 6,
+    "distFromPoint": 72,
+    "gpsAt": "2026-11-06T01:35:47.281Z",
+    "updatedAt": "2026-11-06T01:35:47.281Z",
+    "farPhotoLocal": "경상남도 의령군 자굴산로 1111_FRF00004872000006372_far_20261106.jpg",
+    "closePhotoLocal": "경상남도 의령군 자굴산로 1111_FRF00004872000006372_close_20261106.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%9D%98%EB%A0%B9%EA%B5%B0%20%EC%9E%90%EA%B5%B4%EC%82%B0%EB%A1%9C%201111_FRF00004872000006372_far_20261106.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%9D%98%EB%A0%B9%EA%B5%B0%20%EC%9E%90%EA%B5%B4%EC%82%B0%EB%A1%9C%201111_FRF00004872000006372_close_20261106.jpg"
   }
 }
