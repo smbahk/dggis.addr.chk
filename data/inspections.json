@@ -17391,5 +17391,23 @@
     "closePhotoLocal": "경상남도 진주시 호반로 184_FRF00004817000016501_close_20261106.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%EC%A3%BC%EC%8B%9C%20%ED%98%B8%EB%B0%98%EB%A1%9C%20184_FRF00004817000016501_far_20261106.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%EC%A3%BC%EC%8B%9C%20%ED%98%B8%EB%B0%98%EB%A1%9C%20184_FRF00004817000016501_close_20261106.jpg"
+  },
+  "FRF00004817000016493": {
+    "id": "FRF00004817000016493",
+    "addr": "경상남도 진주시 호반로 49",
+    "surveyDate": "20261106",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.1425371,
+    "gpsLng": 128.0221369,
+    "gpsAccuracy": 4,
+    "distFromPoint": 9,
+    "gpsAt": "2026-11-06T07:11:24.575Z",
+    "updatedAt": "2026-11-06T07:11:24.575Z",
+    "farPhotoLocal": "경상남도 진주시 호반로 49_FRF00004817000016493_far_20261106.jpg",
+    "closePhotoLocal": "경상남도 진주시 호반로 49_FRF00004817000016493_close_20261106.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%EC%A3%BC%EC%8B%9C%20%ED%98%B8%EB%B0%98%EB%A1%9C%2049_FRF00004817000016493_far_20261106.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%EC%A3%BC%EC%8B%9C%20%ED%98%B8%EB%B0%98%EB%A1%9C%2049_FRF00004817000016493_close_20261106.jpg"
   }
 }
