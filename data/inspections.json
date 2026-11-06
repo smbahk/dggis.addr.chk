@@ -15521,5 +15521,23 @@
     "closePhotoLocal": "경상남도 의령군 청정로 1186_FRF00004872000004384_close_20261106.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%9D%98%EB%A0%B9%EA%B5%B0%20%EC%B2%AD%EC%A0%95%EB%A1%9C%201186_FRF00004872000004384_far_20261106.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%9D%98%EB%A0%B9%EA%B5%B0%20%EC%B2%AD%EC%A0%95%EB%A1%9C%201186_FRF00004872000004384_close_20261106.jpg"
+  },
+  "FRF00004872000004385": {
+    "id": "FRF00004872000004385",
+    "addr": "경상남도 의령군 청정로 1170",
+    "surveyDate": "20261106",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.4374978,
+    "gpsLng": 128.2381038,
+    "gpsAccuracy": 4,
+    "distFromPoint": 4,
+    "gpsAt": "2026-11-06T00:04:27.472Z",
+    "updatedAt": "2026-11-06T00:04:27.472Z",
+    "farPhotoLocal": "경상남도 의령군 청정로 1170_FRF00004872000004385_far_20261106.jpg",
+    "closePhotoLocal": "경상남도 의령군 청정로 1170_FRF00004872000004385_close_20261106.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%9D%98%EB%A0%B9%EA%B5%B0%20%EC%B2%AD%EC%A0%95%EB%A1%9C%201170_FRF00004872000004385_far_20261106.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%9D%98%EB%A0%B9%EA%B5%B0%20%EC%B2%AD%EC%A0%95%EB%A1%9C%201170_FRF00004872000004385_close_20261106.jpg"
   }
 }
