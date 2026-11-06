@@ -18003,5 +18003,23 @@
     "closePhotoLocal": "경상남도 하동군 옥단로 486_FRF00004885000001641_close_20261106.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%95%98%EB%8F%99%EA%B5%B0%20%EC%98%A5%EB%8B%A8%EB%A1%9C%20486_FRF00004885000001641_far_20261106.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%95%98%EB%8F%99%EA%B5%B0%20%EC%98%A5%EB%8B%A8%EB%A1%9C%20486_FRF00004885000001641_close_20261106.jpg"
+  },
+  "FRF00004885000002506": {
+    "id": "FRF00004885000002506",
+    "addr": "경상남도 하동군 옥단로 487",
+    "surveyDate": "20261106",
+    "surveyor": "우병기",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.1427299,
+    "gpsLng": 127.8788947,
+    "gpsAccuracy": 6,
+    "distFromPoint": 6,
+    "gpsAt": "2026-11-06T08:17:55.567Z",
+    "updatedAt": "2026-11-06T08:17:55.567Z",
+    "farPhotoLocal": "경상남도 하동군 옥단로 487_FRF00004885000002506_far_20261106.jpg",
+    "closePhotoLocal": "경상남도 하동군 옥단로 487_FRF00004885000002506_close_20261106.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%95%98%EB%8F%99%EA%B5%B0%20%EC%98%A5%EB%8B%A8%EB%A1%9C%20487_FRF00004885000002506_far_20261106.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%95%98%EB%8F%99%EA%B5%B0%20%EC%98%A5%EB%8B%A8%EB%A1%9C%20487_FRF00004885000002506_close_20261106.jpg"
   }
 }
