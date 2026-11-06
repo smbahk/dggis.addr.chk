@@ -555,6 +555,11 @@ html,body{height:100%;overflow:hidden;font-family:var(--font);background:#f0f2f5
       photos/{시도} {시군구} {도로명} {번호}_far_{날짜}.jpg<br>
       photos/{시도} {시군구} {도로명} {번호}_close_{날짜}.jpg
     </div>
+    <div style="margin-top:16px;padding:14px;background:#fff3f3;border-radius:var(--r-sm);border:1px solid #ffd6d6;">
+      <div style="font-size:12px;font-weight:700;color:var(--gray-800);margin-bottom:4px;">🗑 로컬 데이터 초기화</div>
+      <div style="font-size:11px;color:var(--gray-600);margin-bottom:10px;">조사 수량이 0으로 표시될 때 사용. 서버(GitHub)에서 최신 데이터를 다시 불러옵니다. 설정(토큰·이름)은 유지됩니다.</div>
+      <button onclick="Cfg.resetLocal()" style="width:100%;height:38px;border:1px solid var(--danger);border-radius:var(--r-sm);background:#fff;color:var(--danger);font-size:13px;font-weight:700;font-family:var(--font);cursor:pointer;">로컬 데이터 초기화 후 재로드</button>
+    </div>
     <div style="text-align:center;padding:8px 0 4px;font-size:12px;color:var(--gray-400);">
       기초번호판 측량지점 <span id="cfgVersion"></span>
     </div>
@@ -655,6 +660,14 @@ if (!c.inspector) { UI.toast('⚠️ 측량자 이름을 입력해 주세요.');
     g('cOwner').value=c.owner;    g('cRepo').value=c.repo;
     g('cBranch').value=c.branch;  g('cInsp').value=c.inspector;
     const el=g('cfgVersion'); if(el) el.textContent=APP_VERSION;
+  },
+  async resetLocal() {
+    if (!confirm('로컬 조사 데이터를 초기화하고 서버에서 다시 불러올까요?\n설정(토큰·이름)은 유지됩니다.')) return;
+    localStorage.removeItem('dggis_i');
+    App.insp = {}; App.inspSha = null;
+    UI.closeMod('modCfg');
+    UI.toast('초기화 완료 — 서버에서 데이터를 불러옵니다...');
+    await MC.loadAll();
   }
 };
 
@@ -715,6 +728,7 @@ const GH = {
     MC.redraw();
   },
   async saveInsp(insp) {
+    if (!insp || !insp.id) { console.warn('saveInsp: invalid insp object, skipping'); return false; }
     const LS_KEY = 'dggis_i';
     App.insp[insp.id]=insp;
     localStorage.setItem(LS_KEY,JSON.stringify(App.insp));
@@ -843,7 +857,8 @@ const QSheet = {
       // 복구된 데이터 저장
       if (recovered) {
         localStorage.setItem('dggis_i', JSON.stringify(App.insp));
-        await GH.saveInsp(Object.values(App.insp).find(i=>i)||{});
+        const validInsp = Object.values(App.insp).find(i=>i && i.id);
+        if (validInsp) await GH.saveInsp(validInsp);
       }
       // 큐 전체 삭제
       for (const item of items) await IDB.queueRemove(item.qid);
