@@ -16369,5 +16369,23 @@
     "closePhotoLocal": "경상남도 남해군 강진만로 498_FRF00004884000001103_close_20261106.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%82%A8%ED%95%B4%EA%B5%B0%20%EA%B0%95%EC%A7%84%EB%A7%8C%EB%A1%9C%20498_FRF00004884000001103_far_20261106.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%82%A8%ED%95%B4%EA%B5%B0%20%EA%B0%95%EC%A7%84%EB%A7%8C%EB%A1%9C%20498_FRF00004884000001103_close_20261106.jpg"
+  },
+  "FRF00004884000001102": {
+    "id": "FRF00004884000001102",
+    "addr": "경상남도 남해군 강진만로 484",
+    "surveyDate": "20261106",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 34.8177712,
+    "gpsLng": 127.9409538,
+    "gpsAccuracy": 6,
+    "distFromPoint": 60,
+    "gpsAt": "2026-11-06T02:40:35.863Z",
+    "updatedAt": "2026-11-06T02:40:35.863Z",
+    "farPhotoLocal": "경상남도 남해군 강진만로 484_FRF00004884000001102_far_20261106.jpg",
+    "closePhotoLocal": "경상남도 남해군 강진만로 484_FRF00004884000001102_close_20261106.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%82%A8%ED%95%B4%EA%B5%B0%20%EA%B0%95%EC%A7%84%EB%A7%8C%EB%A1%9C%20484_FRF00004884000001102_far_20261106.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%82%A8%ED%95%B4%EA%B5%B0%20%EA%B0%95%EC%A7%84%EB%A7%8C%EB%A1%9C%20484_FRF00004884000001102_close_20261106.jpg"
   }
 }
