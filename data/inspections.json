@@ -18254,5 +18254,41 @@
     "closePhotoLocal": "경상남도 사천시 충무공로 4755_FRF00004824000020398_close_20261106.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EC%B6%A9%EB%AC%B4%EA%B3%B5%EB%A1%9C%204755_FRF00004824000020398_far_20261106.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EC%B6%A9%EB%AC%B4%EA%B3%B5%EB%A1%9C%204755_FRF00004824000020398_close_20261106.jpg"
+  },
+  "FRF00004824000020756": {
+    "id": "FRF00004824000020756",
+    "addr": "경상남도 사천시 옥산로 47",
+    "surveyDate": "20261106",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.0800781,
+    "gpsLng": 128.0888111,
+    "gpsAccuracy": 1,
+    "distFromPoint": 68,
+    "gpsAt": "2026-11-06T08:51:28.067Z",
+    "updatedAt": "2026-11-06T08:51:28.067Z",
+    "farPhotoLocal": "경상남도 사천시 옥산로 47_FRF00004824000020756_far_20261106.jpg",
+    "closePhotoLocal": "경상남도 사천시 옥산로 47_FRF00004824000020756_close_20261106.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EC%98%A5%EC%82%B0%EB%A1%9C%2047_FRF00004824000020756_far_20261106.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EC%98%A5%EC%82%B0%EB%A1%9C%2047_FRF00004824000020756_close_20261106.jpg"
+  },
+  "FRF00004824000021021": {
+    "id": "FRF00004824000021021",
+    "addr": "경상남도 사천시 수양로 80-47",
+    "surveyDate": "20261106",
+    "surveyor": "노경수",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.085618,
+    "gpsLng": 128.0932141,
+    "gpsAccuracy": 7,
+    "distFromPoint": 4,
+    "gpsAt": "2026-11-06T08:58:39.168Z",
+    "updatedAt": "2026-11-06T08:58:39.168Z",
+    "farPhotoLocal": "경상남도 사천시 수양로 80-47_FRF00004824000021021_far_20261106.jpg",
+    "closePhotoLocal": "경상남도 사천시 수양로 80-47_FRF00004824000021021_close_20261106.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EC%88%98%EC%96%91%EB%A1%9C%2080-47_FRF00004824000021021_far_20261106.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EC%88%98%EC%96%91%EB%A1%9C%2080-47_FRF00004824000021021_close_20261106.jpg"
   }
 }
