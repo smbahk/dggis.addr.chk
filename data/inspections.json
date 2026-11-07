@@ -18812,5 +18812,23 @@
     "closePhotoLocal": "경상남도 진주시 진마대로 2582_FRF00004817000003896_close_20261107.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%EC%A3%BC%EC%8B%9C%20%EC%A7%84%EB%A7%88%EB%8C%80%EB%A1%9C%202582_FRF00004817000003896_far_20261107.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%EC%A3%BC%EC%8B%9C%20%EC%A7%84%EB%A7%88%EB%8C%80%EB%A1%9C%202582_FRF00004817000003896_close_20261107.jpg"
+  },
+  "FRF00004817000003895": {
+    "id": "FRF00004817000003895",
+    "addr": "경상남도 진주시 진마대로 2642",
+    "surveyDate": "20261107",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.1437416,
+    "gpsLng": 128.3367288,
+    "gpsAccuracy": 8,
+    "distFromPoint": 136,
+    "gpsAt": "2026-11-07T02:11:33.541Z",
+    "updatedAt": "2026-11-07T02:11:33.541Z",
+    "farPhotoLocal": "경상남도 진주시 진마대로 2642_FRF00004817000003895_far_20261107.jpg",
+    "closePhotoLocal": "경상남도 진주시 진마대로 2642_FRF00004817000003895_close_20261107.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%EC%A3%BC%EC%8B%9C%20%EC%A7%84%EB%A7%88%EB%8C%80%EB%A1%9C%202642_FRF00004817000003895_far_20261107.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%EC%A3%BC%EC%8B%9C%20%EC%A7%84%EB%A7%88%EB%8C%80%EB%A1%9C%202642_FRF00004817000003895_close_20261107.jpg"
   }
 }
