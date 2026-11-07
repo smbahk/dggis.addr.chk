@@ -18632,5 +18632,23 @@
     "closePhotoLocal": "경상남도 진주시 문산로 213_FRF00004817000006412_close_20261107.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%EC%A3%BC%EC%8B%9C%20%EB%AC%B8%EC%82%B0%EB%A1%9C%20213_FRF00004817000006412_far_20261107.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%EC%A3%BC%EC%8B%9C%20%EB%AC%B8%EC%82%B0%EB%A1%9C%20213_FRF00004817000006412_close_20261107.jpg"
+  },
+  "FRF00004817000006411": {
+    "id": "FRF00004817000006411",
+    "addr": "경상남도 진주시 문산로 207",
+    "surveyDate": "20261107",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.1156612,
+    "gpsLng": 128.2205775,
+    "gpsAccuracy": 12,
+    "distFromPoint": 18,
+    "gpsAt": "2026-11-07T00:51:23.114Z",
+    "updatedAt": "2026-11-07T00:51:23.114Z",
+    "farPhotoLocal": "경상남도 진주시 문산로 207_FRF00004817000006411_far_20261107.jpg",
+    "closePhotoLocal": "경상남도 진주시 문산로 207_FRF00004817000006411_close_20261107.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%EC%A3%BC%EC%8B%9C%20%EB%AC%B8%EC%82%B0%EB%A1%9C%20207_FRF00004817000006411_far_20261107.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%EC%A3%BC%EC%8B%9C%20%EB%AC%B8%EC%82%B0%EB%A1%9C%20207_FRF00004817000006411_close_20261107.jpg"
   }
 }
