@@ -18866,5 +18866,23 @@
     "closePhotoLocal": "경상남도 마산합포구 진마대로 3222_FRF00004812000021143_close_20261107.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%A7%88%EC%82%B0%ED%95%A9%ED%8F%AC%EA%B5%AC%20%EC%A7%84%EB%A7%88%EB%8C%80%EB%A1%9C%203222_FRF00004812000021143_far_20261107.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%A7%88%EC%82%B0%ED%95%A9%ED%8F%AC%EA%B5%AC%20%EC%A7%84%EB%A7%88%EB%8C%80%EB%A1%9C%203222_FRF00004812000021143_close_20261107.jpg"
+  },
+  "FRF00004812000021144": {
+    "id": "FRF00004812000021144",
+    "addr": "경상남도 마산합포구 진마대로 3272",
+    "surveyDate": "20261107",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.1134147,
+    "gpsLng": 128.3971249,
+    "gpsAccuracy": 6,
+    "distFromPoint": 128,
+    "gpsAt": "2026-11-07T02:22:20.923Z",
+    "updatedAt": "2026-11-07T02:22:20.923Z",
+    "farPhotoLocal": "경상남도 마산합포구 진마대로 3272_FRF00004812000021144_far_20261107.jpg",
+    "closePhotoLocal": "경상남도 마산합포구 진마대로 3272_FRF00004812000021144_close_20261107.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%A7%88%EC%82%B0%ED%95%A9%ED%8F%AC%EA%B5%AC%20%EC%A7%84%EB%A7%88%EB%8C%80%EB%A1%9C%203272_FRF00004812000021144_far_20261107.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%A7%88%EC%82%B0%ED%95%A9%ED%8F%AC%EA%B5%AC%20%EC%A7%84%EB%A7%88%EB%8C%80%EB%A1%9C%203272_FRF00004812000021144_close_20261107.jpg"
   }
 }
