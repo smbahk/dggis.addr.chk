@@ -16724,7 +16724,26 @@
     "updatedAt": "2026-11-06T04:12:27.996Z",
     "farPhotoLocal": "경상남도 남해군 동부대로 1376_FRF00004884000001752_far_20261106.jpg",
     "closePhotoLocal": "경상남도 남해군 동부대로 1376_FRF00004884000001752_close_20261106.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%82%A8%ED%95%B4%EA%B5%B0%20%EB%8F%99%EB%B6%80%EB%8C%80%EB%A1%9C%201376_FRF00004884000001752_far_20261106.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%82%A8%ED%95%B4%EA%B5%B0%20%EB%8F%99%EB%B6%80%EB%8C%80%EB%A1%9C%201376_FRF00004884000001752_close_20261106.jpg"
+  },
+  "FRF00004884000001754": {
+    "id": "FRF00004884000001754",
+    "addr": "경상남도 남해군 동부대로 1396",
+    "surveyDate": "20261106",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 34.8364437,
+    "gpsLng": 127.8944398,
+    "gpsAccuracy": 15,
+    "distFromPoint": 13256,
+    "gpsAt": "2026-11-06T04:12:27.996Z",
+    "updatedAt": "2026-11-06T04:12:27.996Z",
+    "farPhotoLocal": "경상남도 남해군 동부대로 1396_FRF00004884000001754_far_20261106.jpg",
+    "closePhotoLocal": "경상남도 남해군 동부대로 1396_FRF00004884000001754_close_20261106.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%82%A8%ED%95%B4%EA%B5%B0%20%EB%8F%99%EB%B6%80%EB%8C%80%EB%A1%9C%201396_FRF00004884000001754_far_20261106.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/main/photos/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%82%A8%ED%95%B4%EA%B5%B0%20%EB%8F%99%EB%B6%80%EB%8C%80%EB%A1%9C%201396_FRF00004884000001754_close_20261106.jpg"
   },
   "FRF00004824000003276": {
     "id": "FRF00004824000003276",
