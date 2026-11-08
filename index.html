@@ -39,6 +39,9 @@ html,body{height:100%;overflow:hidden;font-family:var(--font);background:#f0f2f5
 .ico-btn:hover{background:var(--gray-100);}
 .ico-btn svg{width:22px;height:22px;}
 .ico-row{display:flex;gap:2px;}
+.filter-chip{padding:5px 12px;border-radius:20px;border:1px solid var(--gray-200);background:#fff;
+  font-size:12px;font-weight:600;color:var(--gray-600);cursor:pointer;font-family:var(--font);transition:all .15s;}
+.filter-chip.on{background:var(--primary);border-color:var(--primary);color:#fff;}
 
 /* MAP CONTENT */
 #mapContent{flex:1;position:relative;overflow:hidden;}
@@ -551,9 +554,15 @@ html,body{height:100%;overflow:hidden;font-family:var(--font);background:#f0f2f5
     <div class="cfg-info">
       <b>📁 레포 구조 (자동 생성)</b><br>
       data/facilities.json &nbsp;— 측량지점 목록<br>
-      data/inspections.json — 전체 측량결과<br>
+      data/inspections.json — 전체 측량결과 (통합본)<br>
+      data/insp/{시설ID}.json — 개별 조사결과 (충돌방지)<br>
       photos/{시도} {시군구} {도로명} {번호}_far_{날짜}.jpg<br>
       photos/{시도} {시군구} {도로명} {번호}_close_{날짜}.jpg
+    </div>
+    <div id="admConsoBox" style="display:none;margin-top:12px;padding:14px;background:#e8f4fd;border-radius:var(--r-sm);border:1px solid #b3d9f5;">
+      <div style="font-size:12px;font-weight:700;color:var(--gray-800);margin-bottom:4px;">🔗 서버 데이터 통합 (관리자)</div>
+      <div style="font-size:11px;color:var(--gray-600);margin-bottom:10px;">data/insp/ 개별 파일 → inspections.json 병합. 파일이 많이 쌓이면 로딩 속도 최적화 목적으로 실행.</div>
+      <button onclick="Adm.consolidate()" style="width:100%;height:38px;border:1px solid #1a6ee0;border-radius:var(--r-sm);background:#fff;color:#1a6ee0;font-size:13px;font-weight:700;font-family:var(--font);cursor:pointer;">서버 데이터 통합 실행</button>
     </div>
     <div style="margin-top:16px;padding:14px;background:#fff3f3;border-radius:var(--r-sm);border:1px solid #ffd6d6;">
       <div style="font-size:12px;font-weight:700;color:var(--gray-800);margin-bottom:4px;">🗑 로컬 데이터 초기화</div>
@@ -576,14 +585,18 @@ html,body{height:100%;overflow:hidden;font-family:var(--font);background:#f0f2f5
         </svg>
       </button>
     </div>
-    <div style="display:flex;gap:8px;padding:0 0 12px;">
+    <div style="display:flex;gap:8px;padding:0 0 10px;">
       <input id="searchInput" class="cfg-in" placeholder="도로명 또는 지역 입력 (예: 영주시, 시청로)"
         style="flex:1;margin:0;" oninput="Srch.suggest()" onkeydown="if(event.key==='Enter')Srch.go()">
       <button onclick="Srch.go()" style="padding:0 18px;height:42px;background:var(--primary);color:#fff;
         border:none;border-radius:var(--r-sm);font-size:14px;font-weight:700;cursor:pointer;
         font-family:var(--font);flex-shrink:0;">이동</button>
     </div>
-    <div id="searchResults" style="max-height:280px;overflow-y:auto;padding:0 0 8px;"></div>
+    <div style="display:flex;gap:6px;padding:0 0 10px;">
+      <button id="btnFAll"  class="filter-chip on"  onclick="Srch.setFilter('all')">전체</button>
+      <button id="btnFTodo" class="filter-chip"      onclick="Srch.setFilter('todo')">🔵 미완료만</button>
+    </div>
+    <div id="searchResults" style="max-height:260px;overflow-y:auto;padding:0 0 8px;"></div>
   </div>
 </div>
 
@@ -660,6 +673,7 @@ if (!c.inspector) { UI.toast('⚠️ 측량자 이름을 입력해 주세요.');
     g('cOwner').value=c.owner;    g('cRepo').value=c.repo;
     g('cBranch').value=c.branch;  g('cInsp').value=c.inspector;
     const el=g('cfgVersion'); if(el) el.textContent=APP_VERSION;
+    const ab=g('admConsoBox'); if(ab) ab.style.display=(c.inspector==='박성문')?'block':'none';
   },
   resetLocal() {
     if (!confirm('로컬 조사 데이터를 초기화하고 서버에서 다시 불러올까요?\n설정(토큰·이름)은 유지됩니다.')) return;
@@ -714,24 +728,24 @@ const GH = {
     if (!c.owner||!c.repo) { App.insp=JSON.parse(localStorage.getItem(LS_KEY)||'{}'); return; }
     try {
       let remote = {};
+      // 1. inspections.json 베이스 로드
       const metaR = await fetch(`${this.base()}/${this._encPath('data/inspections.json')}`,{headers:this.hdrs()});
       if (metaR.ok) {
-        // 토큰 정상: Contents API로 SHA 취득
         const meta = await metaR.json();
         App.inspSha = meta.sha;
         if (meta.content && meta.content.trim()) {
-          // 1MB 미만: 응답에 내용 포함
           remote = JSON.parse(atob(meta.content.replace(/\n/g,'')));
         } else {
-          // 1MB 초과: raw URL로 별도 fetch
           const rawR = await fetch(`https://raw.githubusercontent.com/${c.owner}/${c.repo}/${c.branch}/data/inspections.json?t=${Date.now()}`);
           if (rawR.ok) remote = await rawR.json();
         }
       } else {
-        // 토큰 없거나 만료: 공개 저장소 raw URL로 내용만 읽기
         const rawR = await fetch(`https://raw.githubusercontent.com/${c.owner}/${c.repo}/${c.branch}/data/inspections.json?t=${Date.now()}`);
         if (rawR.ok) remote = await rawR.json();
       }
+      // 2. data/insp/ 개별 파일 오버레이 (충돌방지 저장분)
+      const indiv = await this._loadInspIndividual();
+      Object.assign(remote, indiv);
       const local = JSON.parse(localStorage.getItem(LS_KEY)||'{}');
       App.insp = {...remote,...local};
     } catch(e) {
@@ -740,6 +754,25 @@ const GH = {
     }
     MC.redraw();
   },
+  async _loadInspIndividual() {
+    const c=Cfg.get();
+    const result={};
+    try {
+      const hdrs = c.token ? this.hdrs() : {'Accept':'application/vnd.github+json'};
+      const listR = await fetch(`${this.base()}/data/insp`, {headers:hdrs});
+      if (!listR.ok) return result;
+      const files = await listR.json();
+      if (!Array.isArray(files)) return result;
+      for (const file of files) {
+        if (!file.name.endsWith('.json')) continue;
+        const facId = file.name.replace('.json','');
+        App.inspFileShas[facId] = file.sha;
+        const rawR = await fetch(`https://raw.githubusercontent.com/${c.owner}/${c.repo}/${c.branch}/data/insp/${encodeURIComponent(file.name)}?t=${Date.now()}`);
+        if (rawR.ok) { try { result[facId]=await rawR.json(); } catch {} }
+      }
+    } catch(e) { console.warn('loadInspIndividual error:',e); }
+    return result;
+  },
   async saveInsp(insp) {
     if (!insp || !insp.id) { console.warn('saveInsp: invalid insp object, skipping'); return false; }
     const LS_KEY = 'dggis_i';
@@ -747,20 +780,14 @@ const GH = {
     localStorage.setItem(LS_KEY,JSON.stringify(App.insp));
     const c=Cfg.get();
     if (!c.token||!c.owner||!c.repo) return true;
-    for (let i=0; i<3; i++) {
-      const res=await this.putFile('data/inspections.json',JSON.stringify(App.insp,null,2),App.inspSha,`측량: ${insp.addr||insp.id}`);
-      if (res && !res._conflict) { App.inspSha=res.content.sha; return true; }
-      if (res?._conflict) {
-        // 충돌 시 raw URL로 최신 내용 가져오기 (1MB 제한 우회)
-        try {
-          const rawR = await fetch(`https://raw.githubusercontent.com/${c.owner}/${c.repo}/${c.branch}/data/inspections.json?t=${Date.now()}`);
-          if (rawR.ok) { const r=await rawR.json(); App.insp={...r,...App.insp}; }
-          const metaR = await fetch(`${this.base()}/${this._encPath('data/inspections.json')}`,{headers:this.hdrs()});
-          if (metaR.ok) { const m=await metaR.json(); App.inspSha=m.sha; }
-        } catch {}
-      } else break;
-    }
-    return false;
+    try {
+      // 시설별 개별 파일 저장 → 충돌 없음
+      const path = `data/insp/${insp.id}.json`;
+      const ex = await this.getFile(path);
+      const res = await this.putFile(path, JSON.stringify(insp,null,2), ex?.sha, `측량: ${insp.addr||insp.id}`);
+      if (res && !res._conflict) { App.inspFileShas[insp.id]=res.content.sha; return true; }
+      return false;
+    } catch(e) { console.warn('saveInsp error:',e); return false; }
   },
   async uploadPhoto(fac, typeLabel, b64, dateStr) {
     const c=Cfg.get();
@@ -778,7 +805,7 @@ const GH = {
 /* ============================================================
    APP STATE
    ============================================================ */
-const App = { facs:[], insp:{}, inspSha:null, cur:null, photos:{f:null,c:null} };
+const App = { facs:[], insp:{}, inspSha:null, cur:null, photos:{f:null,c:null}, inspFileShas:{} };
 
 /* ============================================================
    SIGUNGU SHEET
@@ -941,10 +968,6 @@ const Queue = {
     }
     for (const item of insps) {
       try {
-        const f=await GH.getFile('data/inspections.json');
-        if (f) { try { const r=JSON.parse(f.content); App.insp={...r,...App.insp}; } catch {} App.inspSha=f.sha; }
-        else { App.inspSha=null; }
-        localStorage.setItem('dggis_i', JSON.stringify(App.insp));
         const latestInsp=App.insp[item.facId]||item.inspData;
         if (!latestInsp) { await IDB.queueRemove(item.qid); continue; }
         const ok=await GH.saveInsp(latestInsp);
@@ -1024,12 +1047,12 @@ const MC = {
       const insp=App.insp[fac.id];
       const status=insp?.surveyStatus||null;
       tot++;
-      if (status==='촬영완료') done++;
+      if (status) done++; // 촬영완료·이설필요·촬영불가·기타 모두 완료 카운트
       // 시군별 집계
       const sg=fac.sigungu||fac.region||'기타';
       if (!sgMap[sg]) sgMap[sg]={tot:0,done:0};
       sgMap[sg].tot++;
-      if (status==='촬영완료') sgMap[sg].done++;
+      if (status) sgMap[sg].done++;
       const img=new kakao.maps.MarkerImage(this.svgPin(status), new kakao.maps.Size(32,40),
         {offset:new kakao.maps.Point(16,40)});
       const mk=new kakao.maps.Marker({position:new kakao.maps.LatLng(fac.lat,fac.lng),image:img,clickable:true});
@@ -1093,18 +1116,27 @@ const MC = {
     },()=>{ if (!silent) UI.toast('위치를 가져올 수 없습니다.'); });
   },
   refresh() { this.loadAll(); UI.toast('새로고침 완료'); },
-  /* 다른 조사자 변경사항 반영 — 마커만 조용히 갱신 */
+  /* 다른 조사자 변경사항 반영 — 변경된 개별 파일만 조용히 갱신 */
   async silentRefresh() {
     try {
       const c=Cfg.get();
       if (!c.owner||!c.repo) return;
-      const rawR=await fetch(`https://raw.githubusercontent.com/${c.owner}/${c.repo}/${c.branch}/data/inspections.json?t=${Date.now()}`);
-      if (!rawR.ok) return;
-      const remote=await rawR.json();
-      // 서버 데이터와 내 로컬 데이터 병합 (내 로컬 우선)
-      const local=JSON.parse(localStorage.getItem('dggis_i')||'{}');
-      App.insp={...remote,...local};
-      this.redraw();
+      const hdrs = c.token ? GH.hdrs() : {'Accept':'application/vnd.github+json'};
+      const listR = await fetch(`${GH.base()}/data/insp`, {headers:hdrs});
+      if (!listR.ok) return;
+      const files = await listR.json();
+      if (!Array.isArray(files)) return;
+      let updated = false;
+      for (const file of files) {
+        if (!file.name.endsWith('.json')) continue;
+        const facId = file.name.replace('.json','');
+        if (App.inspFileShas[facId]===file.sha) continue; // 변경 없음 → 스킵
+        const rawR = await fetch(`https://raw.githubusercontent.com/${c.owner}/${c.repo}/${c.branch}/data/insp/${encodeURIComponent(file.name)}?t=${Date.now()}`);
+        if (rawR.ok) {
+          try { App.insp[facId]=await rawR.json(); App.inspFileShas[facId]=file.sha; updated=true; } catch {}
+        }
+      }
+      if (updated) { localStorage.setItem('dggis_i',JSON.stringify(App.insp)); this.redraw(); }
     } catch(e) { console.warn('silentRefresh error:',e); }
   },
   setType(t) {
@@ -1393,24 +1425,41 @@ const FM = {
    SEARCH
    ============================================================ */
 const Srch = {
+  _filter: 'all',
+  setFilter(f) {
+    this._filter=f;
+    const all=g('btnFAll'), todo=g('btnFTodo');
+    if(all) all.classList.toggle('on',f==='all');
+    if(todo) todo.classList.toggle('on',f==='todo');
+    this.suggest();
+  },
+  _statusCol(status) {
+    if (!status) return '#1a6ee0';
+    if (status==='촬영완료') return '#008f83';
+    if (status==='촬영불가') return '#e5534b';
+    return '#ea7c1a'; // 이설필요·기타
+  },
   suggest() {
     const q=g('searchInput').value.trim().toLowerCase();
     const box=g('searchResults');
-    if (!q) { box.innerHTML=''; return; }
-    const matches=App.facs.filter(f=>
-      f.addr.toLowerCase().includes(q)||
-      f.road.toLowerCase().includes(q)||
-      f.sigungu.toLowerCase().includes(q)||
-      f.sido.toLowerCase().includes(q)
-    ).slice(0,20);
+    // 미완료 필터 적용
+    let candidates = this._filter==='todo'
+      ? App.facs.filter(f=>!App.insp[f.id]?.surveyStatus)
+      : App.facs;
+    // 검색어 없고 전체 모드면 빈 화면
+    if (!q && this._filter==='all') { box.innerHTML=''; return; }
+    const matches=(q
+      ? candidates.filter(f=>f.addr.toLowerCase().includes(q)||f.road.toLowerCase().includes(q)||f.sigungu.toLowerCase().includes(q)||f.sido.toLowerCase().includes(q))
+      : candidates
+    ).slice(0,50);
     if (matches.length===0) {
-      box.innerHTML='<div style="padding:16px;text-align:center;color:var(--gray-400);font-size:13px;">검색 결과가 없습니다.</div>';
+      box.innerHTML=`<div style="padding:16px;text-align:center;color:var(--gray-400);font-size:13px;">${this._filter==='todo'?'미완료 지점이 없습니다. 🎉':'검색 결과가 없습니다.'}</div>`;
       return;
     }
     box.innerHTML=matches.map(f=>{
       const insp=App.insp[f.id];
       const status=insp?.surveyStatus;
-      const col=status==='촬영완료'?'#008f83':status==='촬영불가'?'#e5534b':'#1a6ee0';
+      const col=this._statusCol(status);
       return `<div onclick="Srch.select('${f.id.replace(/'/g,"\\'")}')\" style="
         display:flex;align-items:center;gap:10px;padding:10px 8px;
         border-radius:var(--r-sm);cursor:pointer;transition:background .1s;"
@@ -1421,9 +1470,7 @@ const Srch = {
           <div style="font-size:13px;font-weight:700;color:var(--gray-900);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${f.addr}</div>
           <div style="font-size:11px;color:var(--gray-400);">${f.region}</div>
         </div>
-        <div style="font-size:11px;font-weight:700;color:${status==='촬영완료'?'#008f83':'var(--gray-400)'};flex-shrink:0;">
-          ${status||'미촬영'}
-        </div>
+        <div style="font-size:11px;font-weight:700;color:${col};flex-shrink:0;">${status||'미촬영'}</div>
       </div>`;
     }).join('');
   },
@@ -1490,6 +1537,59 @@ const Ex = {
 };
 
 /* ============================================================
+   ADMIN
+   ============================================================ */
+const Adm = {
+  async consolidate() {
+    const c=Cfg.get();
+    if (c.inspector!=='박성문') { UI.toast('관리자만 실행 가능합니다.'); return; }
+    if (!confirm('data/insp/ 개별 파일을 inspections.json으로 통합하고\n개별 파일을 삭제합니다.\n계속할까요?')) return;
+    Ld.show('목록 조회 중...');
+    try {
+      // 1. 개별 파일 목록 조회
+      const listR = await fetch(`${GH.base()}/data/insp`, {headers:GH.hdrs()});
+      if (!listR.ok) { UI.toast('data/insp/ 폴더가 없거나 접근 불가'); Ld.hide(); return; }
+      const files = await listR.json();
+      if (!Array.isArray(files)||files.length===0) { UI.toast('통합할 개별 파일이 없습니다.'); Ld.hide(); return; }
+      // 2. 현재 inspections.json 로드
+      Ld.show(`개별 파일 ${files.length}개 읽는 중...`);
+      const base = await GH.getFile('data/inspections.json');
+      let merged = {};
+      if (base) { try { merged=JSON.parse(base.content); } catch {} App.inspSha=base.sha; }
+      // 3. 개별 파일 로드 & 병합
+      for (const file of files) {
+        if (!file.name.endsWith('.json')) continue;
+        const rawR = await fetch(`https://raw.githubusercontent.com/${c.owner}/${c.repo}/${c.branch}/data/insp/${encodeURIComponent(file.name)}?t=${Date.now()}`);
+        if (rawR.ok) { try { const insp=await rawR.json(); const fid=file.name.replace('.json',''); if(insp&&fid) merged[fid]=insp; } catch {} }
+      }
+      // 4. inspections.json 업데이트
+      Ld.show('inspections.json 업데이트 중...');
+      const putR = await GH.putFile('data/inspections.json', JSON.stringify(merged,null,2), App.inspSha, '통합: 개별 조사 파일 병합');
+      if (!putR||putR._conflict) { UI.toast('⚠️ inspections.json 업데이트 실패'); Ld.hide(); return; }
+      App.inspSha = putR.content.sha;
+      // 5. 개별 파일 삭제
+      Ld.show('개별 파일 삭제 중...');
+      let delCount=0;
+      for (const file of files) {
+        if (!file.name.endsWith('.json')) continue;
+        const delR = await fetch(`${GH.base()}/data/insp/${GH._encPath(file.name)}`,{
+          method:'DELETE', headers:GH.hdrs(),
+          body:JSON.stringify({message:`통합 후 삭제: ${file.name}`, sha:file.sha, branch:c.branch})
+        });
+        if (delR.ok) delCount++;
+      }
+      App.insp = {...App.insp,...merged};
+      App.inspFileShas = {};
+      localStorage.setItem('dggis_i', JSON.stringify(App.insp));
+      MC.redraw();
+      UI.toast(`✅ 통합 완료 — ${files.length}개 파일 → inspections.json (${delCount}개 삭제)`);
+      UI.closeMod('modCfg');
+    } catch(e) { console.error(e); UI.toast('오류 발생 — 다시 시도해 주세요.'); }
+    finally { Ld.hide(); }
+  }
+};
+
+/* ============================================================
    UI
    ============================================================ */
 const UI = {
@@ -1509,7 +1609,7 @@ const UI = {
   },
   showCfg()    { Cfg.fill(); g('modCfg').classList.add('open'); },
   showDL()     { g('modDL').classList.add('open'); },
-  showSearch() { g('searchInput').value=''; g('searchResults').innerHTML=''; g('modSearch').classList.add('open'); setTimeout(()=>g('searchInput').focus(),300); },
+  showSearch() { g('searchInput').value=''; g('searchResults').innerHTML=''; Srch.setFilter('all'); g('modSearch').classList.add('open'); setTimeout(()=>g('searchInput').focus(),300); },
   closeMod(id) { g(id).classList.remove('open'); },
   toast(msg,dur=2400) {
     const el=g('toast'); el.textContent=msg; el.classList.add('show');
@@ -1572,7 +1672,7 @@ function loadKakao(key) {
 /* ============================================================
    VERSION
    ============================================================ */
-const APP_VERSION = 'v2.0.4';
+const APP_VERSION = 'v2.1.0';
 
 async function checkVersion() {
   try {
