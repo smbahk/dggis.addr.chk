@@ -1094,10 +1094,11 @@ const GichoLayer = {
   },
 
   _draw(features) {
-    // 줌 레벨에 따라 오프셋 크기 조정 (더 확대할수록 더 넓게)
     const lv = kakaoMap.getLevel();
-    const OFFSET = lv <= 2 ? 0.000012 : lv <= 3 ? 0.000022 : 0.00004;
-    const TICK   = lv <= 2 ? 0.000020 : lv <= 3 ? 0.000038 : 0.00007;
+    // 줌 레벨별 오프셋 (위도 기준 degree, ~111km/deg)
+    // lv2: ~15m  lv3: ~20m  lv4: ~28m
+    const LABEL_D = lv <= 2 ? 0.000135 : lv <= 3 ? 0.000180 : 0.000250;
+    const TICK_D  = lv <= 2 ? 0.000090 : lv <= 3 ? 0.000120 : 0.000170;
 
     for (const feat of features) {
       const geo = feat.geometry; const props = feat.properties;
@@ -1106,54 +1107,54 @@ const GichoLayer = {
 
       for (const coords of sets) {
         if (coords.length < 2) continue;
+
+        // ① 메인 선
         const path = coords.map(c => new kakao.maps.LatLng(c[1], c[0]));
         const line = new kakao.maps.Polyline({
-          path, strokeWeight: 2, strokeColor: '#e91e8c',
-          strokeOpacity: 0.9, strokeStyle: 'solid'
+          path, strokeWeight: 2, strokeColor: '#e91e8c', strokeOpacity: 0.9
         });
         line.setMap(kakaoMap); this._lines.push(line);
 
-        // 선 중간 지점 & 방향 계산
-        const n   = coords.length;
-        const mi  = Math.floor(n / 2);
-        const mid = coords[mi];
-        const p1  = coords[Math.max(0, mi - 1)];
-        const p2  = coords[Math.min(n - 1, mi + 1)];
-        const dx  = p2[0] - p1[0];   // 경도 차이
-        const dy  = p2[1] - p1[1];   // 위도 차이
-        const len = Math.sqrt(dx * dx + dy * dy) || 1;
-        // 수직 방향 (왼쪽: ODD, 오른쪽: EVE)
-        const px = (-dy / len);
-        const py = ( dx / len);
+        // ② 구간 시작점(p0)에서 방향 계산 (경도는 cos(lat)로 보정)
+        const p0 = coords[0];
+        const p1 = coords[Math.min(1, coords.length - 1)];
+        const cosLat = Math.cos(p0[1] * Math.PI / 180);
+        const dxM = (p1[0] - p0[0]) * cosLat;   // 보정된 경도 차
+        const dyM =  p1[1] - p0[1];              // 위도 차
+        const lenM = Math.sqrt(dxM * dxM + dyM * dyM) || 1;
 
-        // 틱마크 (중앙 수직선)
+        // 수직 방향: 왼쪽(ODD) = (-dyM, dxM), 오른쪽(EVE) = (dyM, -dxM)
+        const lx = (-dyM / lenM) / cosLat;   // 경도 단위로 역변환
+        const ly =  dxM / lenM;
+
+        // ③ 틱마크 (시작점 수직선)
         const tick = new kakao.maps.Polyline({
           path: [
-            new kakao.maps.LatLng(mid[1] + py * TICK, mid[0] + px * TICK),
-            new kakao.maps.LatLng(mid[1] - py * TICK, mid[0] - px * TICK),
+            new kakao.maps.LatLng(p0[1] + ly * TICK_D, p0[0] + lx * TICK_D),
+            new kakao.maps.LatLng(p0[1] - ly * TICK_D, p0[0] - lx * TICK_D),
           ],
-          strokeWeight: 1, strokeColor: '#e91e8c', strokeOpacity: 0.7
+          strokeWeight: 1, strokeColor: '#e91e8c', strokeOpacity: 0.8
         });
         tick.setMap(kakaoMap); this._lines.push(tick);
 
-        // ODD 번호 (왼쪽)
+        // ④ ODD 번호 — 왼쪽
         const odd = props?.ODD_BSI_MN;
         if (odd != null && odd !== 0) {
           const ov = new kakao.maps.CustomOverlay({
-            position: new kakao.maps.LatLng(mid[1] + py * OFFSET, mid[0] + px * OFFSET),
-            content: `<div style="font-size:9px;font-weight:700;color:#c2185b;white-space:nowrap;text-shadow:0 0 3px #fff,0 0 3px #fff;">${odd}</div>`,
-            zIndex: 6, xAnchor: 0.5, yAnchor: 0.5
+            position: new kakao.maps.LatLng(p0[1] + ly * LABEL_D, p0[0] + lx * LABEL_D),
+            content: `<span style="font-size:10px;font-weight:700;color:#ad1457;white-space:nowrap;text-shadow:0 0 2px #fff,0 0 2px #fff,0 0 2px #fff;">${odd}</span>`,
+            zIndex: 7, xAnchor: 0.5, yAnchor: 0.5
           });
           ov.setMap(kakaoMap); this._labels.push(ov);
         }
 
-        // EVE 번호 (오른쪽)
+        // ⑤ EVE 번호 — 오른쪽
         const eve = props?.EVE_BSI_MN;
         if (eve != null && eve !== 0) {
           const ov = new kakao.maps.CustomOverlay({
-            position: new kakao.maps.LatLng(mid[1] - py * OFFSET, mid[0] - px * OFFSET),
-            content: `<div style="font-size:9px;font-weight:700;color:#c2185b;white-space:nowrap;text-shadow:0 0 3px #fff,0 0 3px #fff;">${eve}</div>`,
-            zIndex: 6, xAnchor: 0.5, yAnchor: 0.5
+            position: new kakao.maps.LatLng(p0[1] - ly * LABEL_D, p0[0] - lx * LABEL_D),
+            content: `<span style="font-size:10px;font-weight:700;color:#ad1457;white-space:nowrap;text-shadow:0 0 2px #fff,0 0 2px #fff,0 0 2px #fff;">${eve}</span>`,
+            zIndex: 7, xAnchor: 0.5, yAnchor: 0.5
           });
           ov.setMap(kakaoMap); this._labels.push(ov);
         }
@@ -1845,7 +1846,7 @@ function loadKakao(key) {
 /* ============================================================
    VERSION
    ============================================================ */
-const APP_VERSION = 'v2.4.1';
+const APP_VERSION = 'v2.4.2';
 
 async function checkVersion() {
   try {
