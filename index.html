@@ -1030,6 +1030,7 @@ const GichoLayer = {
   _cache: {},        // { '경산시': [...features] } — 시군구별 캐시
   _loadPromises: {}, // { '경산시': Promise } — 중복 로드 방지
   _currentSig: null, // 현재 표시 중인 시군구명
+  _currentRoad: null,// 현재 표시 중인 도로명 (RN)
   MAX_LEVEL: 4,
 
   _url(sig) {
@@ -1054,7 +1055,8 @@ const GichoLayer = {
     if (btn) btn.classList.toggle('on', this._enabled);
     if (!this._enabled) {
       this._clearMap();
-      this._currentSig = null;
+      this._currentSig  = null;
+      this._currentRoad = null;
     } else {
       UI.toast('📍 측량지점을 터치하면 기초번호가 표시됩니다');
     }
@@ -1101,23 +1103,34 @@ const GichoLayer = {
     await this._loadPromises[sig];
   },
 
-  // 마커 클릭 시 호출 — 해당 시군구 파일 로드 후 표시
+  // 마커 클릭 시 호출 — 해당 시군구 파일 로드 후 해당 도로명만 표시
   async showForMarker(fac) {
     if (!this._enabled) return;
-    const sig = fac.sigungu;
-    if (!sig) { UI.toast('⚠️ 시군구 정보 없음'); return; }
-    this._currentSig = sig;
+    const sig  = fac.sigungu;
+    const road = fac.road;
+    if (!sig)  { UI.toast('⚠️ 시군구 정보 없음'); return; }
+    if (!road) { UI.toast('⚠️ 도로명 정보 없음'); return; }
+    this._currentSig  = sig;
+    this._currentRoad = road;
     await this._load(sig);
     this._drawCurrent();
   },
 
-  // 현재 시군구 데이터를 뷰포트 필터 후 렌더링
+  // 현재 시군구+도로명 데이터를 뷰포트 필터 후 렌더링
   _drawCurrent() {
     if (!this._enabled || !this._currentSig) return;
     if (kakaoMap.getLevel() > this.MAX_LEVEL) { this._clearMap(); return; }
-    const features = this._cache[this._currentSig] || [];
-    const visible  = this._bboxFilter(features, kakaoMap.getBounds());
+    // 1) 시군구 캐시에서 현재 도로명(RN)만 필터
+    const all      = this._cache[this._currentSig] || [];
+    const byRoad   = this._currentRoad
+      ? all.filter(f => (f.properties?.RN || '') === this._currentRoad)
+      : all;
+    // 2) 뷰포트 bbox 필터
+    const visible  = this._bboxFilter(byRoad, kakaoMap.getBounds());
     this._clearMap();
+    if (visible.length === 0 && this._currentRoad) {
+      UI.toast(`ℹ️ "${this._currentRoad}" 기초구간 없음`);
+    }
     this._draw(visible);
   },
 
@@ -1891,7 +1904,7 @@ function loadKakao(key) {
 /* ============================================================
    VERSION
    ============================================================ */
-const APP_VERSION = 'v2.4.4';
+const APP_VERSION = 'v2.4.5';
 
 async function checkVersion() {
   try {
