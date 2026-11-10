@@ -82,7 +82,7 @@ html,body{height:100%;overflow:hidden;font-family:var(--font);background:#f0f2f5
 .sg-pct{font-size:11px;color:var(--gray-400);min-width:34px;text-align:right;}
 
 /* 기초번호 레이어 토글 버튼 */
-.gicho-no-btn{position:absolute;right:0;top:50%;transform:translateY(-50%);
+.gicho-no-btn{position:absolute;right:0;top:65%;transform:translateY(-50%);
   background:#fff;border:1px solid #bbb;border-right:none;border-radius:6px 0 0 6px;
   padding:14px 6px;cursor:pointer;z-index:6;font-size:11px;font-weight:800;
   color:var(--gray-600);line-height:1.5;box-shadow:var(--sh-sm);letter-spacing:1px;
@@ -732,7 +732,24 @@ const GH = {
   },
   async loadFacs() {
     const f = await this.getFile('data/facilities.json');
-    if (f) try { App.facs=JSON.parse(f.content); } catch {}
+    if (f) try {
+      const raw = JSON.parse(f.content);
+      // 한글/영문 컬럼명 모두 지원 (디폴트: 영문)
+      // 영문: road, sig, sido, num, addr, lat, lng, id, region
+      // 한글: 도로명, 시군구, 시도, 번호, 도로명주소/주소, 위도, 경도, 시설물관리번호, 지역
+      App.facs = raw.map(r => ({
+        ...r,
+        id:      r.id      || r['시설물관리번호'] || '',
+        sido:    r.sido    || r['시도']          || '',
+        sigungu: r.sigungu || r.sig             || r['시군구'] || '',
+        road:    r.road    || r['도로명']        || '',
+        num:     String(r.num     || r['번호']   || ''),
+        addr:    r.addr    || r['도로명주소']    || r['주소']  || '',
+        lat:     parseFloat(r.lat   || r['위도'] || 0),
+        lng:     parseFloat(r.lng   || r['경도'] || 0),
+        region:  r.region  || r['지역']          || `${r.sido||r['시도']||''} ${r.sigungu||r.sig||r['시군구']||''}`.trim(),
+      }));
+    } catch {}
     if (!App.facs.length) App.facs = DEMO;
   },
   async loadInsp() {
@@ -1098,7 +1115,7 @@ const GichoLayer = {
     // 줌 레벨별 오프셋 (위도 기준 degree, ~111km/deg)
     // lv2: ~15m  lv3: ~20m  lv4: ~28m
     const LABEL_D = lv <= 2 ? 0.000135 : lv <= 3 ? 0.000180 : 0.000250;
-    const TICK_D  = lv <= 2 ? 0.000090 : lv <= 3 ? 0.000120 : 0.000170;
+    const TICK_D  = lv <= 2 ? 0.000045 : lv <= 3 ? 0.000060 : 0.000085;
 
     for (const feat of features) {
       const geo = feat.geometry; const props = feat.properties;
@@ -1137,23 +1154,27 @@ const GichoLayer = {
         });
         tick.setMap(kakaoMap); this._lines.push(tick);
 
-        // ④ ODD 번호 — 왼쪽
+        // ④ ODD 번호 — 왼쪽 (부번 있으면 "477-1" 형식)
         const odd = props?.ODD_BSI_MN;
         if (odd != null && odd !== 0) {
+          const oddSub = props?.ODD_BSI_SUB_MN;
+          const oddLabel = (oddSub != null && oddSub !== 0) ? `${odd}-${oddSub}` : `${odd}`;
           const ov = new kakao.maps.CustomOverlay({
             position: new kakao.maps.LatLng(p0[1] + ly * LABEL_D, p0[0] + lx * LABEL_D),
-            content: `<span style="font-size:10px;font-weight:700;color:#ad1457;white-space:nowrap;text-shadow:0 0 2px #fff,0 0 2px #fff,0 0 2px #fff;">${odd}</span>`,
+            content: `<span style="font-size:10px;font-weight:700;color:#ad1457;white-space:nowrap;text-shadow:0 0 2px #fff,0 0 2px #fff,0 0 2px #fff;">${oddLabel}</span>`,
             zIndex: 7, xAnchor: 0.5, yAnchor: 0.5
           });
           ov.setMap(kakaoMap); this._labels.push(ov);
         }
 
-        // ⑤ EVE 번호 — 오른쪽
+        // ⑤ EVE 번호 — 오른쪽 (부번 있으면 "478-1" 형식)
         const eve = props?.EVE_BSI_MN;
         if (eve != null && eve !== 0) {
+          const eveSub = props?.EVE_BSI_SUB_MN;
+          const eveLabel = (eveSub != null && eveSub !== 0) ? `${eve}-${eveSub}` : `${eve}`;
           const ov = new kakao.maps.CustomOverlay({
             position: new kakao.maps.LatLng(p0[1] - ly * LABEL_D, p0[0] - lx * LABEL_D),
-            content: `<span style="font-size:10px;font-weight:700;color:#ad1457;white-space:nowrap;text-shadow:0 0 2px #fff,0 0 2px #fff,0 0 2px #fff;">${eve}</span>`,
+            content: `<span style="font-size:10px;font-weight:700;color:#ad1457;white-space:nowrap;text-shadow:0 0 2px #fff,0 0 2px #fff,0 0 2px #fff;">${eveLabel}</span>`,
             zIndex: 7, xAnchor: 0.5, yAnchor: 0.5
           });
           ov.setMap(kakaoMap); this._labels.push(ov);
@@ -1846,7 +1867,7 @@ function loadKakao(key) {
 /* ============================================================
    VERSION
    ============================================================ */
-const APP_VERSION = 'v2.4.2';
+const APP_VERSION = 'v2.4.3';
 
 async function checkVersion() {
   try {
