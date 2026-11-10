@@ -1027,19 +1027,23 @@ const DEMO = [
    ============================================================ */
 const GichoLayer = {
   _enabled: false, _lines: [], _labels: [], _timer: null,
-  _features: null,   // 로드 후 전체 features 배열 캐시
-  _loadPromise: null, // 중복 로드 방지
+  _cache: {},        // { '경산시': [...features] } — 시군구별 캐시
+  _loadPromises: {}, // { '경산시': Promise } — 중복 로드 방지
+  _currentSig: null, // 현재 표시 중인 시군구명
   MAX_LEVEL: 4,
 
-  _url() {
+  _url(sig) {
     const c = Cfg.get();
-    return `https://raw.githubusercontent.com/${c.owner}/${c.repo}/data/data/gicho/gicho.geojson.gz`;
+    return `https://raw.githubusercontent.com/${c.owner}/${c.repo}/data/data/gicho/${encodeURIComponent(sig)}.geojson.gz`;
   },
 
   setup() {
+    // bounds_changed: 이미 로드된 시군구 데이터만 재필터링 (자동 로드 없음)
     kakao.maps.event.addListener(kakaoMap, 'bounds_changed', () => {
       clearTimeout(this._timer);
-      this._timer = setTimeout(() => this._update(), 400);
+      this._timer = setTimeout(() => {
+        if (this._enabled && this._currentSig) this._drawCurrent();
+      }, 400);
     });
     const btn = g('btnGichoNo'); if (btn) btn.style.display = 'block';
   },
@@ -1048,7 +1052,12 @@ const GichoLayer = {
     this._enabled = !this._enabled;
     const btn = g('btnGichoNo');
     if (btn) btn.classList.toggle('on', this._enabled);
-    if (this._enabled) this._update(); else this._clearMap();
+    if (!this._enabled) {
+      this._clearMap();
+      this._currentSig = null;
+    } else {
+      UI.toast('📍 측량지점을 터치하면 기초번호가 표시됩니다');
+    }
   },
 
   _clearMap() {
@@ -1057,15 +1066,18 @@ const GichoLayer = {
     this._lines = []; this._labels = [];
   },
 
-  // gzip GeoJSON 1회 로드 (브라우저 DecompressionStream)
-  async _load() {
-    if (this._features) return;
-    if (this._loadPromise) { await this._loadPromise; return; }
-    this._loadPromise = (async () => {
+  // 시군구별 gzip GeoJSON 로드 (최초 1회 → 캐시)
+  async _load(sig) {
+    if (this._cache[sig] !== undefined) return;   // 이미 로드됨 (빈 배열 포함)
+    if (this._loadPromises[sig]) { await this._loadPromises[sig]; return; }
+    this._loadPromises[sig] = (async () => {
       try {
-        UI.toast('📦 기초번호 데이터 로드 중...');
-        const r = await fetch(this._url());
-        if (!r.ok) { UI.toast(`⚠️ 기초번호 파일 없음 (${r.status})`); this._features = []; return; }
+        UI.toast(`📦 ${sig} 기초번호 로드 중...`);
+        const r = await fetch(this._url(sig));
+        if (!r.ok) {
+          UI.toast(`⚠️ ${sig} 기초번호 파일 없음 (${r.status})`);
+          this._cache[sig] = []; return;
+        }
         const ds     = new DecompressionStream('gzip');
         const stream = r.body.pipeThrough(ds);
         const reader = stream.getReader();
@@ -1077,37 +1089,48 @@ const GichoLayer = {
         const total  = chunks.reduce((s, c) => s + c.length, 0);
         const merged = new Uint8Array(total);
         let off = 0; for (const c of chunks) { merged.set(c, off); off += c.length; }
-        const geojson  = JSON.parse(new TextDecoder().decode(merged));
-        this._features = geojson.features || [];
-        UI.toast(`✅ 기초번호 로드 완료 (${this._features.length.toLocaleString()}건)`);
+        const geojson = JSON.parse(new TextDecoder().decode(merged));
+        this._cache[sig] = geojson.features || [];
+        UI.toast(`✅ ${sig} 기초번호 완료 (${this._cache[sig].length.toLocaleString()}건)`);
       } catch(e) {
         console.warn('GichoLayer load error:', e);
-        this._features = [];
-        UI.toast('⚠️ 기초번호 데이터 로드 실패');
+        this._cache[sig] = [];
+        UI.toast(`⚠️ ${sig} 기초번호 로드 실패`);
       }
     })();
-    await this._loadPromise;
+    await this._loadPromises[sig];
+  },
+
+  // 마커 클릭 시 호출 — 해당 시군구 파일 로드 후 표시
+  async showForMarker(fac) {
+    if (!this._enabled) return;
+    const sig = fac.sigungu;
+    if (!sig) { UI.toast('⚠️ 시군구 정보 없음'); return; }
+    this._currentSig = sig;
+    await this._load(sig);
+    this._drawCurrent();
+  },
+
+  // 현재 시군구 데이터를 뷰포트 필터 후 렌더링
+  _drawCurrent() {
+    if (!this._enabled || !this._currentSig) return;
+    if (kakaoMap.getLevel() > this.MAX_LEVEL) { this._clearMap(); return; }
+    const features = this._cache[this._currentSig] || [];
+    const visible  = this._bboxFilter(features, kakaoMap.getBounds());
+    this._clearMap();
+    this._draw(visible);
   },
 
   // 뷰포트 bbox 필터링
-  _bboxFilter(bounds) {
+  _bboxFilter(features, bounds) {
     const sw = bounds.getSouthWest(), ne = bounds.getNorthEast();
     const [vW, vS, vE, vN] = [sw.getLng(), sw.getLat(), ne.getLng(), ne.getLat()];
-    return (this._features || []).filter(f => {
+    return features.filter(f => {
       const geo = f.geometry; if (!geo) return false;
       const sets = geo.type === 'LineString' ? [geo.coordinates] : geo.coordinates;
       return sets.some(cs => cs.some(([lng, lat]) =>
         lng >= vW && lng <= vE && lat >= vS && lat <= vN));
     });
-  },
-
-  async _update() {
-    if (!this._enabled) return;
-    if (kakaoMap.getLevel() > this.MAX_LEVEL) { this._clearMap(); return; }
-    await this._load();
-    const visible = this._bboxFilter(kakaoMap.getBounds());
-    this._clearMap();
-    this._draw(visible);
   },
 
   _draw(features) {
@@ -1157,7 +1180,7 @@ const GichoLayer = {
         // ④ ODD 번호 — 왼쪽 (부번 있으면 "477-1" 형식)
         const odd = props?.ODD_BSI_MN;
         if (odd != null && odd !== 0) {
-          const oddSub = props?.ODD_BSI_SUB_MN;
+          const oddSub = props?.ODD_BSI_SL;
           const oddLabel = (oddSub != null && oddSub !== 0) ? `${odd}-${oddSub}` : `${odd}`;
           const ov = new kakao.maps.CustomOverlay({
             position: new kakao.maps.LatLng(p0[1] + ly * LABEL_D, p0[0] + lx * LABEL_D),
@@ -1170,7 +1193,7 @@ const GichoLayer = {
         // ⑤ EVE 번호 — 오른쪽 (부번 있으면 "478-1" 형식)
         const eve = props?.EVE_BSI_MN;
         if (eve != null && eve !== 0) {
-          const eveSub = props?.EVE_BSI_SUB_MN;
+          const eveSub = props?.EVE_BSI_SL;
           const eveLabel = (eveSub != null && eveSub !== 0) ? `${eve}-${eveSub}` : `${eve}`;
           const ov = new kakao.maps.CustomOverlay({
             position: new kakao.maps.LatLng(p0[1] - ly * LABEL_D, p0[0] - lx * LABEL_D),
@@ -1283,6 +1306,7 @@ const MC = {
     await setP('bsImgF','bsEmpF', insp?.farPhotoUrl||null, insp?.farPhotoLocal||null);
     await setP('bsImgC','bsEmpC', insp?.closePhotoUrl||null, insp?.closePhotoLocal||null);
     UI.openSh();
+    if (GichoLayer._enabled) GichoLayer.showForMarker(fac);
   },
   focus() {
     if (!App.cur) return;
@@ -1867,7 +1891,7 @@ function loadKakao(key) {
 /* ============================================================
    VERSION
    ============================================================ */
-const APP_VERSION = 'v2.4.3';
+const APP_VERSION = 'v2.4.4';
 
 async function checkVersion() {
   try {
