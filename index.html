@@ -81,6 +81,14 @@ html,body{height:100%;overflow:hidden;font-family:var(--font);background:#f0f2f5
 .sg-done.part{color:var(--primary);}
 .sg-pct{font-size:11px;color:var(--gray-400);min-width:34px;text-align:right;}
 
+/* 기초번호 레이어 토글 버튼 */
+.gicho-no-btn{position:absolute;right:0;top:50%;transform:translateY(-50%);
+  background:#fff;border:1px solid #bbb;border-right:none;border-radius:6px 0 0 6px;
+  padding:14px 6px;cursor:pointer;z-index:6;font-size:11px;font-weight:800;
+  color:var(--gray-600);line-height:1.5;box-shadow:var(--sh-sm);letter-spacing:1px;
+  display:none;user-select:none;-webkit-user-select:none;}
+.gicho-no-btn.on{background:#e8f0fe;color:var(--primary);border-color:var(--primary);}
+
 /* MAP CONTROLS */
 .map-ctrls{position:absolute;top:200px;right:12px;display:flex;flex-direction:column;gap:4px;z-index:5;}
 .map-ctrl{width:40px;height:40px;background:#fff;border:none;border-radius:var(--r-sm);
@@ -353,6 +361,9 @@ html,body{height:100%;overflow:hidden;font-family:var(--font);background:#f0f2f5
         </svg>
       </button>
     </div>
+
+    <!-- 기초번호 레이어 토글 (juso.go.kr WFS) -->
+    <button id="btnGichoNo" class="gicho-no-btn" onclick="GichoLayer.toggle()">기<br>초<br>번<br>호</button>
 
     <div class="map-type-bar">
       <button class="mt-btn on" id="mtRoad" onclick="MC.setType('road')">일반</button>
@@ -649,12 +660,12 @@ const Cfg = {
   },
   save() {
     const c = {
-      kakaoKey: this.def.kakaoKey,
-      token:    g('cToken').value.trim(),
-      owner:    this.def.owner,
-      repo:     this.def.repo,
-      branch:   this.def.branch,
-      inspector:g('cInsp').value.trim()
+      kakaoKey:   this.def.kakaoKey,
+      token:      g('cToken').value.trim(),
+      owner:      this.def.owner,
+      repo:       this.def.repo,
+      branch:     this.def.branch,
+      inspector:  g('cInsp').value.trim()
     };
     if (!c.token) { UI.toast('⚠️ Token을 입력해 주세요.'); return; }
     if (!this.validToken(c.token)) { UI.toast('⚠️ Token 형식이 올바르지 않습니다. 다시 확인해 주세요.'); return; }
@@ -674,6 +685,8 @@ if (!c.inspector) { UI.toast('⚠️ 측량자 이름을 입력해 주세요.');
     g('cBranch').value=c.branch;  g('cInsp').value=c.inspector;
     const el=g('cfgVersion'); if(el) el.textContent=APP_VERSION;
     const ab=g('admConsoBox'); if(ab) ab.style.display=(c.inspector==='박성문')?'block':'none';
+    // 기초번호 버튼은 항상 표시 (juso.go.kr WFS, 키 불필요)
+    const bn=g('btnGichoNo'); if(bn) bn.style.display='block';
   },
   resetLocal() {
     if (!confirm('로컬 조사 데이터를 초기화하고 서버에서 다시 불러올까요?\n설정(토큰·이름)은 유지됩니다.')) return;
@@ -991,6 +1004,128 @@ const DEMO = [
 ];
 
 /* ============================================================
+   GICHO LAYER (기초번호 — GitHub 호스팅 단일 GeoJSON.gz)
+   data/gicho/gicho.geojson.gz : 조사 대상 도로만 추출한 경량 파일
+   최초 1회 로드 → 메모리 캐시 → 뷰포트 bbox 필터링 후 렌더링
+   ============================================================ */
+const GichoLayer = {
+  _enabled: false, _lines: [], _labels: [], _timer: null,
+  _features: null,   // 로드 후 전체 features 배열 캐시
+  _loadPromise: null, // 중복 로드 방지
+  MAX_LEVEL: 4,
+
+  _url() {
+    const c = Cfg.get();
+    return `https://raw.githubusercontent.com/${c.owner}/${c.repo}/${c.branch}/data/gicho/gicho.geojson.gz`;
+  },
+
+  setup() {
+    kakao.maps.event.addListener(kakaoMap, 'bounds_changed', () => {
+      clearTimeout(this._timer);
+      this._timer = setTimeout(() => this._update(), 400);
+    });
+    const btn = g('btnGichoNo'); if (btn) btn.style.display = 'block';
+  },
+
+  toggle() {
+    this._enabled = !this._enabled;
+    const btn = g('btnGichoNo');
+    if (btn) btn.classList.toggle('on', this._enabled);
+    if (this._enabled) this._update(); else this._clearMap();
+  },
+
+  _clearMap() {
+    this._lines.forEach(l => l.setMap(null));
+    this._labels.forEach(l => l.setMap(null));
+    this._lines = []; this._labels = [];
+  },
+
+  // gzip GeoJSON 1회 로드 (브라우저 DecompressionStream)
+  async _load() {
+    if (this._features) return;
+    if (this._loadPromise) { await this._loadPromise; return; }
+    this._loadPromise = (async () => {
+      try {
+        UI.toast('📦 기초번호 데이터 로드 중...');
+        const r = await fetch(this._url());
+        if (!r.ok) { UI.toast(`⚠️ 기초번호 파일 없음 (${r.status})`); this._features = []; return; }
+        const ds     = new DecompressionStream('gzip');
+        const stream = r.body.pipeThrough(ds);
+        const reader = stream.getReader();
+        const chunks = [];
+        while (true) {
+          const {done, value} = await reader.read();
+          if (done) break; chunks.push(value);
+        }
+        const total  = chunks.reduce((s, c) => s + c.length, 0);
+        const merged = new Uint8Array(total);
+        let off = 0; for (const c of chunks) { merged.set(c, off); off += c.length; }
+        const geojson  = JSON.parse(new TextDecoder().decode(merged));
+        this._features = geojson.features || [];
+        UI.toast(`✅ 기초번호 로드 완료 (${this._features.length.toLocaleString()}건)`);
+      } catch(e) {
+        console.warn('GichoLayer load error:', e);
+        this._features = [];
+        UI.toast('⚠️ 기초번호 데이터 로드 실패');
+      }
+    })();
+    await this._loadPromise;
+  },
+
+  // 뷰포트 bbox 필터링
+  _bboxFilter(bounds) {
+    const sw = bounds.getSouthWest(), ne = bounds.getNorthEast();
+    const [vW, vS, vE, vN] = [sw.getLng(), sw.getLat(), ne.getLng(), ne.getLat()];
+    return (this._features || []).filter(f => {
+      const geo = f.geometry; if (!geo) return false;
+      const sets = geo.type === 'LineString' ? [geo.coordinates] : geo.coordinates;
+      return sets.some(cs => cs.some(([lng, lat]) =>
+        lng >= vW && lng <= vE && lat >= vS && lat <= vN));
+    });
+  },
+
+  async _update() {
+    if (!this._enabled) return;
+    if (kakaoMap.getLevel() > this.MAX_LEVEL) { this._clearMap(); return; }
+    await this._load();
+    const visible = this._bboxFilter(kakaoMap.getBounds());
+    this._clearMap();
+    this._draw(visible);
+  },
+
+  _draw(features) {
+    for (const feat of features) {
+      const geo = feat.geometry; const props = feat.properties;
+      if (!geo) continue;
+      const sets = geo.type === 'LineString' ? [geo.coordinates] : geo.coordinates;
+      for (const coords of sets) {
+        const path = coords.map(c => new kakao.maps.LatLng(c[1], c[0]));
+        if (path.length < 2) continue;
+        const line = new kakao.maps.Polyline({
+          path, strokeWeight: 3, strokeColor: '#e91e8c',
+          strokeOpacity: 0.9, strokeStyle: 'solid'
+        });
+        line.setMap(kakaoMap); this._lines.push(line);
+      }
+      const odd = props?.ODD_BSI_MN, eve = props?.EVE_BSI_MN;
+      const allCoords = sets.flat();
+      if ((odd || eve) && allCoords.length) {
+        const mid = allCoords[Math.floor(allCoords.length / 2)];
+        const txt = [odd, eve].filter(v => v != null && v !== 0).join(', ');
+        if (txt) {
+          const ov = new kakao.maps.CustomOverlay({
+            position: new kakao.maps.LatLng(mid[1], mid[0]),
+            content: `<div style="background:rgba(255,255,255,.85);border:1px solid #e91e8c;border-radius:3px;padding:1px 4px;font-size:10px;font-weight:700;color:#e91e8c;white-space:nowrap;">${txt}</div>`,
+            zIndex: 6
+          });
+          ov.setMap(kakaoMap); this._labels.push(ov);
+        }
+      }
+    }
+  }
+};
+
+/* ============================================================
    MAP CONTROLLER
    ============================================================ */
 let kakaoMap, mkrs={}, overlayType=null, myMk=null;
@@ -1001,6 +1136,7 @@ const MC = {
     });
     kakaoMap.addControl(new kakao.maps.ZoomControl(), kakao.maps.ControlPosition.RIGHT);
     kakao.maps.event.addListener(kakaoMap,'click',()=>UI.closeSh());
+    GichoLayer.setup();
     this.myLoc(true);
     this.loadAll();
     // 3분마다 다른 조사자 변경사항 자동 반영
@@ -1672,7 +1808,7 @@ function loadKakao(key) {
 /* ============================================================
    VERSION
    ============================================================ */
-const APP_VERSION = 'v2.1.0';
+const APP_VERSION = 'v2.4.0';
 
 async function checkVersion() {
   try {
