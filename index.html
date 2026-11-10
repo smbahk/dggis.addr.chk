@@ -1151,7 +1151,7 @@ const GichoLayer = {
     const lv = kakaoMap.getLevel();
     // 줌 레벨별 오프셋 (위도 기준 degree, ~111km/deg)
     // lv2: ~15m  lv3: ~20m  lv4: ~28m
-    const LABEL_D = lv <= 2 ? 0.000135 : lv <= 3 ? 0.000180 : 0.000250;
+    const LABEL_D = lv <= 2 ? 0.000080 : lv <= 3 ? 0.000110 : 0.000150;
     const TICK_D  = lv <= 2 ? 0.000045 : lv <= 3 ? 0.000060 : 0.000085;
 
     for (const feat of features) {
@@ -1905,7 +1905,7 @@ function loadKakao(key) {
 /* ============================================================
    VERSION
    ============================================================ */
-const APP_VERSION = 'v2.4.6';
+const APP_VERSION = 'v2.4.7';
 
 async function checkVersion() {
   try {
