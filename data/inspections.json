@@ -1,0 +1,20 @@
+{
+  "FRF00004729000007457": {
+    "id": "FRF00004729000007457",
+    "addr": "경상북도 경산시 화랑로 302",
+    "surveyDate": "20261111",
+    "surveyor": "박성문",
+    "surveyStatus": "촬영완료",
+    "memo": "",
+    "gpsLat": 35.84293506565848,
+    "gpsLng": 128.76487782082378,
+    "gpsAccuracy": 11,
+    "distFromPoint": 324,
+    "gpsAt": "2026-11-11T06:12:52.576Z",
+    "updatedAt": "2026-11-11T06:12:52.576Z",
+    "farPhotoLocal": "경상북도 경산시 화랑로 302_FRF00004729000007457_far.jpg",
+    "closePhotoLocal": "경상북도 경산시 화랑로 302_FRF00004729000007457_close.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/data/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%ED%99%94%EB%9E%91%EB%A1%9C%20302_FRF00004729000007457_far.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/dggis.addr.chk/data/photos/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%ED%99%94%EB%9E%91%EB%A1%9C%20302_FRF00004729000007457_close.jpg"
+  }
+}
