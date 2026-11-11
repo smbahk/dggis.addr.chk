@@ -719,7 +719,10 @@ const GH = {
       const r = await fetch(`${this.base()}/${this._encPath(path)}?ref=${db}`,{headers:hdrs});
       if (!r.ok) return null;
       const d = await r.json();
-      return {sha:d.sha, content:decodeURIComponent(escape(atob(d.content.replace(/\n/g,''))))};
+      // content decode may fail for binary files (images) — always preserve sha
+      let content='';
+      try { content=decodeURIComponent(escape(atob((d.content||'').replace(/\n/g,'')))); } catch {}
+      return {sha:d.sha, content};
     } catch { return null; }
   },
   async putFile(path, content, sha, msg) {
@@ -800,7 +803,8 @@ const GH = {
     const result={};
     try {
       const hdrs = c.token ? this.hdrs() : {'Accept':'application/vnd.github+json'};
-      const listR = await fetch(`${this.base()}/data/insp`, {headers:hdrs});
+      const db=c.dataBranch||'data';
+      const listR = await fetch(`${this.base()}/data/insp?ref=${db}`, {headers:hdrs});
       if (!listR.ok) return result;
       const files = await listR.json();
       if (!Array.isArray(files)) return result;
@@ -930,7 +934,7 @@ const QSheet = {
         const fac = App.facs.find(f=>f.id===item.facId);
         if (!fac || !item.dateStr) continue;
         const type2 = item.typeLabel==='원거리'?'far':'close';
-        const fname = `${fac.sido} ${fac.sigungu} ${fac.road} ${fac.num}_${fac.id}_${type2}_${item.dateStr}.jpg`;
+        const fname = `${fac.sido} ${fac.sigungu} ${fac.road} ${fac.num}_${fac.id}_${type2}.jpg`;
         const path = `photos/${fname}`;
         // GitHub에 파일 존재 확인
         const ex = await GH.getFile(path);
@@ -1430,7 +1434,8 @@ const MC = {
       const c=Cfg.get();
       if (!c.owner||!c.repo) return;
       const hdrs = c.token ? GH.hdrs() : {'Accept':'application/vnd.github+json'};
-      const listR = await fetch(`${GH.base()}/data/insp`, {headers:hdrs});
+      const db2=c.dataBranch||'data';
+      const listR = await fetch(`${GH.base()}/data/insp?ref=${db2}`, {headers:hdrs});
       if (!listR.ok) return;
       const files = await listR.json();
       if (!Array.isArray(files)) return;
@@ -1663,8 +1668,8 @@ const FM = {
         updatedAt:now.toISOString()};
 
       const pendingPhotos=[];
-      // 파일명: {시도} {시군구} {도로명} {번호}_far/close_{YYYYMMDD}.jpg
-      const makePhName=(type2)=>`${fac.sido} ${fac.sigungu} ${fac.road} ${fac.num}_${fac.id}_${type2}_${dateStr}.jpg`;
+      // 파일명: 날짜 없이 고정 경로 → 재촬영 시 덮어쓰기 (날짜는 조사일자 필드에 별도 저장)
+      const makePhName=(type2)=>`${fac.sido} ${fac.sigungu} ${fac.road} ${fac.num}_${fac.id}_${type2}.jpg`;
       if (App.photos.f) {
         const fname=makePhName('far');
         const r=await IDB.save(fname, App.photos.f);
@@ -1855,7 +1860,8 @@ const Adm = {
     Ld.show('목록 조회 중...');
     try {
       // 1. 개별 파일 목록 조회
-      const listR = await fetch(`${GH.base()}/data/insp`, {headers:GH.hdrs()});
+      const db3=c.dataBranch||'data';
+      const listR = await fetch(`${GH.base()}/data/insp?ref=${db3}`, {headers:GH.hdrs()});
       if (!listR.ok) { UI.toast('data/insp/ 폴더가 없거나 접근 불가'); Ld.hide(); return; }
       const files = await listR.json();
       if (!Array.isArray(files)||files.length===0) { UI.toast('통합할 개별 파일이 없습니다.'); Ld.hide(); return; }
@@ -1980,7 +1986,7 @@ function loadKakao(key) {
 /* ============================================================
    VERSION
    ============================================================ */
-const APP_VERSION = 'v2.5.0';
+const APP_VERSION = 'v2.5.1';
 
 async function checkVersion() {
   try {
