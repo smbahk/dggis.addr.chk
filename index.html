@@ -132,6 +132,12 @@ html,body{height:100%;overflow:hidden;font-family:var(--font);background:#f0f2f5
 .bs-addr{font-size:17px;font-weight:800;margin-bottom:5px;line-height:1.4;}
 .bs-meta{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--gray-600);
   margin-bottom:14px;flex-wrap:wrap;}
+/* 사진등록 상태 */
+.ps{font-weight:600;}
+.ps.ok{color:var(--teal-dark);}      /* 완료 */
+.ps.warn{color:#e67e00;}             /* 누락 */
+.ps.none{color:var(--gray-400);}     /* 미업로드 */
+.ps.chk{color:var(--gray-400);}      /* 검증 중 */
 .ms{font-weight:600;} .ms.ok{color:var(--teal-dark);} .ms.bad{color:var(--danger);}
 .ms.unk{color:var(--gray-400);} .ms.chk{color:var(--primary);}
 
@@ -406,6 +412,7 @@ html,body{height:100%;overflow:hidden;font-family:var(--font);background:#f0f2f5
         <div class="bs-addr" id="bsAddr">-</div>
         <div class="bs-meta">
           <span>측량상태 · <span class="ms unk" id="bsStat">미촬영</span></span>
+          <span>사진등록 · <span class="ps none" id="bsPhotoSt">-</span></span>
         </div>
         <div class="bs-photos">
           <div class="bs-photo">
@@ -1027,6 +1034,66 @@ const DEMO = [
    data/gicho/gicho.geojson.gz : 조사 대상 도로만 추출한 경량 파일
    최초 1회 로드 → 메모리 캐시 → 뷰포트 bbox 필터링 후 렌더링
    ============================================================ */
+
+/* ============================================================
+   PHOTO STATUS
+   URL 플래그로 즉시 표시 → 백그라운드 HEAD로 실제 파일 검증
+   ============================================================ */
+const PhotoStatus = {
+  _verifyTimer: null,
+
+  // 즉시 표시 (URL 필드 기반)
+  show(insp) {
+    const el = g('bsPhotoSt'); if (!el) return;
+    const f = !!(insp?.farPhotoUrl);
+    const c = !!(insp?.closePhotoUrl);
+    if (f && c)       { el.textContent='완료';      el.className='ps ok'; }
+    else if (!f && !c){ el.textContent='미업로드';  el.className='ps none'; }
+    else if (!f)      { el.textContent='원거리 누락'; el.className='ps warn'; }
+    else              { el.textContent='근거리 누락'; el.className='ps warn'; }
+  },
+
+  // 백그라운드 HEAD 검증 — URL이 하나라도 있을 때만 실행
+  verify(insp, facId) {
+    clearTimeout(this._verifyTimer);
+    if (!insp) return;
+    const urls = [
+      { key:'farPhotoUrl',   label:'원거리' },
+      { key:'closePhotoUrl', label:'근거리' },
+    ].filter(x => insp[x.key]);
+    if (!urls.length) return;   // URL 자체가 없으면 검증 불필요
+
+    this._verifyTimer = setTimeout(async () => {
+      const el = g('bsPhotoSt'); if (!el) return;
+      // 현재 열린 마커가 같은 시설물인지 확인
+      if (App.cur?.id !== facId) return;
+
+      el.textContent = '확인 중...'; el.className = 'ps chk';
+      const missing = [];
+      for (const { key, label } of urls) {
+        try {
+          const res = await fetch(insp[key], { method:'HEAD', cache:'no-store' });
+          if (!res.ok) {
+            missing.push(label);
+            // URL이 실제로 없으므로 초기화 (다음 openSh에서 반영)
+            if (App.insp[facId]) {
+              App.insp[facId][key] = null;
+              localStorage.setItem('dggis_i', JSON.stringify(App.insp));
+            }
+          }
+        } catch { /* 네트워크 오류 — 판단 보류 */ }
+      }
+      if (App.cur?.id !== facId) return; // 그 사이 다른 마커 클릭 시 무시
+      if (missing.length === 0) {
+        el.textContent='완료'; el.className='ps ok';
+      } else {
+        el.textContent=`${missing.join('·')} 누락 ⚠️`; el.className='ps warn';
+        UI.toast(`⚠️ ${missing.join(', ')} 사진이 서버에 없습니다. 재촬영 필요`);
+      }
+    }, 800);  // 시트 열린 직후 약간 딜레이
+  },
+};
+
 const GichoLayer = {
   _enabled: false, _lines: [], _labels: [], _timer: null,
   _cache: {},        // { '경산시': [...features] } — 시군구별 캐시
@@ -1320,6 +1387,9 @@ const MC = {
     };
     await setP('bsImgF','bsEmpF', insp?.farPhotoUrl||null, insp?.farPhotoLocal||null);
     await setP('bsImgC','bsEmpC', insp?.closePhotoUrl||null, insp?.closePhotoLocal||null);
+    // 사진등록 상태: 즉시 표시 → 백그라운드 HEAD 검증
+    PhotoStatus.show(insp);
+    PhotoStatus.verify(insp, fac.id);
     UI.openSh();
     if (GichoLayer._enabled) GichoLayer.showForMarker(fac);
   },
@@ -1906,7 +1976,7 @@ function loadKakao(key) {
 /* ============================================================
    VERSION
    ============================================================ */
-const APP_VERSION = 'v2.4.8';
+const APP_VERSION = 'v2.4.9';
 
 async function checkVersion() {
   try {
